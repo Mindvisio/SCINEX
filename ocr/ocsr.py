@@ -238,7 +238,7 @@ def _engine_vote(var_map, engine_fn):
 
 
 # ---- public: structure -> SMILES (consensus, RDKit-arbitrated, TTA-rescued) ----
-def images_to_smiles(image_paths, *, engines=("vision", "decimer"),
+def images_to_smiles(image_paths, *, engines=("vision", "molscribe", "decimer"),
                      vision_model: str = VISION_MODEL, tta: bool = True,
                      tta_workdir: Optional[str] = None) -> dict:
     """BATCH OCSR: list of crops -> {path: Mol}. Each model runs ONCE over all paths (one load,
@@ -295,7 +295,7 @@ def images_to_smiles(image_paths, *, engines=("vision", "decimer"),
     return out
 
 
-def image_to_smiles(image_path: str, *, engines=("vision", "decimer"),
+def image_to_smiles(image_path: str, *, engines=("vision", "molscribe", "decimer"),
                     vision_model: str = VISION_MODEL, tta: bool = True, backend=None) -> Mol:
     """Single crop -> Mol. Thin wrapper over images_to_smiles; for many crops prefer the batch form
     to amortize the model load. `backend` ignored (back-compat)."""

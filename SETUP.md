@@ -74,7 +74,7 @@ GROBID_URL=http://localhost:8070   # опц.
 ```
 Если не задано — `ocr/ocsr.py` пробует repo-relative `./.venv-chem` / `./.venv-decimer`, иначе текущий python.
 
-**Ансамбль OCSR по умолчанию** = `vision + DECIMER` (`images_to_smiles(engines=...)`). MolScribe/OpenChemIE — опциональные GPU-движки, включаются явно: `engines=("vision","molscribe","decimer")`.
+**Ансамбль OCSR по умолчанию** = vision + MolScribe + DECIMER. Если venv MolScribe/DECIMER не настроены — движок отдаёт None (gracefully), остаётся vision.
 
 ## 5. Воспроизведение метрики
 

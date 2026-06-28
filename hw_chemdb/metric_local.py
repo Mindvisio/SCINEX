@@ -4,10 +4,15 @@ import os, sys, argparse
 import pandas as pd, numpy as np
 from rdkit import Chem
 from rdkit import RDLogger; RDLogger.DisableLog('rdApp.*')
-sys.path.insert(0, '/tmp/ChemX/LLM/src')
-from constants import DATASETS, EXTRACTED_COLUMNS, NUMERIC_COLUMNS, SMILES_COLS
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    from chemx_constants import DATASETS, EXTRACTED_COLUMNS, NUMERIC_COLUMNS, SMILES_COLS
+except ImportError:
+    sys.path.insert(0, os.environ.get('CHEMX_SRC', '/tmp/ChemX/LLM/src'))
+    from constants import DATASETS, EXTRACTED_COLUMNS, NUMERIC_COLUMNS, SMILES_COLS
 
 BASE='/tmp/ChemX/LLM'
+_GOLD_DIR = os.environ.get('CHEMX_GOLD_DIR') or os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'chemx', 'data', 'gold')
 GOLD={'benzimidazole':'Benzimidazoles.csv','oxazolidinone':'Oxazolidinones.csv','cocrystals':'Co-crystals.csv','complexes':'Complexes.csv','nanozymes':'Nanozymes.csv','magnetic':'Nanomag.csv','cytotoxicity':'Cytotox.csv','seltox':'SelTox.csv','synergy':'Synergy.csv'}
 
 def convert_comma(x):
@@ -16,7 +21,7 @@ def convert_comma(x):
 def select_open_access(df): return df.loc[df['access'] == 1]
 
 def prepare_dataset(dataset, n_cols, s_cols):
-    df = pd.read_csv(os.path.join('/tmp/ChemX/datasets', GOLD[dataset]))   # <-- local gold (was HF load_dataset)
+    df = pd.read_csv(os.path.join(_GOLD_DIR, GOLD[dataset]))   # repo-relative gold (override: CHEMX_GOLD_DIR)
     for col in n_cols: df[col] = df[col].apply(convert_comma)
     if dataset in ['oxazolidinone','benzimidazole']:
         df.target_relation = df.target_relation.apply(lambda x: '=' if x == "'='" else x)
