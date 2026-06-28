@@ -75,25 +75,25 @@ body.dark{--bg:#030712;--panel:rgba(7,11,20,.78);--panel2:rgba(15,23,42,.88);--t
 <aside>
 <div class="brand"><div class="brandmark"><svg class="ico"><use href="#i-core"/></svg></div><div><strong>SCINEX</strong><span>FRONT V1.5</span></div></div>
 <nav class="nav">
-<div class="nav-title">Процесс</div>
-<button class="active" data-view="extract" style="--a:var(--cyan)"><span class="navicon"><svg class="ico"><use href="#i-upload"/></svg></span><span class="nav-label">Извлечение из PDF</span></button>
-<button data-view="results" style="--a:var(--emerald)"><span class="navicon"><svg class="ico"><use href="#i-table"/></svg></span><span class="nav-label">Таблица данных</span></button>
-<button data-view="molecules" style="--a:var(--purple)"><span class="navicon"><svg class="ico"><use href="#i-molecule"/></svg></span><span class="nav-label">Просмотр структур</span></button>
-<button data-view="source" style="--a:var(--indigo)"><span class="navicon"><svg class="ico"><use href="#i-source"/></svg></span><span class="nav-label">Источники</span></button>
-<div class="nav-title">Выгрузка</div>
+<div class="nav-title">Основное</div>
+<button class="active" data-view="extract" style="--a:var(--cyan)"><span class="navicon"><svg class="ico"><use href="#i-upload"/></svg></span><span class="nav-label">Извлечение</span></button>
+<button data-view="results" style="--a:var(--emerald)"><span class="navicon"><svg class="ico"><use href="#i-table"/></svg></span><span class="nav-label">Результаты</span></button>
+<button data-view="source" style="--a:var(--indigo)"><span class="navicon"><svg class="ico"><use href="#i-source"/></svg></span><span class="nav-label">Проверка / источники</span></button>
+<div class="nav-title">Дополнительно</div>
+<button data-view="molecules" style="--a:var(--purple)"><span class="navicon"><svg class="ico"><use href="#i-molecule"/></svg></span><span class="nav-label">Структуры</span></button>
 <button data-view="metrics" style="--a:var(--amber)"><span class="navicon"><svg class="ico"><use href="#i-metrics"/></svg></span><span class="nav-label">Метрики</span></button>
 <button data-view="export" style="--a:var(--cyan)"><span class="navicon"><svg class="ico"><use href="#i-export"/></svg></span><span class="nav-label">Экспорт</span></button>
-<button data-view="contract" style="--a:var(--rose)"><span class="navicon"><svg class="ico"><use href="#i-job"/></svg></span><span class="nav-label">Контракт бэкенда</span></button>
+<button data-view="contract" style="--a:var(--rose)"><span class="navicon"><svg class="ico"><use href="#i-job"/></svg></span><span class="nav-label">Контракт API</span></button>
 </nav>
 </aside>
 <main>
 <header class="top">
 <div class="topmain">
-<h1><span class="wordmark">SCINEX</span> <span class="chip mock" title="Синтетические демо-данные — бэкенд не подключён">демо-данные</span> <span class="chip idle" id="jobStatus">ожидание</span></h1>
+<h1><span class="wordmark">SCINEX</span> <span class="chip" title="Benzimidazoles: backend отдаёт готовое benchmark-извлечение (replay). Остальные домены — синтетический preview. Live — CLI/pipeline.">benchmark replay</span> <span class="chip idle" id="jobStatus">ожидание</span></h1>
 <p class="tagline">Рабочее место извлечения химических данных</p>
 <div class="controls">
 <select class="select" id="domainSelect"></select>
-<input class="input" id="backendInput" value="api/chemx/extract">
+<input id="backendInput" value="api/chemx/extract" type="hidden">
 <button class="btn primary" id="runBtn"><svg class="ico"><use href="#i-run"/></svg> Запустить извлечение</button>
 </div>
 </div>
@@ -107,14 +107,15 @@ body.dark{--bg:#030712;--panel:rgba(7,11,20,.78);--panel2:rgba(15,23,42,.88);--t
 
 <script>
 /* ----------------------------------------------------------------------------
-   SCINEX — front mockup
+   SCINEX — web front (real backend; Benzimidazoles benchmark replay)
    Standalone UI for the DataCon'26 / ChemX extraction task.
-   No backend: data, metrics and pipeline are synthetic and clearly labeled.
-   When wiring a real backend, replace runExtraction() and feed real rows/metrics.
+   Backend: runExtraction() POSTs file+domain to api/chemx/extract. Public demo = Benzimidazoles benchmark replay; other domains = synthetic preview.
+   Live OCR+LLM+OCSR runs via CLI/pipeline; synthetic preview is the fallback for unwired domains.
 ---------------------------------------------------------------------------- */
 
 /* Domains — keys, track, single-agent baseline Macro-F1 (from DataCon'26 README),
-   row counts, and SYNTHETIC demo metrics (always above baseline; mock only). */
+   row counts, and synthetic preview metrics for domains without a wired backend. */
+const DEV=false; // dev-only UI controls (e.g. simulate-failure button)
 const domains=[
 {key:"Benzimidazoles",track:"small",baseline:.217,rows:1720,desc:"Значения MIC для производных бензимидазола",accent:"var(--emerald)",demo:{p:.47,r:.33,f1:.384}},
 {key:"Oxazolidinones",track:"small",baseline:.491,rows:2920,desc:"Антибактериальная активность (pMIC)",accent:"var(--cyan)",demo:{p:.63,r:.54,f1:.58}},
@@ -320,7 +321,7 @@ function extract(){
     <div class="upload" id="upload"><div>
      <div class="uploadmark">${ico("pdf")}</div>
      <h2 style="justify-content:center">${state.file?esc(state.file.name):"Перетащите PDF сюда"}</h2>
-     <p>${state.file?`${bytes(state.file.size)} · ${esc(state.file.type||"application/pdf")}`:"Перетащите PDF или выберите файл. Демо-режим — файл не отправляется; контракт бэкенда на вкладке «Контракт бэкенда»."}</p>
+     <p>${state.file?`${bytes(state.file.size)} · ${esc(state.file.type||"application/pdf")}`:"Перетащите PDF или выберите файл. При запуске файл отправляется на endpoint; в публичном демо backend возвращает готовое benchmark-извлечение Benzimidazoles (не live-OCR). Live-извлечение — через CLI/pipeline."}</p>
      <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px">
       <button class="btn" id="choose">${ico("upload")}Выбрать PDF</button>
       <button class="btn primary" id="runPanel">${ico("run")}Запустить извлечение</button>
@@ -336,7 +337,7 @@ function extract(){
   </section>
   <section class="card">
    <div class="head"><div><h2>${ico("job")}Конвейер обработки</h2><p>Фронт показывает цепочку обработки, не зная внутренностей бэкенда.</p></div>
-    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><button class="btn small warn" id="simErr" title="Только демо">${ico("alert")}Смоделировать сбой</button><span class="chip ${runChipCls()}">${state.job.percent}%</span></div></div>
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">${DEV?`<button class="btn small warn" id="simErr" title="dev only">${ico("alert")}Смоделировать сбой</button>`:""}<span class="chip ${runChipCls()}">${state.job.percent}%</span></div></div>
    <div class="stages">${stages.map((s,i)=>stage(s,i)).join("")}</div>
   </section>
  </div>
