@@ -1,0 +1,8 @@
+{
+ "pdf": "s13065-018-0479-1",
+ "scaffold": "*NS(=O)(=O)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1",
+ "candidates": {
+  "*NS(=O)(=O)c1ccc(N=NN)cc1": 2,
+  "*NS(=O)(=O)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1": 1
+ }
+}

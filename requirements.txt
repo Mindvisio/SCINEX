@@ -1,0 +1,22 @@
+# runtime
+httpx>=0.27
+pydantic>=2.6
+requests>=2.31
+python-dotenv>=1.0
+# LLM gateway (vendored lib/llm_clients.py) needs official SDKs:
+anthropic>=0.40
+openai>=1.50
+google-genai>=0.3
+# chem validation (optional; validate.py degrades gracefully if absent)
+rdkit
+numpy
+# analysis layer — add when wiring the map:
+# umap-learn
+# scikit-learn
+# networkx
+pymupdf
+pymupdf4llm
+trafilatura
+beautifulsoup4
+lxml
+py2opsin

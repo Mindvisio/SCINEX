@@ -1,0 +1,702 @@
+compound_id,smiles,target_type,target_relation,target_value,target_units,bacteria,pdf
+6a,C/C=C(\c1ccccc1)c1ccc2nc(N)n(S(=O)(=O)C(C)C)c2c1,MIC,=,64,µg mL-1,Bacillus cereus ATTC 10876,antibiotics12071220
+6a,Sc1nc2ccc(I)cc2[nH]1,MIC,=,64,µg mL-1,Staphylococcus aureus ATTC 25923,antibiotics12071220
+6a,OC(CSc1nc2ccccc2[nH]1)(Cn1cncn1)c1ccc(F)cc1,MIC,=,256,µg mL-1,Pseudomonas aeruginosa ATTC 27853,antibiotics12071220
+6a,C#CCSc1nc2ccccc2[nH]1,MIC,=,128,µg mL-1,Escherichia coli ATTC 25922,antibiotics12071220
+6b,O=C(c1ccccc1)c1ccc2[nH]cnc2c1,MIC,=,128,µg mL-1,Bacillus cereus ATTC 10876,antibiotics12071220
+6b,OC(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,128,µg mL-1,Staphylococcus aureus ATTC 25923,antibiotics12071220
+6b,Fc1cc(F)c2nc(-c3ccc(-n4cncn4)cc3)[nH]c2c1,MIC,=,128,µg mL-1,Pseudomonas aeruginosa ATTC 27853,antibiotics12071220
+6b,O=C(O)CSc1nc2ccccc2n1CNn1cnnc1,MIC,=,128,µg mL-1,Escherichia coli ATTC 25922,antibiotics12071220
+6c,c1cncc(-c2nc3ccc(-c4ccc5[nH]c(-c6ccncc6)nc5c4)cc3[nH]2)c1,MIC,=,256,µg mL-1,Bacillus cereus ATTC 10876,antibiotics12071220
+6c,O=C(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,128,µg mL-1,Staphylococcus aureus ATTC 25923,antibiotics12071220
+6c,NC(=[NH2+])c1ccc2[nH]c(-c3ccc(OCc4cn(-c5ccccc5)nn4)cc3)nc2c1,MIC,=,256,µg mL-1,Pseudomonas aeruginosa ATTC 27853,antibiotics12071220
+6c,C#CCSc1nc2ccccc2n1CC#C,MIC,=,64,µg mL-1,Escherichia coli ATTC 25922,antibiotics12071220
+6d,Fc1cccc(-c2nc3ccccc3[nH]2)c1,MIC,=,256,µg mL-1,Bacillus cereus ATTC 10876,antibiotics12071220
+6d,C/C=C(\c1ccccc1)c1ccc2nc(N)n(S(=O)(=O)C(C)C)c2c1,MIC,=,128,µg mL-1,Staphylococcus aureus ATTC 25923,antibiotics12071220
+6d,Sc1nc2ccc(I)cc2[nH]1,MIC,=,256,µg mL-1,Pseudomonas aeruginosa ATTC 27853,antibiotics12071220
+6d,OC(CSc1nc2ccccc2[nH]1)(Cn1cncn1)c1ccc(F)cc1,MIC,=,64,µg mL-1,Escherichia coli ATTC 25922,antibiotics12071220
+6e,C#CCSc1nc2ccccc2[nH]1,MIC,=,256,µg mL-1,Bacillus cereus ATTC 10876,antibiotics12071220
+6e,O=C(c1ccccc1)c1ccc2[nH]cnc2c1,MIC,=,128,µg mL-1,Staphylococcus aureus ATTC 25923,antibiotics12071220
+6e,OC(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,256,µg mL-1,Pseudomonas aeruginosa ATTC 27853,antibiotics12071220
+6e,Fc1cc(F)c2nc(-c3ccc(-n4cncn4)cc3)[nH]c2c1,MIC,=,64,µg mL-1,Escherichia coli ATTC 25922,antibiotics12071220
+6f,O=C(O)CSc1nc2ccccc2n1CNn1cnnc1,MIC,=,512,µg mL-1,Bacillus cereus ATTC 10876,antibiotics12071220
+6f,c1cncc(-c2nc3ccc(-c4ccc5[nH]c(-c6ccncc6)nc5c4)cc3[nH]2)c1,MIC,=,512,µg mL-1,Staphylococcus aureus ATTC 25923,antibiotics12071220
+6f,O=C(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,256,µg mL-1,Pseudomonas aeruginosa ATTC 27853,antibiotics12071220
+6f,NC(=[NH2+])c1ccc2[nH]c(-c3ccc(OCc4cn(-c5ccccc5)nn4)cc3)nc2c1,MIC,=,256,µg mL-1,Escherichia coli ATTC 25922,antibiotics12071220
+35a,C#CCSc1nc2ccccc2n1CC#C,MIC,=,0.028,µmol mL-1,Staphylococcus aureus,antibiotics12071220
+35a,Fc1cccc(-c2nc3ccccc3[nH]2)c1,MIC,=,0.056,µmol mL-1,Escherichia coli,antibiotics12071220
+35a,C/C=C(\c1ccccc1)c1ccc2nc(N)n(S(=O)(=O)C(C)C)c2c1,MIC,=,0.056,µmol mL-1,Bacillus subtilis,antibiotics12071220
+35a,Sc1nc2ccc(I)cc2[nH]1,MIC,=,0.056,µmol mL-1,Staphylococcus epidermidis,antibiotics12071220
+35b,OC(CSc1nc2ccccc2[nH]1)(Cn1cncn1)c1ccc(F)cc1,MIC,=,0.031,µmol mL-1,Staphylococcus aureus,antibiotics12071220
+35b,C#CCSc1nc2ccccc2[nH]1,MIC,=,0.062,µmol mL-1,Escherichia coli,antibiotics12071220
+35b,O=C(c1ccccc1)c1ccc2[nH]cnc2c1,MIC,=,0.062,µmol mL-1,Bacillus subtilis,antibiotics12071220
+35b,OC(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,0.062,µmol mL-1,Staphylococcus epidermidis,antibiotics12071220
+35c,Fc1cc(F)c2nc(-c3ccc(-n4cncn4)cc3)[nH]c2c1,MIC,=,0.029,µmol mL-1,Staphylococcus aureus,antibiotics12071220
+35c,O=C(O)CSc1nc2ccccc2n1CNn1cnnc1,MIC,=,0.058,µmol mL-1,Escherichia coli,antibiotics12071220
+35c,c1cncc(-c2nc3ccc(-c4ccc5[nH]c(-c6ccncc6)nc5c4)cc3[nH]2)c1,MIC,=,0.058,µmol mL-1,Bacillus subtilis,antibiotics12071220
+35c,O=C(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,0.058,µmol mL-1,Staphylococcus epidermidis,antibiotics12071220
+35d,NC(=[NH2+])c1ccc2[nH]c(-c3ccc(OCc4cn(-c5ccccc5)nn4)cc3)nc2c1,MIC,=,0.060,µmol mL-1,Staphylococcus aureus,antibiotics12071220
+35d,C#CCSc1nc2ccccc2n1CC#C,MIC,=,0.030,µmol mL-1,Escherichia coli,antibiotics12071220
+35d,Fc1cccc(-c2nc3ccccc3[nH]2)c1,MIC,=,0.060,µmol mL-1,Bacillus subtilis,antibiotics12071220
+35d,C/C=C(\c1ccccc1)c1ccc2nc(N)n(S(=O)(=O)C(C)C)c2c1,MIC,=,0.030,µmol mL-1,Staphylococcus epidermidis,antibiotics12071220
+35e,Sc1nc2ccc(I)cc2[nH]1,MIC,=,0.029,µmol mL-1,Staphylococcus aureus,antibiotics12071220
+35e,OC(CSc1nc2ccccc2[nH]1)(Cn1cncn1)c1ccc(F)cc1,MIC,=,0.056,µmol mL-1,Escherichia coli,antibiotics12071220
+35e,C#CCSc1nc2ccccc2[nH]1,MIC,=,0.056,µmol mL-1,Bacillus subtilis,antibiotics12071220
+35e,O=C(c1ccccc1)c1ccc2[nH]cnc2c1,MIC,=,0.056,µmol mL-1,Staphylococcus epidermidis,antibiotics12071220
+35f,OC(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,0.026,µmol mL-1,Staphylococcus aureus,antibiotics12071220
+35f,Fc1cc(F)c2nc(-c3ccc(-n4cncn4)cc3)[nH]c2c1,MIC,=,0.052,µmol mL-1,Escherichia coli,antibiotics12071220
+35f,O=C(O)CSc1nc2ccccc2n1CNn1cnnc1,MIC,=,0.052,µmol mL-1,Bacillus subtilis,antibiotics12071220
+35f,c1cncc(-c2nc3ccc(-c4ccc5[nH]c(-c6ccncc6)nc5c4)cc3[nH]2)c1,MIC,=,0.052,µmol mL-1,Staphylococcus epidermidis,antibiotics12071220
+35g,O=C(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,0.031,µmol mL-1,Staphylococcus aureus,antibiotics12071220
+35g,NC(=[NH2+])c1ccc2[nH]c(-c3ccc(OCc4cn(-c5ccccc5)nn4)cc3)nc2c1,MIC,=,0.026,µmol mL-1,Escherichia coli,antibiotics12071220
+35g,C#CCSc1nc2ccccc2n1CC#C,MIC,=,0.052,µmol mL-1,Bacillus subtilis,antibiotics12071220
+35g,Fc1cccc(-c2nc3ccccc3[nH]2)c1,MIC,=,0.026,µmol mL-1,Staphylococcus epidermidis,antibiotics12071220
+88a,C/C=C(\c1ccccc1)c1ccc2nc(N)n(S(=O)(=O)C(C)C)c2c1,MIC,=,16,µg mL-1,Streptococcus mutans,antibiotics12071220
+88a,Sc1nc2ccc(I)cc2[nH]1,MIC,=,16,µg mL-1,Pseudomonas aeruginosa,antibiotics12071220
+88b,OC(CSc1nc2ccccc2[nH]1)(Cn1cncn1)c1ccc(F)cc1,MIC,=,8,µg mL-1,Staphylococcus aureus,antibiotics12071220
+88b,C#CCSc1nc2ccccc2[nH]1,MIC,=,16,µg mL-1,Bacillus subtilis,antibiotics12071220
+88b,O=C(c1ccccc1)c1ccc2[nH]cnc2c1,MIC,=,16,µg mL-1,Streptococcus mutans,antibiotics12071220
+88b,OC(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,16,µg mL-1,Pseudomonas aeruginosa,antibiotics12071220
+88c,Fc1cc(F)c2nc(-c3ccc(-n4cncn4)cc3)[nH]c2c1,MIC,=,8,µg mL-1,Staphylococcus aureus,antibiotics12071220
+88c,O=C(O)CSc1nc2ccccc2n1CNn1cnnc1,MIC,=,16,µg mL-1,Bacillus subtilis,antibiotics12071220
+88c,c1cncc(-c2nc3ccc(-c4ccc5[nH]c(-c6ccncc6)nc5c4)cc3[nH]2)c1,MIC,=,32,µg mL-1,Streptococcus mutans,antibiotics12071220
+88c,O=C(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,32,µg mL-1,Pseudomonas aeruginosa,antibiotics12071220
+105a,NC(=[NH2+])c1ccc2[nH]c(-c3ccc(OCc4cn(-c5ccccc5)nn4)cc3)nc2c1,MIC,=,98,µg mL-1,Bacillus subtilis,antibiotics12071220
+105a,C#CCSc1nc2ccccc2n1CC#C,MIC,=,52,µg mL-1,Escherichia coli,antibiotics12071220
+105b,Fc1cccc(-c2nc3ccccc3[nH]2)c1,MIC,=,65,µg mL-1,Escherichia coli,antibiotics12071220
+107a,C/C=C(\c1ccccc1)c1ccc2nc(N)n(S(=O)(=O)C(C)C)c2c1,MIC,=,75,µg mL-1,Bacillus subtilis,antibiotics12071220
+107a,Sc1nc2ccc(I)cc2[nH]1,MIC,=,105,µg mL-1,Staphylococcus aureus,antibiotics12071220
+107a,OC(CSc1nc2ccccc2[nH]1)(Cn1cncn1)c1ccc(F)cc1,MIC,=,62,µg mL-1,Escherichia coli,antibiotics12071220
+107b,C#CCSc1nc2ccccc2[nH]1,MIC,=,79,µg mL-1,Bacillus subtilis,antibiotics12071220
+107b,O=C(c1ccccc1)c1ccc2[nH]cnc2c1,MIC,=,72,µg mL-1,Escherichia coli,antibiotics12071220
+2k,OC(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,12.5,µmol mL-1,Staphylococcus aureus,antibiotics12071220
+2d,Fc1cc(F)c2nc(-c3ccc(-n4cncn4)cc3)[nH]c2c1,MIC,=,3.125,µmol mL-1,Escherichia coli,antibiotics12071220
+3a,O=C(O)CSc1nc2ccccc2n1CNn1cnnc1,MIC,=,6.25,µmol mL-1,Escherichia coli,antibiotics12071220
+3f,c1cncc(-c2nc3ccc(-c4ccc5[nH]c(-c6ccncc6)nc5c4)cc3[nH]2)c1,MIC,=,6.25,µmol mL-1,Escherichia coli,antibiotics12071220
+3b,O=C(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,18,µmol mL-1,Staphylococcus aureus,antibiotics12071220
+19a,NC(=[NH2+])c1ccc2[nH]c(-c3ccc(OCc4cn(-c5ccccc5)nn4)cc3)nc2c1,MIC,=,4,µg mL-1,Escherichia coli (ESBL-producing),antibiotics12071220
+37b,C#CCSc1nc2ccccc2n1CC#C,MIC,=,3.125,µg mL-1,Staphylococcus aureus,antibiotics12071220
+37d,Fc1cccc(-c2nc3ccccc3[nH]2)c1,MIC,=,3.125,µg mL-1,Staphylococcus aureus,antibiotics12071220
+37b,C/C=C(\c1ccccc1)c1ccc2nc(N)n(S(=O)(=O)C(C)C)c2c1,MIC,=,3.125,µg mL-1,Escherichia coli,antibiotics12071220
+26h,Sc1nc2ccc(I)cc2[nH]1,MIC,=,3.125,µg mL-1,Mycobacterium tuberculosis,antibiotics12071220
+26i,OC(CSc1nc2ccccc2[nH]1)(Cn1cncn1)c1ccc(F)cc1,MIC,=,6.25,µg mL-1,Mycobacterium tuberculosis,antibiotics12071220
+26j,C#CCSc1nc2ccccc2[nH]1,MIC,=,12.5,µg mL-1,Mycobacterium tuberculosis,antibiotics12071220
+54c,O=C(c1ccccc1)c1ccc2[nH]cnc2c1,MIC,=,3.8,µMol L-1,Mycobacterium tuberculosis,antibiotics12071220
+54d,OC(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,3.8,µMol L-1,Mycobacterium tuberculosis,antibiotics12071220
+68g,Fc1cc(F)c2nc(-c3ccc(-n4cncn4)cc3)[nH]c2c1,MIC,=,2,µg mL-1,Staphylococcus aureus,antibiotics12071220
+90,O=C(O)CSc1nc2ccccc2n1CNn1cnnc1,MIC,=,62.5,µg mL-1,Bacillus cereus 702 Roma,antibiotics12071220
+90,c1cncc(-c2nc3ccc(-c4ccc5[nH]c(-c6ccncc6)nc5c4)cc3[nH]2)c1,MIC,=,125,µg mL-1,Bacillus megaterium DSM-32,antibiotics12071220
+90,O=C(c1ccccc1)c1ccc2[nH]c(S)nc2c1,MIC,=,62.5,µg mL-1,Bacillus subtilis ATCC 6633,antibiotics12071220
+90,NC(=[NH2+])c1ccc2[nH]c(-c3ccc(OCc4cn(-c5ccccc5)nn4)cc3)nc2c1,MIC,=,250,µg mL-1,Staphylococcus aureus ATCC 25923,antibiotics12071220
+90,C#CCSc1nc2ccccc2n1CC#C,MIC,=,250,µg mL-1,Escherichia coli ATCC 25922,antibiotics12071220
+90,Fc1cccc(-c2nc3ccccc3[nH]2)c1,MIC,=,125,µg mL-1,Enterobacter cloacae ATCC13047,antibiotics12071220
+90,C/C=C(\c1ccccc1)c1ccc2nc(N)n(S(=O)(=O)C(C)C)c2c1,MIC,=,250,µg mL-1,Pseudomonas aeruginosa ATCC 27853,antibiotics12071220
+90,Sc1nc2ccc(I)cc2[nH]1,MIC,=,125,µg mL-1,Yersinia pseudotuberculosis ATCC 911,antibiotics12071220
+115c,OC(CSc1nc2ccccc2[nH]1)(Cn1cncn1)c1ccc(F)cc1,MIC,=,25,µg mL-1,Mycobacterium tuberculosis,antibiotics12071220
+3d,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccccc2)cc1,MIC,=,25,µg mL-1,P. aeruginosa,antibiotics10081002
+3g,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Cl)cc2)cc1,MIC,=,25,µg mL-1,E. coli,antibiotics10081002
+3h,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Br)cc2)cc1,MIC,=,25,µg mL-1,E. coli,antibiotics10081002
+13a,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccccc2)cc1,MIC,=,25,mg mL-1,E. coli MTCC443,antibiotics10081002
+13a,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccccc2)cc1,MIC,=,50,mg mL-1,P. aeruginosa MTCC1688,antibiotics10081002
+13a,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccccc2)cc1,MIC,=,25,mg mL-1,S. aureus MTCC 96,antibiotics10081002
+13a,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccccc2)cc1,MIC,=,50,mg mL-1,S. pyogenes MTCC 442,antibiotics10081002
+13b,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(F)cc2)cc1,MIC,=,25,mg mL-1,E. coli MTCC443,antibiotics10081002
+13b,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(F)cc2)cc1,MIC,=,50,mg mL-1,P. aeruginosa MTCC1688,antibiotics10081002
+13b,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(F)cc2)cc1,MIC,=,25,mg mL-1,S. aureus MTCC 96,antibiotics10081002
+13b,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(F)cc2)cc1,MIC,=,50,mg mL-1,S. pyogenes MTCC 442,antibiotics10081002
+13c,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Cl)cc2)cc1,MIC,=,25,mg mL-1,E. coli MTCC443,antibiotics10081002
+13c,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Cl)cc2)cc1,MIC,=,50,mg mL-1,P. aeruginosa MTCC1688,antibiotics10081002
+13c,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Cl)cc2)cc1,MIC,=,25,mg mL-1,S. aureus MTCC 96,antibiotics10081002
+13c,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Cl)cc2)cc1,MIC,=,50,mg mL-1,S. pyogenes MTCC 442,antibiotics10081002
+13d,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Br)cc2)cc1,MIC,=,25,mg mL-1,E. coli MTCC443,antibiotics10081002
+13d,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Br)cc2)cc1,MIC,=,50,mg mL-1,P. aeruginosa MTCC1688,antibiotics10081002
+13d,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Br)cc2)cc1,MIC,=,25,mg mL-1,S. aureus MTCC 96,antibiotics10081002
+13d,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Br)cc2)cc1,MIC,=,50,mg mL-1,S. pyogenes MTCC 442,antibiotics10081002
+16,Sc1nc2ccccc2[nH]1,MIC,=,62.5,µg mL-1,B. subtilis,antibiotics10081002
+16,CC1=NN(Cc2nc3ccccc3[nH]2)C(=O)C1,CMI,=,200,µg mL-1,C. tetani,antibiotics10081002
+28b,CN(C)c1ccc(/C=C/C(=O)c2nc3ccccc3[nH]2)cc1,MIC,=,312,µg mL-1,E. coli,antibiotics10081002
+28b,O=C1CSC(c2cnn(-c3ccccc3)c2-c2ccc([N+](=O)[O-])cc2)N1Nc1nc2ccccc2n1Cc1ccccc1,MIC,=,312,µg mL-1,S. aureus,antibiotics10081002
+28c,[CH]=[C]C(=O)c1nc2ccccc2[nH]1,MIC,=,187.5,µg mL-1,E. coli,antibiotics10081002
+28c,COc1cc(C(Br)C(Br)C(=O)c2nc3ccccc3[nH]2)cc(OC)c1OC,MIC,=,312,µg mL-1,S. aureus,antibiotics10081002
+28d,Cc1ccc(C2CC(c3nc4ccccc4n3Cc3ccccc3)=NN2c2ccccc2)cc1,MIC,=,250,µg mL-1,E. coli,antibiotics10081002
+28d,CC(=O)Nc1ccc(OCC(=O)N2N=C(c3nc4ccccc4[nH]3)CC2c2cccc(Br)c2)cc1,MIC,=,62.5,µg mL-1,S. aureus,antibiotics10081002
+28e,O=C1CC(c2nc3ccccc3[nH]2)CN1c1ccc(Cl)cc1,MIC,=,187.5,µg mL-1,E. coli,antibiotics10081002
+28e,CCOC(=O)Cn1c(C2CC(=O)N(c3ccc(F)cc3)C2)nc2ccccc21,MIC,=,62.5,µg mL-1,S. aureus,antibiotics10081002
+28f,Cc1ccc(C2CC(c3nc4ccccc4n3Cc3ccccc3)=NN2C(N)=S)cc1,MIC,=,312,µg mL-1,E. coli,antibiotics10081002
+28f,[At]c1cc(-c2nc3ccccc3[nH]2)n[nH]1,MIC,=,187.5,µg mL-1,S. aureus,antibiotics10081002
+28g,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(Cl)cc1,MIC,=,62.5,µg mL-1,E. coli,antibiotics10081002
+28g,O=C(c1nc2ccccc2[nH]1)C(Br)C(Br)c1ccccc1,MIC,=,62.5,µg mL-1,S. aureus,antibiotics10081002
+28h,Cc1ccc(C2CC(c3ccc(NCn4cnc5ccccc54)cc3)=NN2c2ccccc2)cc1,MIC,=,125,µg mL-1,E. coli,antibiotics10081002
+28h,O=C(/C=C/c1ccc(F)cc1)c1nc2ccccc2n1Cc1ccccc1,MIC,=,62.5,µg mL-1,S. aureus,antibiotics10081002
+31a,O=C1c2ccccc2C(=O)N1Cc1nc2ccccc2n1C(=O)C=[C]c1ccccc1,MIC,=,8,µg mL-1,Escherichia coli (MTCC-723),antibiotics10081002
+31a,Cc1nn(-c2ccccc2)c2c1C(=Nc1nc3ccccc3[nH]1)CO2,MIC,=,8,µg mL-1,Staphylococcus aureus (ATCC-29513),antibiotics10081002
+31a,Cn1nc(C(F)(F)F)c(C(=O)Nc2ccccc2-c2nc3cc(Cl)ccc3[nH]2)c1Cl,MIC,=,16,µg mL-1,Klebsiella pneumonia (NCTC-13368),antibiotics10081002
+31a,Fc1ccc(-c2csc(-n3nc(-c4ccc(C5CCCCCCC5)cc4)cc3-c3nc4ccccc4[nH]3)n2)c([Si])c1,MIC,=,16,µg mL-1,Pseudomonas aeruginosa (MTCC-1688),antibiotics10081002
+31b,O=C(/C=C/[At])c1nc2ccccc2[nH]1,MIC,=,32,µg mL-1,Escherichia coli (MTCC-723),antibiotics10081002
+31b,O=[N+]([O-])c1ccc2[nH]c(-c3cn(-c4ccccc4)nc3-c3ccccc3)nc2c1,MIC,=,64,µg mL-1,Staphylococcus aureus (ATCC-29513),antibiotics10081002
+31b,CC(=O)Nc1ccc(OCC(=O)N2N=C(c3nc4ccccc4[nH]3)CC2c2cccc(F)c2)cc1,MIC,=,128,µg mL-1,Klebsiella pneumonia (NCTC-13368),antibiotics10081002
+31b,CN(C)c1ccc(C2CC(c3nc4ccccc4[nH]3)=NN2C(=O)c2ccncc2)cc1,MIC,=,128,µg mL-1,Pseudomonas aeruginosa (MTCC-1688),antibiotics10081002
+31c,CC(=O)Nc1ccc(OCC(=O)N2N=C(c3nc4ccccc4[nH]3)CC2c2ccc(F)cc2)cc1,MIC,=,128,µg mL-1,Escherichia coli (MTCC-723),antibiotics10081002
+31c,O=C(c1ccncc1)N1N=C(c2nc3ccccc3[nH]2)CC1c1ccc(F)cc1,MIC,=,512,µg mL-1,Staphylococcus aureus (ATCC-29513),antibiotics10081002
+31c,Cc1ccc(-c2c(C3SCC(=O)N3Nc3nc4ccccc4n3Cc3ccccc3)cnn2-c2ccccc2)cc1,MIC,=,512,µg mL-1,Klebsiella pneumonia (NCTC-13368),antibiotics10081002
+31c,Clc1ccc(C2CC(c3nc4ccccc4n3Cc3ccccc3)=NN2c2ccccc2)cc1,MIC,=,256,µg mL-1,Pseudomonas aeruginosa (MTCC-1688),antibiotics10081002
+32a,CC1=NN(c2ccccc2)C(=O)C1=NNc1ccc(-c2nc3ccccc3[nH]2)cc1,MIC,=,8,µg mL-1,Escherichia coli (MTCC-723),antibiotics10081002
+32a,CCCCn1c(Cc2cc(C)[nH]n2)nc2ccccc21,MIC,=,16,µg mL-1,Staphylococcus aureus (ATCC-29513),antibiotics10081002
+32a,CC(=O)c1nc2ccccc2n1I,MIC,=,16,µg mL-1,Klebsiella pneumonia (NCTC-13368),antibiotics10081002
+32a,Cc1ccc(C(=O)C2=NNCC2C(=O)Nc2nc3ccccc3[nH]2)cc1,MIC,=,32,µg mL-1,Pseudomonas aeruginosa (MTCC-1688),antibiotics10081002
+32b,CC1=NN(c2ccc(Cl)cc2)C(=O)C1=NNc1ccc(-c2nc3ccccc3[nH]2)cc1,MIC,=,32,µg mL-1,Escherichia coli (MTCC-723),antibiotics10081002
+32b,Cc1ccc(-n2nc(C)c(-c3c(C#N)c(N)c4nc5ccc(C)cc5n4c3C#N)c2Cc2ccc(Cl)cc2)cc1,MIC,=,32,µg mL-1,Staphylococcus aureus (ATCC-29513),antibiotics10081002
+32b,O=C(CNCc1nc2ccccc2[nH]1)n1nc(Sc2nc3ccccc3[nH]2)cc1-c1ccccc1,MIC,=,16,µg mL-1,Klebsiella pneumonia (NCTC-13368),antibiotics10081002
+32b,CC(=O)Nc1ccc(OCC(=O)N2N=C(c3nc4ccccc4[nH]3)CC2c2ccccc2Cl)cc1,MIC,=,128,µg mL-1,Pseudomonas aeruginosa (MTCC-1688),antibiotics10081002
+32c,COc1ccc(-c2cc(-c3ccccc3O)nn2C(=O)CSc2nc3ccccc3[nH]2)cc1O,MIC,=,32,µg mL-1,Escherichia coli (MTCC-723),antibiotics10081002
+32c,O=C(c1ccncc1)N1N=C(c2nc3ccccc3[nH]2)CC1c1ccc([N+](=O)[O-])cc1,MIC,=,64,µg mL-1,Staphylococcus aureus (ATCC-29513),antibiotics10081002
+32c,O=[N+]([O-])c1cccc(-c2cc(-c3nc4ccccc4[nH]3)n(-c3ccc([N+](=O)[O-])cc3[N+](=O)[O-])n2)c1,MIC,=,512,µg mL-1,Klebsiella pneumonia (NCTC-13368),antibiotics10081002
+32c,O=[N+]([O-])c1ccc2[nH]c(-c3cn(-c4ccccn4)nc3-c3ccccc3O)nc2c1,MIC,=,256,µg mL-1,Pseudomonas aeruginosa (MTCC-1688),antibiotics10081002
+35e,C(=C\c1cc(-c2nc3ccccc3[nH]2)n(-c2ccccc2)n1)/c1ccccc1,MIC,=,64,µg mL-1,S. aureus,antibiotics10081002
+35e,NCc1nc2ccccc2[nH]1,MIC,=,64,µg mL-1,B. subtilis,antibiotics10081002
+35e,NC(=O)Cn1c(C2CC(=O)N(c3ccc(Cl)cc3)C2)nc2ccccc21,MIC,=,64,µg mL-1,E. coli,antibiotics10081002
+35e,Cc1cc(C)n(C(=O)Cn2c(C3CC(=O)N(c4ccc(F)cc4)C3)nc3ccccc32)n1,MIC,=,64,µg mL-1,P. aeruginosa,antibiotics10081002
+39a,CCOC(=O)c1cn(-c2ccc(C(=O)C3=NNCC3C(=O)Nc3nc4ccccc4[nH]3)cc2)nc1C,MIC,=,62.5,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+39a,CCOC(=O)c1cn(-c2ccc(C(=O)C3=NNCC3C(=O)Nc3nc4ccccc4[nH]3)cc2)nc1C,MIC,=,62.5,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+39a,CCOC(=O)c1cn(-c2ccc(C(=O)C3=NNCC3C(=O)Nc3nc4ccccc4[nH]3)cc2)nc1C,MIC,=,125,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+39a,CCOC(=O)c1cn(-c2ccc(C(=O)C3=NNCC3C(=O)Nc3nc4ccccc4[nH]3)cc2)nc1C,MIC,=,62.5,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+39a,CCOC(=O)c1cn(-c2ccc(C(=O)C3=NNCC3C(=O)Nc3nc4ccccc4[nH]3)cc2)nc1C,MIC,=,62.5,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+39a,CCOC(=O)c1cn(-c2ccc(C(=O)C3=NNCC3C(=O)Nc3nc4ccccc4[nH]3)cc2)nc1C,MIC,=,125,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+39a,CCOC(=O)c1cn(-c2ccc(C(=O)C3=NNCC3C(=O)Nc3nc4ccccc4[nH]3)cc2)nc1C,MIC,=,31.25,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+39b,Cc1ccc(/C=C/C(=O)c2nc3ccccc3n2Cc2ccccc2)cc1,MIC,=,31.25,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+39b,O=[N+]([O-])c1ccc(-n2nc(-c3ccccc3)cc2-c2nc3ccccc3[nH]2)c([N+](=O)[O-])c1,MIC,=,31.25,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+39b,CCOC(=O)C(=NNc1ccc(-c2nc3ccccc3[nH]2)cc1)C(=O)OCC,MIC,=,62.5,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+39b,CC(=O)c1nc2ccccc2[nH]1,MIC,=,31.25,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+39b,O=[N+]([O-])c1cccc(-c2cc(-c3nc4ccccc4[nH]3)n(-c3ccccc3)n2)c1,MIC,=,62.5,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+39b,O=C(/C=C/c1ccc(Cl)cc1)NCC(=O)Nc1nc2ccccc2[nH]1,MIC,=,62.5,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+39b,COc1ccc(-c2cc(-c3nc4ccccc4[nH]3)n(-c3ccccc3)n2)cc1,MIC,=,31.25,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+39c,CC(=O)c1ccc(NCn2cnc3ccccc32)cc1,MIC,=,7.81,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+39c,Oc1ccccc1-c1nn(-c2ccccn2)cc1-c1nc2ccccc2[nH]1,MIC,=,1.95,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+39c,O=[N+]([O-])c1ccc(C2CC(c3ccc(NCn4cnc5ccccc54)cc3)=NN2c2ccccc2)cc1,MIC,=,3.9,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+39c,O=C(c1nc2ccccc2[nH]1)C(Br)C(Br)[At],MIC,=,7.81,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+39c,Cn1c(N)nc2ccccc21,MIC,=,7.81,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+39c,NC(=O)CSCc1nc2cc([N+](=O)[O-])ccc2[nH]1,MIC,=,7.81,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+39c,CC1=NN(c2cccc(F)c2)C(=O)C1=NNc1ccc(-c2nc3ccccc3[nH]2)cc1,MIC,=,1.95,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+39d,O=C(Nc1nc2ccccc2[nH]1)c1n[nH]cc1-c1ccccc1,MIC,=,7.81,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+39d,c1ccc(-c2cc(-c3nc4ccccc4[nH]3)n(-c3ccccc3)n2)cc1,MIC,=,3.9,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+39d,O=[N+]([O-])c1ccc(-n2nc(-c3nc4ccccc4[nH]3)cc2/C=C/c2ccccc2)c([N+](=O)[O-])c1,MIC,=,7.81,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+39d,Cc1ccc(-c2c(/C=N\Nc3nc4ccccc4n3Cc3ccccc3)cnn2-c2ccccc2)cc1,MIC,=,7.81,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+39d,Cc1ccc(C2NN=C(c3ccccc3)C2n2c(C)nc3cc([N+](=O)[O-])ccc32)cc1,MIC,=,7.81,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+39d,COc1ccc(C2CC(c3nc4ccccc4[nH]3)=NN2C(=O)c2ccncc2)cc1,MIC,=,7.81,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+39d,O=C(/C=C/c1ccccc1)NCC(=O)Nc1nc2ccccc2[nH]1,MIC,=,3.9,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+39e,Cc1ccc(C2C(C(=O)NCC(=O)Nc3nc4ccccc4[nH]3)C(c3ccccc3)=NN2c2ccccc2)cc1,MIC,=,62.5,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+39e,Cc1ccc(/C=C/C(=O)c2nc3ccccc3[nH]2)cc1,MIC,=,31.25,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+39e,CC1=NN(C(N)=S)C(=O)C1=NNc1ccc(-c2nc3ccccc3[nH]2)cc1,MIC,=,62.5,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+39e,O=C(/C=C/c1c(-c2ccccc2)[nH]c2ccc(Cl)cc12)c1nc2ccccc2[nH]1,MIC,=,62.5,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+39e,Clc1ccc(-c2cc(-c3nc4ccccc4[nH]3)n(-c3ccccc3)n2)cc1,MIC,=,62.5,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+39e,Fc1ccc(-c2nn(-c3ccccc3)cc2-c2nc3ccccc3[nH]2)cc1,MIC,=,62.5,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+39e,O=C(c1ccncc1)N1N=C(c2nc3ccccc3[nH]2)CC1c1ccccc1,MIC,=,31.25,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+39f,CN(C)c1ccc(-c2cc(-c3nc4ccccc4[nH]3)n(-c3ccccc3)n2)cc1,MIC,=,125,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+39f,COc1ccc(-c2cc(-c3nc4ccccc4[nH]3)n[nH]2)cc1OC,MIC,=,3.9,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+39f,Nc1ccc(-c2nc3ccccc3[nH]2)cc1,MIC,=,3.9,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+39f,O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccccc1,MIC,=,7.81,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+39f,O=C(c1ccncc1)N1N=C(c2nc3ccccc3[nH]2)CC1c1ccccc1Cl,MIC,=,7.81,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+39f,O=C(CSCc1nc2ccccc2[nH]1)n1nc(Sc2nc3ccccc3[nH]2)cc1-c1ccccc1,MIC,=,3.9,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+39f,Cc1ccc(C)c(S(=O)(=O)n2c(-c3cn(-c4ccccc4)nc3-c3ccc(C(F)(F)F)cc3)nc3ccccc32)c1,MIC,=,1.95,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+39g,Cc1ccc2[nH]c(-c3ccccc3NC(=O)c3cc(CC(C)C)nn3C)nc2c1,MIC,=,15.62,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+39g,Clc1ccc2[nH]c(-c3ccccc3)c(C3=NN(c4ccccc4)C(c4nc5ccccc5[nH]4)C3)c2c1,MIC,=,3.9,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+39g,Brc1ccc(C2CC(c3nc4ccccc4n3Cc3ccccc3)=NN2c2ccccc2)cc1,MIC,=,7.81,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+39g,CC(=O)c1[nH]n(C(=O)c2nc3cc(C)c(C)cc3[nH]2)c(=O)c1C#N,MIC,=,7.81,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+39g,O=C(CCl)n1nc(Sc2nc3ccccc3[nH]2)c[c]1[Pb],MIC,=,15.62,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+39g,Oc1ccc(-c2c(/C=N\Nc3nc4ccccc4n3Cc3ccccc3)cnn2-c2ccccc2)cc1,MIC,=,7.81,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+39g,CCC1C=C2C(=O)N(Cc3nc4ccccc4n3C3=NNC(c4ccccc4)C3)C(=O)C2=C1,MIC,=,3.9,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+39h,Cc1ccc2[nH]c(-c3ccccc3)c(C3=NN(c4ccccc4)C(c4nc5ccccc5[nH]4)C3)c2c1,MIC,=,125,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+39h,O=[N+]([O-])c1ccc2[nH]c(-c3cn(-c4ccccc4)nc3-c3ccccc3O)nc2c1,MIC,=,125,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+39h,COc1ccc(C2CC(c3ccc(NCn4cnc5ccccc54)cc3)=NN2c2ccccc2)cc1,MIC,>,125,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+39h,CC(C)Cc1cc(C(=O)Nc2ccccc2-c2nc3cc(Cl)ccc3[nH]2)n(C)n1,MIC,>,125,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+39h,Fc1ccc(C2CC(c3ccc(NCn4cnc5ccccc54)cc3)=NN2c2ccccc2)cc1,MIC,=,125,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+39h,Fc1ccc(-c2c(-c3nc4ccccc4[nH]3)cnn2-c2ccccc2)cc1,MIC,>,125,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+39h,c1ccc(-c2[nH]c3ccccc3c2C2=NN(c3ccccc3)C(c3nc4ccccc4[nH]3)C2)cc1,MIC,=,62.5,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+39i,CC(=O)c1[nH]n(C(=O)c2nc3cc(C)c(C)cc3n2C)c(=O)c1C#N,MIC,=,125,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+39i,O=C(/C=C/c1cccc(Br)c1)c1nc2ccccc2[nH]1,MIC,=,125,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+39i,NC(=S)N1N=C(c2nc3ccccc3n2Cc2ccccc2)CC1c1ccc(Cl)cc1,MIC,>,125,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+39i,CC(=O)c1ccc(N[CH]n2cnc3ccccc32)cc1,MIC,=,125,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+39i,CC1=NN(c2ccc(F)cc2)C(=O)C1=NNc1ccc(-c2nc3ccccc3[nH]2)cc1,MIC,=,62.5,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+39i,O=C(c1ccncc1)N1N=C(c2nc3ccccc3[nH]2)CC1c1ccc(Br)cc1,MIC,=,125,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+39i,CC1=NN(C(=O)c2cccnc2)C(=O)C1=NNc1ccc(-c2nc3ccccc3[nH]2)cc1,MIC,=,62.5,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+61a,COc1ccc(N2N=C(C)C(=NNc3ccc(-c4nc5ccccc5[nH]4)cc3)C2=O)cc1,MIC,=,100,µg mL-1,B. subtilis,antibiotics10081002
+61a,Cc1ccc(-c2c(C(=O)NCC(=O)Nc3nc4ccccc4[nH]3)c(-c3ccccc3)nn2-c2ccccc2)cc1,MIC,=,200,µg mL-1,C. tetanis,antibiotics10081002
+61a,CC(=O)Nc1ccc(OCC(=O)N2N=C(c3nc4ccccc4[nH]3)CC2c2cccc(Cl)c2)cc1,MIC,=,100,µg mL-1,S. pneumoniae,antibiotics10081002
+61a,Clc1cccc(-c2cc(-c3nc4ccccc4[nH]3)n(-c3ccccc3)n2)c1,MIC,=,200,µg mL-1,E. coli,antibiotics10081002
+61a,COc1cc(-c2cc(-c3nc4ccccc4[nH]3)n[nH]2)cc(OC)c1OC,MIC,=,250,µg mL-1,S.typhi,antibiotics10081002
+61a,c1coc(-c2cc(-c3nc4ccccc4[nH]3)n[nH]2)c1,MIC,=,250,µg mL-1,V. cholera,antibiotics10081002
+61b,CCNC(=O)Nc1nc2cc(-c3cccnc3)cc(-n3cccn3)c2[nH]1,MIC,=,500,µg mL-1,B. subtilis,antibiotics10081002
+61b,NC(=S)n1nc(-c2ccc([N+](=O)[O-])cc2)cc1-c1nc2ccccc2[nH]1,MIC,=,200,µg mL-1,C. tetanis,antibiotics10081002
+61b,O=C(/C=C/c1c(-c2ccccc2)[nH]c2ccccc12)c1nc2ccccc2[nH]1,MIC,=,200,µg mL-1,S. pneumoniae,antibiotics10081002
+61b,O=C(c1nc2ccccc2[nH]1)C(Br)CBr,MIC,=,250,µg mL-1,E. coli,antibiotics10081002
+61b,Nc1ccc(C2CC(c3ccc(NCn4cnc5ccccc54)cc3)=NN2c2ccccc2)cc1,MIC,=,250,µg mL-1,S.typhi,antibiotics10081002
+61b,CC1=NN(C(=O)CSCc2nc3cc([N+](=O)[O-])ccc3[nH]2)C(=O)C1,MIC,=,50,µg mL-1,V. cholera,antibiotics10081002
+61c,FC(F)(F)c1ccc(-c2nn(-c3ccccc3)cc2-c2nc3ccccc3[nH]2)cc1,MIC,=,250,µg mL-1,B. subtilis,antibiotics10081002
+61c,C(=N/Nc1nc2ccccc2n1Cc1ccccc1)/c1cnn(-c2ccccc2)c1-c1ccccc1,MIC,=,250,µg mL-1,C. tetanis,antibiotics10081002
+61c,COc1ccc(C(Br)C(Br)C(=O)c2nc3ccccc3[nH]2)cc1,MIC,=,250,µg mL-1,S. pneumoniae,antibiotics10081002
+61c,O=C(c1ccncc1)N1N=C(c2nc3ccccc3[nH]2)CC1c1ccc(O)cc1,MIC,=,62.5,µg mL-1,E. coli,antibiotics10081002
+61c,Cc1cc(C(=O)Nc2ccccc2-c2nc3ccccc3[nH]2)n(C)n1,MIC,=,200,µg mL-1,S.typhi,antibiotics10081002
+61c,Cc1ccc(C(=O)c2n[nH]cc2C(=O)Nc2nc3ccccc3[nH]2)cc1,MIC,=,100,µg mL-1,V. cholera,antibiotics10081002
+67,NC(=S)N1N=C(c2nc3ccccc3n2Cc2ccccc2)CC1c1ccc(F)cc1,MIC,=,0.98,µg mL-1,E. coli,antibiotics10081002
+67,CC1=NNC(=O)C1=NNc1ccc(-c2nc3ccccc3[nH]2)cc1,MIC,=,0.49,µg mL-1,P. aeruginosa,antibiotics10081002
+67,Cc1nn(C)c(Cl)c1C(=O)Nc1ccccc1-c1nc2ccccc2[nH]1,MIC,=,0.98,µg mL-1,B. subtilis,antibiotics10081002
+67,O=C1CSC(c2cnn(-c3ccccc3)c2-c2ccc(O)cc2)N1Nc1nc2ccccc2n1Cc1ccccc1,MIC,=,0.98,µg mL-1,S. aureus,antibiotics10081002
+70,O=C(CSc1nc2ccccc2[nH]1)n1nc(Nc2ccccc2O)cc1-c1ccccc1O,MIC,=,12.5,µg mL-1,S. aureus,antibiotics10081002
+70,Oc1ccc(-c2cc(-c3nc4ccccc4[nH]3)n(-c3ccccc3)n2)cc1,MIC,=,50,µg mL-1,E. coli,antibiotics10081002
+70,NNc1nc2ccccc2n1Cc1ccccc1,MIC,=,50,µg mL-1,P. aeruginosa,antibiotics10081002
+74,CC(C)Cc1cc(C(=O)Nc2ccccc2-c2nc3ccccc3[nH]2)n(C)n1,MIC,=,25.3,µg mL-1,Staphylococcus aureus,antibiotics10081002
+74,NC(=S)N1N=C(c2nc3ccccc3n2Cc2ccccc2)CC1[At],MIC,=,23.3,µg mL-1,Bacillus subtilis,antibiotics10081002
+74,O=C(c1ccncc1)N1N=C(c2nc3ccccc3[nH]2)CC1c1ccc(Cl)cc1,MIC,=,16.5,µg mL-1,Escherichia coli anaerobic,antibiotics10081002
+74,Cn1nc(C(F)(F)F)c(C(=O)Nc2ccccc2-c2nc3ccccc3[nH]2)c1Cl,MIC,=,13.4,µg mL-1,Salmonella typhimurium,antibiotics10081002
+88a,Cc1nn(C)c(Cl)c1C(=O)Nc1ccccc1-c1nc2cc(Cl)ccc2[nH]1,MIC,=,31.25,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+88a,SCc1nc2ccccc2[nH]1,MIC,=,31.25,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+88a,O=C(CNC(=O)c1c(-c2ccccc2)nn(-c2ccccc2)c1-c1ccccc1)Nc1nc2ccccc2[nH]1,MIC,=,15.62,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+88a,Clc1ccc(-c2cc(-c3nc4ccccc4[nH]3)n(-c3ccccc3)n2)c(Cl)c1,MIC,=,62.5,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+88a,NC(=O)Cn1c(C2CC(=O)N(c3ccc(F)cc3)C2)nc2ccccc21,MIC,=,31.25,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+88a,COc1ccc(-c2cc(-c3ccccc3)n(C(=O)CSc3nc4ccccc4[nH]3)n2)cc1O,MIC,=,31.25,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+88a,O=C(CSc1nc2ccccc2[nH]1)n1nc(-c2ccccc2)cc1-c1ccccc1O,MIC,=,15.62,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+88b,Oc1ccc(C2CC(c3ccc(NCn4cnc5ccccc54)cc3)=NN2c2ccccc2)cc1,MIC,=,125,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+88b,O=[N+]([O-])c1ccc(-c2cc(-c3nc4ccccc4[nH]3)n(-c3nc(-c4ccc(F)cc4)cs3)n2)cc1,MIC,=,62.5,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+88b,O=C(c1nc2ccccc2[nH]1)C(Br)C(Br)c1ccco1,MIC,=,31.25,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+88b,O=C(c1ccncc1)N1N=C(c2nc3ccccc3[nH]2)CC1c1cccc([N+](=O)[O-])c1,MIC,=,125,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+88b,Cc1nn(-c2ccccc2)c(-n2cnc3ccccc32)c1C1C(C#N)=C(N)Oc2nc(N3N=C(c4ccc(Cl)cc4)CC3c3ccc(C(F)(F)F)cc3)sc21,MIC,=,62.5,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+88b,O=C(CNC(=O)C1C(c2ccccc2)=NN(c2ccccc2)C1c1ccccc1)Nc1nc2ccccc2[nH]1,MIC,=,125,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+88b,Cc1ccc2nc(CC#N)[nH]c2c1,MIC,=,31.25,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+88c,O=C(Nc1nc2ccccc2[nH]1)c1n[nH]cc1-c1ccc(Cl)cc1,MIC,=,125,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+88c,Cn1cnc2ccccc21,MIC,=,62.5,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+88c,O=C(c1cccnc1)n1c(-c2cn(-c3ccccc3)nc2-c2ccc(F)cc2)nc2ccccc21,MIC,=,125,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+88c,CC(=O)Nc1ccc(OCC(=O)N2N=C(c3nc4ccccc4[nH]3)CC2c2cccc([N+](=O)[O-])c2)cc1,MIC,=,125,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+88c,O=C(CNC(=O)C1C(c2ccccc2)=NN(c2ccccc2)C1c1ccc(Cl)cc1)Nc1nc2ccccc2[nH]1,MIC,=,62.5,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+88c,Cc1ccc(C2CC(c3nc4ccccc4[nH]3)=NN2C(=O)c2ccncc2)cc1,MIC,=,62.5,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+88c,Clc1ccc2[nH]c(-c3ccccc3)c(C3=NNC(c4nc5ccccc5[nH]4)C3)c2c1,MIC,=,31.25,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+88d,O=C(CCl)n1nc(Sc2nc3ccccc3[nH]2)cc1-c1ccccc1,MIC,=,62.5,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+88d,O=C(CSc1nc2ccccc2[nH]1)n1nc(Nc2ccccc2)cc1-c1ccccc1,MIC,=,31.25,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+88d,Clc1ccc(C2CC(c3ccc(NCn4cnc5ccccc54)cc3)=NN2c2ccccc2)cc1,MIC,=,31.25,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+88d,Cc1ccc(-c2c[nH]nc2C(=O)Nc2nc3ccccc3[nH]2)cc1,MIC,=,31.25,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+88d,Cc1ccc2[nH]c(-c3ccccc3NC(=O)c3cc(C)nn3C)nc2c1,MIC,=,62.5,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+88d,O=C(Nc1nc2ccccc2[nH]1)c1c[nH]nc1C(=O)c1ccc(Cl)cc1,MIC,=,62.5,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+88d,O=C1c2ccccc2C(=O)N1Cc1nc2ccccc2n1C(=O)/C=C/c1ccccc1,MIC,=,31.25,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+88e,COc1ccc(-c2cc(-c3nc4ccccc4[nH]3)n[nH]2)cc1,MIC,=,15.62,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+88e,Cc1ccc2[nH]c(-c3ccccc3)c(C3=NNC(c4nc5ccccc5[nH]4)C3)c2c1,MIC,=,15.62,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+88e,O=C(/C=C/c1ccc(O)cc1)c1nc2ccccc2[nH]1,MIC,=,7.81,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+88e,CC(=O)Nc1ccc(OCC(=O)N2N=C(c3nc4ccccc4[nH]3)CC2c2ccccc2F)cc1,MIC,=,15.62,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+88e,COc1ccc(-c2c(/C=N\Nc3nc4ccccc4n3Cc3ccccc3)cnn2-c2ccccc2)c(OC)c1,MIC,=,15.62,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+88e,O=C1CSC(c2cnn(-c3ccccc3)c2-c2ccccc2)N1Nc1nc2ccccc2n1Cc1ccccc1,MIC,=,7.81,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+88e,COc1ccc(-c2cc(-c3nc4ccccc4[nH]3)n(-c3ccc([N+](=O)[O-])cc3[N+](=O)[O-])n2)cc1,MIC,=,7.81,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+88f,O=C(CNCc1nc2ccccc2[nH]1)n1nc(Sc2nc3ccccc3[nH]2)c[c]1[Pb],MIC,=,62.5,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+88f,c1ccc2c(c1)nc1ccccn12,MIC,=,31.25,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+88f,Brc1cccc(-c2cc(-c3nc4ccccc4[nH]3)n(-c3ccccc3)n2)c1,MIC,=,31.25,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+88f,Cn1c(-c2c(S(=O)(=O)c3ccccc3)nnc3cc(-c4ccc(Cl)cc4)nn23)nc2ccccc21,MIC,=,31.25,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+88f,Oc1ccccc1-c1nn(-c2ccccc2)cc1-c1nc2ccccc2[nH]1,MIC,=,62.5,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+88f,Cc1cc2nc(C(=O)NN=C=[At])[nH]c2cc1C,MIC,=,125,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+88f,Cc1nc2cc([N+](=O)[O-])ccc2n1C1C(c2ccccc2)=NNC1c1cccs1,MIC,=,31.25,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+88g,O=[N+]([O-])c1ccc2[nH]c(-c3cn(-c4ccccn4)nc3-c3ccccc3)nc2c1,MIC,=,15.62,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+88g,Cc1ccc(C2NN=C(c3ccccc3)C2n2c(C)nc3cc([N+](=O)[O-])ccc32)o1,MIC,=,7.81,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+88g,c1ccc(-c2[nH]c3ccccc3c2C2=NNC(c3nc4ccccc4[nH]3)C2)cc1,MIC,=,7.81,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+88g,CC1=NN(c2cccc(Cl)c2)C(=O)C1=NNc1ccc(-c2nc3ccccc3[nH]2)cc1,MIC,=,7.81,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+88g,O=C(CSCc1nc2ccccc2[nH]1)n1nc(Sc2nc3ccccc3[nH]2)c[c]1[Pb],MIC,=,15.62,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+88g,O=C(/C=C/c1ccccc1)c1nc2ccccc2[nH]1,MIC,=,7.81,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+88g,O=C(CSc1nc2ccccc2[nH]1)n1nc(Sc2nc3ccccc3[nH]2)cc1-c1ccccc1,MIC,=,7.81,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+88h,CCOC(=O)Cn1c(C2CC(=O)N(c3ccc(Cl)cc3)C2)nc2ccccc21,MIC,=,31.25,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+88h,O=[N+]([O-])c1ccc(-n2nc(-c3ccc(Cl)cc3)cc2-c2nc3ccccc3[nH]2)c([N+](=O)[O-])c1,MIC,=,15.62,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+88h,c1ccc2[nH]c(-c3cc(-c4nc5ccccc5[nH]4)[nH]n3)nc2c1,MIC,=,15.62,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+88h,COc1cc(C2CC(c3nc4ccccc4[nH]3)=NN2C(=O)c2ccncc2)ccc1O,MIC,=,15.62,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+88h,COc1ccc(C(Br)C(Br)C(=O)c2nc3ccccc3[nH]2)cc1OC,MIC,=,15.62,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+88h,O=C1CC(c2nc3ccccc3[nH]2)CN1c1ccc(F)cc1,MIC,=,15.62,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+88h,Cc1cc(C)n(C(=O)Cn2c(C3CC(=O)N(c4ccc(Cl)cc4)C3)nc3ccccc32)n1,MIC,=,7.81,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+88i,O=C(/C=C/c1cccc(Cl)c1)c1nc2ccccc2[nH]1,MIC,=,15.62,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+88i,ClCc1nc2ccccc2[nH]1,MIC,=,7.81,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+88i,[At]C1CC(c2nc3ccccc3n2Cc2ccccc2)=NN1c1ccccc1,MIC,=,3.9,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+88i,O=C(c1nc2ccccc2[nH]1)C(Br)C(Br)c1ccc(Cl)cc1,MIC,=,7.81,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+88i,COc1ccccc1C1NN=C(c2ccccc2)C1n1c(C)nc2cc([N+](=O)[O-])ccc21,MIC,=,7.81,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+88i,Cc1ccc2[nH]c(-c3ccccc3NC(=O)c3c(C)nn(C)c3Cl)nc2c1,MIC,=,15.62,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+88i,O=C(/C=C/c1ccc(Br)cc1)c1nc2ccccc2[nH]1,MIC,=,7.81,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+88j,COc1cc(O)ccc1-c1cc(-c2nc3ccccc3[nH]2)n(-c2ccccc2)n1,MIC,=,31.25,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+88j,Cc1ccc(-n2nc(C)c(-c3c(C#N)c(N)c4nc5ccc(C)cc5n4c3C#N)c2Cc2ccccc2)cc1,MIC,=,31.25,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+88j,Clc1ccc(-c2cc(-c3nc4ccccc4[nH]3)n[nH]2)cc1,MIC,=,15.62,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+88j,FC(F)(F)c1ccc(C2CC(c3ccc(NCn4cnc5ccccc54)cc3)=NN2c2ccccc2)cc1,MIC,=,31.25,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+88j,c1ccc(C2CC(c3ccc(NCn4cnc5ccccc54)cc3)=NN2c2ccccc2)cc1,MIC,=,31.25,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+88j,CC(=O)Nc1ccc(OCC(=O)N2N=C(c3nc4ccccc4[nH]3)CC2c2ccc(Cl)cc2)cc1,MIC,=,62.5,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+88j,O=C(CNC(=O)c1c(-c2ccccc2)nn(-c2ccccc2)c1-c1ccc(Cl)cc1)Nc1nc2ccccc2[nH]1,MIC,=,15.62,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+88k,O=C(/C=C/c1ccccc1)c1nc2ccccc2n1Cc1ccccc1,MIC,=,62.5,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+88k,O=C(/C=C/c1ccc(Cl)cc1)c1nc2ccccc2n1Cc1ccccc1,MIC,=,62.5,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+88k,Cc1ccc2[nH]c(-c3ccccc3)c(/C=C/C(=O)c3nc4ccccc4[nH]3)c2c1,MIC,=,31.25,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+88k,Clc1ccccc1-c1cc(-c2nc3ccccc3[nH]2)n(-c2ccccc2)n1,MIC,=,31.25,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+88k,c1ccc(-c2nn(-c3ccccn3)cc2-c2nc3ccccc3[nH]2)cc1,MIC,=,62.5,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+88k,Cc1ccc2[nH]c(CC#N)nc2c1,MIC,=,125,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+88k,NNC(=O)CSc1nc2ccccc2[nH]1,MIC,=,31.25,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+88l,O=C(c1cccnc1)n1c(-c2cnn(-c3ccccc3)c2-c2ccc(F)cc2)nc2ccccc21,MIC,=,31.25,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+88l,COc1ccc(-c2c(C3SCC(=O)N3Nc3nc4ccccc4n3Cc3ccccc3)cnn2-c2ccccc2)c(OC)c1,MIC,=,15.62,µg mL-1,Staphylococcus epidermidis ATCC 155,antibiotics10081002
+88l,O=C(CSc1nc2ccccc2[nH]1)n1nc(Sc2nc3ccccc3[nH]2)c[c]1[Pb],MIC,=,15.62,µg mL-1,Micrococcus luteus ATCC 4698,antibiotics10081002
+88l,O=C(/C=C/c1ccccc1-c1nc2ccccc2[nH]1)c1ccccc1,MIC,=,15.62,µg mL-1,Bacillus cereus ATCC 11778,antibiotics10081002
+88l,Cc1ccc(Cc2c(-c3c(C#N)c(N)c4nc5ccc(C)cc5n4c3C#N)c(C)nn2-c2ccc(C)cc2)cc1,MIC,=,31.25,µg mL-1,Escherichia coli ATCC 25922,antibiotics10081002
+88l,O=C(/C=C/c1ccc(F)cc1)c1nc2ccccc2[nH]1,MIC,=,15.62,µg mL-1,Pseudomonas aeruginosa ATCC 2853,antibiotics10081002
+88l,CCNC(=O)Nc1nc2cc(-c3cncnc3)cc(-n3cccn3)c2[nH]1,MIC,=,7.81,µg mL-1,Klebsiella pneumoniae ATCC 11298,antibiotics10081002
+94b,CCOC(=O)C(=NNc1ccc(-c2nc3ccccc3[nH]2)cc1)C(C)=O,MIC,=,250,µg mL-1,Staphylococcus aureus ATCC 9144,antibiotics10081002
+94b,COc1cc(C2CC(c3ccc(NCn4cnc5ccccc54)cc3)=NN2c2ccccc2)ccc1O,MIC,=,250,µg mL-1,Escherichia coli ATCC 8739,antibiotics10081002
+98a,O=C(CNc1nc2ccccc2[nH]1)n1nc(Sc2nc3ccccc3[nH]2)cc1-c1ccccc1,MIC,=,0.25,µg/mL,S. aureus,antibiotics10081002
+98a,Nc1nc2ccccc2[nH]1,MIC,=,0.063,µg/mL,E. faecalis,antibiotics10081002
+98a,CC1=NN(Cc2nc3cc([N+](=O)[O-])ccc3[nH]2)C(=O)C1,MIC,=,0.016,µg/mL,S. pneumoniae,antibiotics10081002
+98b,COc1ccc(OC)c(-c2c(C3SCC(=O)N3Nc3nc4ccccc4n3Cc3ccccc3)cnn2-c2ccccc2)c1,MIC,=,0.25,µg/mL,S. aureus,antibiotics10081002
+98b,O=[N+]([O-])c1ccc(-n2nc(-c3ccccc3Cl)cc2-c2nc3ccccc3[nH]2)c([N+](=O)[O-])c1,MIC,=,0.063,µg/mL,E. faecalis,antibiotics10081002
+98b,Cc1nn(-c2ccccc2)c(-n2cnc3ccccc32)c1C=O,MIC,=,0.032,µg/mL,S. pneumoniae,antibiotics10081002
+98c,CCCCCS(=O)(=O)c1nnc2c(-c3ccc(Cl)cc3)cnn2c1-c1nc2ccccc2n1C,MIC,=,0.25,µg/mL,S. aureus,antibiotics10081002
+98c,O=C(c1ccncc1)N1N=C(c2nc3ccccc3[nH]2)CC1c1cccc(O)c1,MIC,=,0.125,µg/mL,E. faecalis,antibiotics10081002
+98c,c1ccc2[nH]c(-c3cc[nH]n3)nc2c1,MIC,=,0.5,µg/mL,E. faecium,antibiotics10081002
+98c,Cc1ccc(/C=C/C(=O)NCC(=O)Nc2nc3ccccc3[nH]2)cc1,MIC,=,0.016,µg/mL,S. pneumoniae,antibiotics10081002
+98d,O=C(/C=C/c1ccc(Cl)cc1)c1nc2ccccc2[nH]1,MIC,=,0.063,µg/mL,S. aureus,antibiotics10081002
+98d,O=[N+]([O-])c1ccc(-n2nc(-c3ccc(Cl)cc3Cl)cc2-c2nc3ccccc3[nH]2)c([N+](=O)[O-])c1,MIC,=,0.063,µg/mL,E. faecalis,antibiotics10081002
+98d,Cc1cc(C(=O)Nc2ccccc2-c2nc3cc(Cl)ccc3[nH]2)n(C)n1,MIC,=,0.25,µg/mL,E. faecium,antibiotics10081002
+98d,C(=C\C1CC(c2ccc(NCn3cnc4ccccc43)cc2)=NN1c1ccccc1)/c1ccccc1,MIC,=,0.016,µg/mL,S. pneumoniae,antibiotics10081002
+98e,Cc1nn(-c2ccccc2)c2c1/C(=N/c1nc3ccccc3[nH]1)CO2,MIC,=,0.016,µg/mL,S. aureus,antibiotics10081002
+98e,CC(=O)Nc1ccc(OCC(=O)N2N=C(c3nc4ccccc4[nH]3)CC2c2ccccc2)cc1,MIC,=,0.016,µg/mL,E. faecalis,antibiotics10081002
+98e,CC(=O)Nc1ccc(OCC(=O)N2N=C(c3nc4ccccc4[nH]3)CC2c2ccc([N+](=O)[O-])cc2)cc1,MIC,=,0.032,µg/mL,E. faecium,antibiotics10081002
+98e,COc1ccc(OC)c(-c2c(/C=N\Nc3nc4ccccc4n3Cc3ccccc3)cnn2-c2ccccc2)c1,MIC,<,0.008,µg/mL,S. pneumoniae,antibiotics10081002
+98f,NNC(=O)CSCc1nc2cc([N+](=O)[O-])ccc2[nH]1,MIC,=,0.125,µg/mL,S. aureus,antibiotics10081002
+98f,[H]/C=C/C(=O)c1nc2ccccc2[nH]1,MIC,=,0.125,µg/mL,E. faecalis,antibiotics10081002
+98f,c1ccc(Cn2c(C3=NN(c4ccccc4)C(c4ccccc4)C3)nc3ccccc32)cc1,MIC,=,0.5,µg/mL,E. faecium,antibiotics10081002
+98f,NC(=S)N1N=C(c2nc3ccccc3n2Cc2ccccc2)CC1c1ccccc1,MIC,=,0.032,µg/mL,S. pneumoniae,antibiotics10081002
+98g,CC(=O)Nc1ccc(OCC(=O)N2N=C(c3nc4ccccc4[nH]3)CC2c2ccc(Br)cc2)cc1,MIC,=,0.063,µg/mL,S. aureus,antibiotics10081002
+98g,O=C(Nc1nc2ccccc2[nH]1)c1c[nH]nc1C(=O)c1ccccc1,MIC,=,0.125,µg/mL,E. faecalis,antibiotics10081002
+98g,O=C(/C=C/c1ccc(Br)cc1)c1nc2ccccc2n1Cc1ccccc1,MIC,=,0.25,µg/mL,E. faecium,antibiotics10081002
+98g,Fc1ccc(C2CC(c3nc4ccccc4n3Cc3ccccc3)=NN2c2ccccc2)cc1,MIC,=,0.032,µg/mL,S. pneumoniae,antibiotics10081002
+98h,Cc1cc2nc(C(=O)n3[nH]c([At])c(C#N)c3=Nc3c(C)n(C)n(-c4ccccc4)c3=O)n(C)c2cc1C,MIC,=,0.25,µg/mL,S. aureus,antibiotics10081002
+98h,NC(=S)N1N=C(c2nc3ccccc3n2Cc2ccccc2)CC1c1ccc(Br)cc1,MIC,=,0.063,µg/mL,E. faecalis,antibiotics10081002
+98h,O=[N+]([O-])c1cccc(C2CC(c3ccc(NCn4cnc5ccccc54)cc3)=NN2c2ccccc2)c1,MIC,=,0.25,µg/mL,E. faecium,antibiotics10081002
+98h,O=C(CSc1nc2ccccc2[nH]1)n1nc(-c2ccccc2O)cc1-c1ccccc1O,MIC,=,0.016,µg/mL,S. pneumoniae,antibiotics10081002
+98i,O=[N+]([O-])c1ccc(-c2c(/C=N\Nc3nc4ccccc4n3Cc3ccccc3)cnn2-c2ccccc2)cc1,MIC,=,0.063,µg/mL,S. aureus,antibiotics10081002
+98i,O=C1c2ccccc2C(=O)N1Cc1nc2ccccc2n1C1=NNC(c2ccccc2)C1,MIC,=,0.063,µg/mL,E. faecalis,antibiotics10081002
+98i,c1ccc(-c2cc(-c3nc4ccccc4[nH]3)n[nH]2)cc1,MIC,=,0.5,µg/mL,E. faecium,antibiotics10081002
+98i,O=C(c1ccncc1)N1N=C(c2nc3ccccc3[nH]2)CC1c1ccccc1O,MIC,=,0.063,µg/mL,S. pneumoniae,antibiotics10081002
+101,COc1cc(O)ccc1-c1cc(-c2nc3ccccc3[nH]2)n(-c2ccc([N+](=O)[O-])cc2[N+](=O)[O-])n1,MIC,=,0.063,µg/mL,S. aureus,antibiotics10081002
+101,Sc1nc2ccccc2[nH]1,MIC,=,0.008,µg/mL,S.pneumoniae,antibiotics10081002
+101,CC1=NN(Cc2nc3ccccc3[nH]2)C(=O)C1,MIC,=,1,µg/mL,H. influenzae,antibiotics10081002
+102,CN(C)c1ccc(/C=C/C(=O)c2nc3ccccc3[nH]2)cc1,MIC,=,0.031,µg/mL,S. aureus,antibiotics10081002
+102,O=C1CSC(c2cnn(-c3ccccc3)c2-c2ccc([N+](=O)[O-])cc2)N1Nc1nc2ccccc2n1Cc1ccccc1,MIC,<,0.008,µg/mL,S.pneumoniae,antibiotics10081002
+102,[CH]=[C]C(=O)c1nc2ccccc2[nH]1,MIC,=,0.25,µg/mL,H. influenzae,antibiotics10081002
+5a,CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1,MIC,=,125,µg/mL,Escherichia coli ATCC 25922,acsomega.2c06142
+5a,CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1,MIC,=,125,µg/mL,Serratia marcescens ATCC 8100,acsomega.2c06142
+5a,CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1,MIC,=,62.5,µg/mL,Klebsiella pneumoniae ATCC 13883,acsomega.2c06142
+5a,CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1,MIC,=,125,µg/mL,Pseudomonas aeruginosa ATCC 27853,acsomega.2c06142
+5a,CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1,MIC,=,7.81,µg/mL,Enterococcus faecalis ATCC 2942,acsomega.2c06142
+5a,CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1,MIC,=,125,µg/mL,Bacillus subtilis NRRL NRS 744,acsomega.2c06142
+5a,CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1,MIC,=,62.5,µg/mL,Staphylococcus aureus ATCC 29213,acsomega.2c06142
+5b,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Escherichia coli ATCC 25922,acsomega.2c06142
+5b,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,31.25,µg/mL,Serratia marcescens ATCC 8100,acsomega.2c06142
+5b,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Klebsiella pneumoniae ATCC 13883,acsomega.2c06142
+5b,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Pseudomonas aeruginosa ATCC 27853,acsomega.2c06142
+5b,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Enterococcus faecalis ATCC 2942,acsomega.2c06142
+5b,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,125,µg/mL,Bacillus subtilis NRRL NRS 744,acsomega.2c06142
+5b,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Staphylococcus aureus ATCC 29213,acsomega.2c06142
+5c,Cc1cc2nc(-c3ccc(-c4nnc(NCCCl)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Escherichia coli ATCC 25922,acsomega.2c06142
+5c,Cc1cc2nc(-c3ccc(-c4nnc(NCCCl)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Serratia marcescens ATCC 8100,acsomega.2c06142
+5c,Cc1cc2nc(-c3ccc(-c4nnc(NCCCl)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Klebsiella pneumoniae ATCC 13883,acsomega.2c06142
+5c,Cc1cc2nc(-c3ccc(-c4nnc(NCCCl)s4)cc3)[nH]c2cc1C,MIC,=,125,µg/mL,Pseudomonas aeruginosa ATCC 27853,acsomega.2c06142
+5c,Cc1cc2nc(-c3ccc(-c4nnc(NCCCl)s4)cc3)[nH]c2cc1C,MIC,=,1.95,µg/mL,Enterococcus faecalis ATCC 2942,acsomega.2c06142
+5c,Cc1cc2nc(-c3ccc(-c4nnc(NCCCl)s4)cc3)[nH]c2cc1C,MIC,=,125,µg/mL,Bacillus subtilis NRRL NRS 744,acsomega.2c06142
+5c,Cc1cc2nc(-c3ccc(-c4nnc(NCCCl)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Staphylococcus aureus ATCC 29213,acsomega.2c06142
+5d,Cc1cc2nc(-c3ccc(-c4nnc(Nc5ccccc5Cl)s4)cc3)[nH]c2cc1C,MIC,=,125,µg/mL,Escherichia coli ATCC 25922,acsomega.2c06142
+5d,Cc1cc2nc(-c3ccc(-c4nnc(Nc5ccccc5Cl)s4)cc3)[nH]c2cc1C,MIC,=,31.25,µg/mL,Serratia marcescens ATCC 8100,acsomega.2c06142
+5d,Cc1cc2nc(-c3ccc(-c4nnc(Nc5ccccc5Cl)s4)cc3)[nH]c2cc1C,MIC,=,125,µg/mL,Klebsiella pneumoniae ATCC 13883,acsomega.2c06142
+5d,Cc1cc2nc(-c3ccc(-c4nnc(Nc5ccccc5Cl)s4)cc3)[nH]c2cc1C,MIC,=,125,µg/mL,Pseudomonas aeruginosa ATCC 27853,acsomega.2c06142
+5d,Cc1cc2nc(-c3ccc(-c4nnc(Nc5ccccc5Cl)s4)cc3)[nH]c2cc1C,MIC,=,3.90,µg/mL,Enterococcus faecalis ATCC 2942,acsomega.2c06142
+5d,Cc1cc2nc(-c3ccc(-c4nnc(Nc5ccccc5Cl)s4)cc3)[nH]c2cc1C,MIC,=,125,µg/mL,Bacillus subtilis NRRL NRS 744,acsomega.2c06142
+5d,Cc1cc2nc(-c3ccc(-c4nnc(Nc5ccccc5Cl)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Staphylococcus aureus ATCC 29213,acsomega.2c06142
+5e,Cc1cc2nc(-c3ccc(-c4nnc(NC5CCCCC5)s4)cc3)[nH]c2cc1C,MIC,=,125,µg/mL,Escherichia coli ATCC 25922,acsomega.2c06142
+5e,Cc1cc2nc(-c3ccc(-c4nnc(NC5CCCCC5)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Serratia marcescens ATCC 8100,acsomega.2c06142
+5e,Cc1cc2nc(-c3ccc(-c4nnc(NC5CCCCC5)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Klebsiella pneumoniae ATCC 13883,acsomega.2c06142
+5e,Cc1cc2nc(-c3ccc(-c4nnc(NC5CCCCC5)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Pseudomonas aeruginosa ATCC 27853,acsomega.2c06142
+5e,Cc1cc2nc(-c3ccc(-c4nnc(NC5CCCCC5)s4)cc3)[nH]c2cc1C,MIC,=,3.90,µg/mL,Enterococcus faecalis ATCC 2942,acsomega.2c06142
+5e,Cc1cc2nc(-c3ccc(-c4nnc(NC5CCCCC5)s4)cc3)[nH]c2cc1C,MIC,=,250,µg/mL,Bacillus subtilis NRRL NRS 744,acsomega.2c06142
+5e,Cc1cc2nc(-c3ccc(-c4nnc(NC5CCCCC5)s4)cc3)[nH]c2cc1C,MIC,=,125,µg/mL,Staphylococcus aureus ATCC 29213,acsomega.2c06142
+5f,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,15.625,µg/mL,Escherichia coli ATCC 25922,acsomega.2c06142
+5f,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,62.5,µg/mL,Serratia marcescens ATCC 8100,acsomega.2c06142
+5f,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,125,µg/mL,Klebsiella pneumoniae ATCC 13883,acsomega.2c06142
+5f,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,125,µg/mL,Pseudomonas aeruginosa ATCC 27853,acsomega.2c06142
+5f,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,15.625,µg/mL,Enterococcus faecalis ATCC 2942,acsomega.2c06142
+5f,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,125,µg/mL,Bacillus subtilis NRRL NRS 744,acsomega.2c06142
+5f,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,125,µg/mL,Staphylococcus aureus ATCC 29213,acsomega.2c06142
+5g,Cc1cc2nc(-c3ccc(C(=O)NN)cc3)[nH]c2cc1C,MIC,=,15.625,µg/mL,Escherichia coli ATCC 25922,acsomega.2c06142
+5g,CCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1,MIC,=,125,µg/mL,Serratia marcescens ATCC 8100,acsomega.2c06142
+5g,COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1,MIC,=,125,µg/mL,Klebsiella pneumoniae ATCC 13883,acsomega.2c06142
+5g,CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1,MIC,=,125,µg/mL,Pseudomonas aeruginosa ATCC 27853,acsomega.2c06142
+5g,Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C,MIC,=,7.81,µg/mL,Enterococcus faecalis ATCC 2942,acsomega.2c06142
+5g,COC(O)(NN)c1ccc(-c2nc3cc(C)c(C)cc3[nH]2)cc1,MIC,=,250,µg/mL,Bacillus subtilis NRRL NRS 744,acsomega.2c06142
+5g,Cc1nc2ccccc2n1Cc1ccc(Cl)cc1,MIC,=,125,µg/mL,Staphylococcus aureus ATCC 29213,acsomega.2c06142
+5h,COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1,MIC,=,31.25,µg/mL,Escherichia coli ATCC 25922,acsomega.2c06142
+5h,COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1,MIC,=,62.5,µg/mL,Serratia marcescens ATCC 8100,acsomega.2c06142
+5h,COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1,MIC,=,62.5,µg/mL,Klebsiella pneumoniae ATCC 13883,acsomega.2c06142
+5h,COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1,MIC,=,125,µg/mL,Pseudomonas aeruginosa ATCC 27853,acsomega.2c06142
+5h,COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1,MIC,=,1.95,µg/mL,Enterococcus faecalis ATCC 2942,acsomega.2c06142
+5h,COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1,MIC,=,125,µg/mL,Bacillus subtilis NRRL NRS 744,acsomega.2c06142
+5h,COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1,MIC,=,15.625,µg/mL,Staphylococcus aureus ATCC 29213,acsomega.2c06142
+11h,COc1nc2ccc(Br)cc2cc1C(c1ccc(-c2ccccc2)cc1)C(O)(CCN(C)C)c1cccc2ccccc12,MIC,=,0.00001,µg mL-1,Staphylococcus aureus ATCC 25923,s41598-022-21435-6
+12h,COc1nc2ccc(Br)cc2cc1C(c1ccc(-c2ccccc2)cc1)C(O)(CCN(C)C)c1cccc2ccccc12,MIC,=,0.0003,µg mL-1,Staphylococcus aureus ATCC 25923,s41598-022-21435-6
+11i,COc1nc2ccc(Br)cc2cc1C(c1ccc(C(F)(F)F)cc1)C(O)(CCN(C)C)c1cccc2ccccc12,MIC,=,0.009,µg mL-1,Staphylococcus aureus ATCC 25923,s41598-022-21435-6
+11g,COc1nc2ccc(Br)cc2cc1C(c1ccc(C(F)(F)F)cc1)C(O)(CCN(C)C)c1cccc2ccccc12,MIC,=,0.009,µg mL-1,Staphylococcus aureus ATCC 25923,s41598-022-21435-6
+11h,COc1nc2ccc(Br)cc2cc1C(c1ccc(-c2ccccc2)cc1)C(O)(CCN(C)C)c1cccc2ccccc12,MIC,=,0.004,µg mL-1,Escherichia coli ATCC 25922,s41598-022-21435-6
+12h,COc1nc2ccc(Br)cc2cc1C(c1ccc(-c2ccccc2)cc1)C(O)(CCN(C)C)c1cccc2ccccc12,MIC,=,0.004,µg mL-1,Escherichia coli ATCC 25922,s41598-022-21435-6
+11f,COc1nc2ccc(Br)cc2cc1C(c1ccc(F)cc1)C(O)(CCN(C)C)c1cccc2ccccc12,MIC,=,0.009,µg mL-1,Escherichia coli ATCC 25922,s41598-022-21435-6
+7h,COc1nc2ccc(Br)cc2cc1C(c1ccc(-c2ccccc2)cc1)C(O)(CCN(C)C)c1cccc2ccccc12,MIC,=,0.001,µg mL-1,Escherichia coli ATCC 25922,s41598-022-21435-6
+XXXIX,CCCN(CCC)c1ccc2nc3c(C#N)cc4ccccc4n3c2c1,MIC,=,25,µg/mL,S. aureus MTCC-96,intechopen.108949
+XXXIX,C=Cc1cc(C#N)c2nc3ccccc3n2c1C(=C)OC,MIC,=,25,µg/mL,S. typhimurium MTCC-98,intechopen.108949
+XLIV,Cc1cccc2cc3cc(-c4nc5cc([N+](=O)[O-])ccc5[nH]4)sc3nc12,MIC,=,100,µg/mL,B. subtills,intechopen.108949
+XLV,COc1ccc(OC)c2c1cc(C#N)c1nc3ccccc3n12,MIC,=,6.25,µg/mL,S. aureus,intechopen.108949
+XLV,N#Cc1c(-n2cc(CCCCl)nn2)c2nc3ccccc3n2c2ccc(F)cc12,MIC,=,6.25,µg/mL,E. coli,intechopen.108949
+XLVI,Cc1ccc2[nH]c(-c3cc(C(=O)O)c4ccccc4n3)nc2c1,MIC,=,6.25,µg/mL,S. aureus,intechopen.108949
+XLVI,COONc1ccc2c(c1)cc(C#N)c1nc3ccccc3n12,MIC,=,6.25,µg/mL,E. coli,intechopen.108949
+XLVII,Cc1ccc2nc(Cl)c(-c3cc(-c4nc5cc([N+](=O)[O-])ccc5[nH]4)[nH]n3)cc2c1,MIC,=,6.25,µg/mL,S. aureus,intechopen.108949
+XLVII,Cc1cc2nc(-c3cc4ccccc4nc3Cl)[nH]c2cc1C,MIC,=,6.25,µg/mL,E. coli,intechopen.108949
+XLVIII,COc1ccc2[nH]c(-c3cc(-c4ccc(F)cc4)nc4ccccc34)nc2c1,MIC,=,6.25,µg/mL,S. aureus,intechopen.108949
+XLVIII,CN(C)CCCNC(=O)c1cc2ccccc2n2c1nc1ccccc12,MIC,=,6.25,µg/mL,E. coli,intechopen.108949
+4a,COc1ccc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)nn1,MIC,=,64,µg/mL,Bacillus cereus ATCC 10876,s13065-018-0479-1
+4a,COc1ccc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)nn1,MIC,=,64,µg/mL,Staphylococcus aureus ATCC 25923,s13065-018-0479-1
+4a,COc1ccc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)nn1,MIC,=,256,µg/mL,Pseudomonas aeruginosa ATCC 27853,s13065-018-0479-1
+4a,COc1ccc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)nn1,MIC,=,128,µg/mL,Escherichia coli ATCC 25922,s13065-018-0479-1
+4b,Cc1ccc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)nn1,MIC,=,128,µg/mL,Bacillus cereus ATCC 10876,s13065-018-0479-1
+4b,Cc1ccc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)nn1,MIC,=,128,µg/mL,Staphylococcus aureus ATCC 25923,s13065-018-0479-1
+4b,Cc1ccc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)nn1,MIC,=,128,µg/mL,Pseudomonas aeruginosa ATCC 27853,s13065-018-0479-1
+4b,Cc1ccc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)nn1,MIC,=,128,µg/mL,Escherichia coli ATCC 25922,s13065-018-0479-1
+4c,O=S(=O)(Nc1nccs1)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1,MIC,=,256,µg/mL,Bacillus cereus ATCC 10876,s13065-018-0479-1
+4c,O=S(=O)(Nc1nccs1)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1,MIC,=,128,µg/mL,Staphylococcus aureus ATCC 25923,s13065-018-0479-1
+4c,O=S(=O)(Nc1nccs1)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1,MIC,=,256,µg/mL,Pseudomonas aeruginosa ATCC 27853,s13065-018-0479-1
+4c,O=S(=O)(Nc1nccs1)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1,MIC,=,64,µg/mL,Escherichia coli ATCC 25922,s13065-018-0479-1
+4d,O=S(=O)(Nc1ncccn1)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1,MIC,=,256,µg/mL,Bacillus cereus ATCC 10876,s13065-018-0479-1
+4d,O=S(=O)(Nc1ncccn1)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1,MIC,=,128,µg/mL,Staphylococcus aureus ATCC 25923,s13065-018-0479-1
+4d,O=S(=O)(Nc1ncccn1)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1,MIC,=,256,µg/mL,Pseudomonas aeruginosa ATCC 27853,s13065-018-0479-1
+4d,O=S(=O)(Nc1ncccn1)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1,MIC,=,64,µg/mL,Escherichia coli ATCC 25922,s13065-018-0479-1
+4e,COc1ccnc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)n1,MIC,=,256,µg/mL,Bacillus cereus ATCC 10876,s13065-018-0479-1
+4e,COc1ccnc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)n1,MIC,=,128,µg/mL,Staphylococcus aureus ATCC 25923,s13065-018-0479-1
+4e,COc1ccnc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)n1,MIC,=,256,µg/mL,Pseudomonas aeruginosa ATCC 27853,s13065-018-0479-1
+4e,COc1ccnc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)n1,MIC,=,64,µg/mL,Escherichia coli ATCC 25922,s13065-018-0479-1
+4f,NC(=O)NS(=O)(=O)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1,MIC,=,512,µg/mL,Bacillus cereus ATCC 10876,s13065-018-0479-1
+4f,NC(=O)NS(=O)(=O)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1,MIC,=,512,µg/mL,Staphylococcus aureus ATCC 25923,s13065-018-0479-1
+4f,NC(=O)NS(=O)(=O)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1,MIC,=,256,µg/mL,Pseudomonas aeruginosa ATCC 27853,s13065-018-0479-1
+4f,NC(=O)NS(=O)(=O)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1,MIC,=,256,µg/mL,Escherichia coli ATCC 25922,s13065-018-0479-1
+6a,Sc1nc2ccccc2[nH]1,MIC,=,32,µg/mL,Bacillus cereus ATCC 10876,s13065-018-0479-1
+6a,C#CCSc1nc2ccccc2[nH]1,MIC,=,32,µg/mL,Staphylococcus aureus ATCC 25923,s13065-018-0479-1
+6a,C#CCSc1nc2ccccc2n1CC#C,MIC,=,64,µg/mL,Pseudomonas aeruginosa ATCC 27853,s13065-018-0479-1
+6a,Sc1nc2ccccc2[nH]1,MIC,=,64,µg/mL,Escherichia coli ATCC 25922,s13065-018-0479-1
+6b,C#CCSc1nc2ccccc2[nH]1,MIC,=,64,µg/mL,Bacillus cereus ATCC 10876,s13065-018-0479-1
+6b,C#CCSc1nc2ccccc2n1CC#C,MIC,=,64,µg/mL,Staphylococcus aureus ATCC 25923,s13065-018-0479-1
+6b,Sc1nc2ccccc2[nH]1,MIC,=,64,µg/mL,Pseudomonas aeruginosa ATCC 27853,s13065-018-0479-1
+6b,C#CCSc1nc2ccccc2[nH]1,MIC,=,64,µg/mL,Escherichia coli ATCC 25922,s13065-018-0479-1
+6c,C#CCSc1nc2ccccc2n1CC#C,MIC,=,128,µg/mL,Bacillus cereus ATCC 10876,s13065-018-0479-1
+6c,Sc1nc2ccccc2[nH]1,MIC,=,64,µg/mL,Staphylococcus aureus ATCC 25923,s13065-018-0479-1
+6c,C#CCSc1nc2ccccc2[nH]1,MIC,=,128,µg/mL,Pseudomonas aeruginosa ATCC 27853,s13065-018-0479-1
+6c,C#CCSc1nc2ccccc2n1CC#C,MIC,=,32,µg/mL,Escherichia coli ATCC 25922,s13065-018-0479-1
+6d,Sc1nc2ccccc2[nH]1,MIC,=,128,µg/mL,Bacillus cereus ATCC 10876,s13065-018-0479-1
+6d,C#CCSc1nc2ccccc2[nH]1,MIC,=,64,µg/mL,Staphylococcus aureus ATCC 25923,s13065-018-0479-1
+6d,C#CCSc1nc2ccccc2n1CC#C,MIC,=,128,µg/mL,Pseudomonas aeruginosa ATCC 27853,s13065-018-0479-1
+6d,Sc1nc2ccccc2[nH]1,MIC,=,32,µg/mL,Escherichia coli ATCC 25922,s13065-018-0479-1
+6e,C#CCSc1nc2ccccc2[nH]1,MIC,=,128,µg/mL,Bacillus cereus ATCC 10876,s13065-018-0479-1
+6e,C#CCSc1nc2ccccc2n1CC#C,MIC,=,64,µg/mL,Staphylococcus aureus ATCC 25923,s13065-018-0479-1
+6e,Sc1nc2ccccc2[nH]1,MIC,=,128,µg/mL,Pseudomonas aeruginosa ATCC 27853,s13065-018-0479-1
+6e,C#CCSc1nc2ccccc2[nH]1,MIC,=,32,µg/mL,Escherichia coli ATCC 25922,s13065-018-0479-1
+6f,C#CCSc1nc2ccccc2n1CC#C,MIC,=,256,µg/mL,Bacillus cereus ATCC 10876,s13065-018-0479-1
+6f,Sc1nc2ccccc2[nH]1,MIC,=,256,µg/mL,Staphylococcus aureus ATCC 25923,s13065-018-0479-1
+6f,C#CCSc1nc2ccccc2[nH]1,MIC,=,128,µg/mL,Pseudomonas aeruginosa ATCC 27853,s13065-018-0479-1
+6f,C#CCSc1nc2ccccc2n1CC#C,MIC,=,128,µg/mL,Escherichia coli ATCC 25922,s13065-018-0479-1
+1o,COc1ccnc(CS(=O)c2nc3ccc(OC(F)F)cc3[nH]2)c1OC,MIC,=,16,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+1o,Cc1ccc2nc(-c3ccc([N+](=O)[O-])cc3)n(Cc3ccccc3)c2c1,MIC,=,32,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+2d,C[C@@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1,MIC,=,16,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+2d,CCCCNC(=O)n1c(NC(=O)OC)nc2ccccc21,MIC,=,16,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+2d,[Rf][c]1ccc2nc(-c3ccco3)[nH]c2c1,MIC,=,32,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+2o,Clc1ccc(Cn2c(CN3CCCC3)nc3ccccc32)cc1,MIC,=,16,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+2o,Cc1c(OCC(F)(F)F)ccnc1CS(=O)c1nc2ccccc2[nH]1,MIC,=,16,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+2o,[Rf][c]1ccc2nc(-c3c4ccccc4cc4ccccc34)[nH]c2c1,MIC,=,32,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3f,COC(=O)Nc1nc2ccc(C(=O)c3ccccc3)cc2[nH]1,MIC,=,8,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3f,CN1CCN(c2ccc3nc(-c4c(N)c5c(F)cccc5[nH]c4=O)[nH]c3c2)CC1,MIC,=,16,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3l,COC(=O)Nc1nc2cc(C(=O)C3CC3)ccc2[nH]1,MIC,=,8,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3l,O=[N+]([O-])c1ccc(-c2nc3ccccc3n2Cc2ccccc2)cc1,MIC,=,16,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+4g,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,8,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+4g,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,16,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3g,Cc1ccc2nc(-c3ccco3)n(Cc3ccccc3)c2c1,MIC,=,4,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3g,CCOc1nc2cccc(C(=O)O)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,MIC,=,8,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3k,COC(=O)Nc1nc2ccccc2[nH]1,MIC,=,4,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3k,[Rf][c]1ccc2nc(-c3ccncc3)[nH]c2c1,MIC,=,4,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+4c,Cc1ccc2nc(-c3ccc([N+](=O)[O-])cc3)n(Cc3ccc(Cl)cc3)c2c1,MIC,=,4,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+4c,Cc1ccc2nc(-c3ccc(Cl)cc3)n(Cc3ccccc3)c2c1,MIC,=,8,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+4j,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,8,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+4j,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,8,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+4c,Clc1ccc(Cn2c(-c3ccc(Cl)cc3)nc3ccccc32)cc1,MIC,=,16,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+4c,COC(=O)Nc1nc2cc(C(=O)c3cccs3)ccc2[nH]1,MIC,=,16,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+3l,COc1ccnc(CS(=O)c2nc3ccc(OC(F)F)cc3[nH]2)c1OC,MIC,=,16,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+3l,Cc1ccc2nc(-c3ccc([N+](=O)[O-])cc3)n(Cc3ccccc3)c2c1,MIC,=,16,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+3l,C[C@@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1,MIC,=,256,µg mL-1,Pseudomonas aeruginosa ATCC 27853,d2ra06667j
+4g,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,8,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+3g,CCCCNC(=O)n1c(NC(=O)OC)nc2ccccc21,MIC,=,32,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+3f,[Rf][c]1ccc2nc(-c3ccco3)[nH]c2c1,MIC,=,64,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+3f,Clc1ccc(Cn2c(CN3CCCC3)nc3ccccc32)cc1,MIC,=,128,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+3f,Cc1c(OCC(F)(F)F)ccnc1CS(=O)c1nc2ccccc2[nH]1,MIC,=,256,µg mL-1,Pseudomonas aeruginosa ATCC 27853,d2ra06667j
+3k,[Rf][c]1ccc2nc(-c3c4ccccc4cc4ccccc34)[nH]c2c1,MIC,=,64,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+3k,COC(=O)Nc1nc2ccc(C(=O)c3ccccc3)cc2[nH]1,MIC,=,128,µg mL-1,Pseudomonas aeruginosa ATCC 27853,d2ra06667j
+3k,CN1CCN(c2ccc3nc(-c4c(N)c5c(F)cccc5[nH]c4=O)[nH]c3c2)CC1,MIC,=,64,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+4c,COC(=O)Nc1nc2cc(C(=O)C3CC3)ccc2[nH]1,MIC,=,64,µg mL-1,Pseudomonas aeruginosa ATCC 27853,d2ra06667j
+4j,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,64,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+4j,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,256,µg mL-1,Pseudomonas aeruginosa ATCC 27853,d2ra06667j
+4j,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,64,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+4g,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,64,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+4g,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,128,µg mL-1,Pseudomonas aeruginosa ATCC 27853,d2ra06667j
+3g,O=[N+]([O-])c1ccc(-c2nc3ccccc3n2Cc2ccccc2)cc1,MIC,=,64,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+3g,Cc1ccc2nc(-c3ccco3)n(Cc3ccccc3)c2c1,MIC,=,256,µg mL-1,Pseudomonas aeruginosa ATCC 27853,d2ra06667j
+4d,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,32,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+4d,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,32,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+4d,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,32,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+4d,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,32,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+4i,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,32,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+4i,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,256,µg mL-1,Pseudomonas aeruginosa ATCC 27853,d2ra06667j
+4i,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,64,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+4i,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,32,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+4i,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,64,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3a,CCOc1nc2cccc(C(=O)O)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,MIC,=,64,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+3a,COC(=O)Nc1nc2ccccc2[nH]1,MIC,=,128,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+3a,[Rf][c]1ccc2nc(-c3ccncc3)[nH]c2c1,MIC,=,64,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3a,Cc1ccc2nc(-c3ccc([N+](=O)[O-])cc3)n(Cc3ccc(Cl)cc3)c2c1,MIC,=,128,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3b,Cc1ccc2nc(-c3ccc(Cl)cc3)n(Cc3ccccc3)c2c1,MIC,=,64,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+3b,Clc1ccc(Cn2c(-c3ccc(Cl)cc3)nc3ccccc32)cc1,MIC,=,512,µg mL-1,Pseudomonas aeruginosa ATCC 27853,d2ra06667j
+3b,COC(=O)Nc1nc2cc(C(=O)c3cccs3)ccc2[nH]1,MIC,=,64,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+3b,COc1ccnc(CS(=O)c2nc3ccc(OC(F)F)cc3[nH]2)c1OC,MIC,=,64,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3b,Cc1ccc2nc(-c3ccc([N+](=O)[O-])cc3)n(Cc3ccccc3)c2c1,MIC,=,64,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3c,C[C@@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1,MIC,=,128,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+3c,CCCCNC(=O)n1c(NC(=O)OC)nc2ccccc21,MIC,=,64,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+3c,[Rf][c]1ccc2nc(-c3ccco3)[nH]c2c1,MIC,=,128,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3c,Clc1ccc(Cn2c(CN3CCCC3)nc3ccccc32)cc1,MIC,=,128,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3d,Cc1c(OCC(F)(F)F)ccnc1CS(=O)c1nc2ccccc2[nH]1,MIC,=,64,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+3d,[Rf][c]1ccc2nc(-c3c4ccccc4cc4ccccc34)[nH]c2c1,MIC,=,64,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+3d,COC(=O)Nc1nc2ccc(C(=O)c3ccccc3)cc2[nH]1,MIC,=,32,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3d,CN1CCN(c2ccc3nc(-c4c(N)c5c(F)cccc5[nH]c4=O)[nH]c3c2)CC1,MIC,=,64,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3e,COC(=O)Nc1nc2cc(C(=O)C3CC3)ccc2[nH]1,MIC,=,128,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+3e,O=[N+]([O-])c1ccc(-c2nc3ccccc3n2Cc2ccccc2)cc1,MIC,=,64,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3e,Cc1ccc2nc(-c3ccco3)n(Cc3ccccc3)c2c1,MIC,=,256,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3h,CCOc1nc2cccc(C(=O)O)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,MIC,=,64,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+3h,COC(=O)Nc1nc2ccccc2[nH]1,MIC,=,64,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+3h,[Rf][c]1ccc2nc(-c3ccncc3)[nH]c2c1,MIC,=,64,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3h,Cc1ccc2nc(-c3ccc([N+](=O)[O-])cc3)n(Cc3ccc(Cl)cc3)c2c1,MIC,=,64,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3i,Cc1ccc2nc(-c3ccc(Cl)cc3)n(Cc3ccccc3)c2c1,MIC,=,128,µg mL-1,Pseudomonas aeruginosa ATCC 27853,d2ra06667j
+3i,Clc1ccc(Cn2c(-c3ccc(Cl)cc3)nc3ccccc32)cc1,MIC,=,128,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+3j,COC(=O)Nc1nc2cc(C(=O)c3cccs3)ccc2[nH]1,MIC,=,128,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+3j,COc1ccnc(CS(=O)c2nc3ccc(OC(F)F)cc3[nH]2)c1OC,MIC,=,64,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+3j,Cc1ccc2nc(-c3ccc([N+](=O)[O-])cc3)n(Cc3ccccc3)c2c1,MIC,=,256,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3j,C[C@@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1,MIC,=,256,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+4a,CCCCNC(=O)n1c(NC(=O)OC)nc2ccccc21,MIC,=,256,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+4a,[Rf][c]1ccc2nc(-c3ccco3)[nH]c2c1,MIC,=,128,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+4a,Clc1ccc(Cn2c(CN3CCCC3)nc3ccccc32)cc1,MIC,=,32,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+4a,Cc1c(OCC(F)(F)F)ccnc1CS(=O)c1nc2ccccc2[nH]1,MIC,=,32,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+4b,[Rf][c]1ccc2nc(-c3c4ccccc4cc4ccccc34)[nH]c2c1,MIC,=,64,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+4b,COC(=O)Nc1nc2ccc(C(=O)c3ccccc3)cc2[nH]1,MIC,=,64,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+4b,CN1CCN(c2ccc3nc(-c4c(N)c5c(F)cccc5[nH]c4=O)[nH]c3c2)CC1,MIC,=,32,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+4b,COC(=O)Nc1nc2cc(C(=O)C3CC3)ccc2[nH]1,MIC,=,64,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+4e,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,128,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+4e,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,64,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+4e,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,64,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+4e,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,64,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+4f,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,128,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+4f,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,128,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+4f,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,128,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+4f,c1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,256,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+4h,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,64,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+4h,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,512,µg mL-1,Pseudomonas aeruginosa ATCC 27853,d2ra06667j
+4h,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,64,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+4h,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,64,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+4h,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,64,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+4k,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,128,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+4k,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,128,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+4k,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,128,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+4k,Clc1ccc(Cc2ccc3nc(-c4ccc5c(c4)OCO5)[nH]c3c2)cc1,MIC,=,128,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+4c,O=[N+]([O-])c1ccc(-c2nc3ccccc3n2Cc2ccccc2)cc1,MIC,=,4,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+4c,Cc1ccc2nc(-c3ccco3)n(Cc3ccccc3)c2c1,MIC,=,8,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3k,CCOc1nc2cccc(C(=O)O)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,MIC,=,4,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3k,COC(=O)Nc1nc2ccccc2[nH]1,MIC,=,4,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3g,[Rf][c]1ccc2nc(-c3ccncc3)[nH]c2c1,MIC,=,4,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3g,Cc1ccc2nc(-c3ccc([N+](=O)[O-])cc3)n(Cc3ccc(Cl)cc3)c2c1,MIC,=,8,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3l,Cc1ccc2nc(-c3ccc(Cl)cc3)n(Cc3ccccc3)c2c1,MIC,=,8,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3l,Clc1ccc(Cn2c(-c3ccc(Cl)cc3)nc3ccccc32)cc1,MIC,=,16,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+3f,COC(=O)Nc1nc2cc(C(=O)c3cccs3)ccc2[nH]1,MIC,=,8,µg mL-1,Staphylococcus aureus ATCC 29213 (MSSA),d2ra06667j
+3f,COc1ccnc(CS(=O)c2nc3ccc(OC(F)F)cc3[nH]2)c1OC,MIC,=,16,µg mL-1,Staphylococcus aureus ATCC 43300 (MRSA),d2ra06667j
+4c,Cc1ccc2nc(-c3ccc([N+](=O)[O-])cc3)n(Cc3ccccc3)c2c1,MIC,=,16,µg mL-1,Escherichia coli ATCC 25922,d2ra06667j
+4c,C[C@@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1,MIC,=,16,µg mL-1,Streptococcus faecalis ATCC 29212,d2ra06667j
+4,NOT_DETECTED,MIC,=,12.5,µg/mL,Escherichia coli,rjc.2023.1638382
+4,NOT_DETECTED,MIC,=,25,µg/mL,Pseudomonas aeruginosa,rjc.2023.1638382
+4,NOT_DETECTED,MIC,=,25,µg/mL,Streptococcus pyogenes,rjc.2023.1638382
+10,NOT_DETECTED,MIC,=,0.95,µg/mL,Bacillus subtilis,rjc.2023.1638382
+11,NOT_DETECTED,MIC,=,6.25,µg/mL,Bacillus subtilis,rjc.2023.1638382
+11,NOT_DETECTED,MIC,=,1.56,µg/mL,Proteus vulgaris ATCC 29905,rjc.2023.1638382
+12,NOT_DETECTED,MIC,=,3.12,µg/mL,Proteus vulgaris ATCC 29905,rjc.2023.1638382
+13,NOT_DETECTED,MIC,=,1.56,µg/mL,Proteus vulgaris ATCC 29905,rjc.2023.1638382
+14,NOT_DETECTED,MIC,=,1.56,µg/mL,Proteus vulgaris ATCC 29905,rjc.2023.1638382
+15,NOT_DETECTED,MIC,=,1.6,µg/mL,Enterococcus faecalis,rjc.2023.1638382
+15,NOT_DETECTED,MIC,=,3.125,µg/mL,Staphylococcus aureus,rjc.2023.1638382
+24,NOT_DETECTED,MIC,=,256,µg/mL,Staphylococcus aureus,rjc.2023.1638382
+24,NOT_DETECTED,MIC,=,512,µg/mL,Escherichia coli,rjc.2023.1638382
+34,NOT_DETECTED,MIC,=,1.95,µg/mL,Staphylococcus epidermidis,rjc.2023.1638382
+34,NOT_DETECTED,MIC,=,7.81,µg/mL,Staphylococcus aureus,rjc.2023.1638382
+34,NOT_DETECTED,MIC,=,7.81,µg/mL,Escherichia coli,rjc.2023.1638382
+35,NOT_DETECTED,MIC,=,1.95,µg/mL,Staphylococcus epidermidis,rjc.2023.1638382
+35,NOT_DETECTED,MIC,=,7.81,µg/mL,Staphylococcus aureus,rjc.2023.1638382
+35,NOT_DETECTED,MIC,=,7.81,µg/mL,Escherichia coli,rjc.2023.1638382
+47b,NOT_DETECTED,MIC,=,4,µg/mL,Staphylococcus aureus,rjc.2023.1638382
+47c,NOT_DETECTED,MIC,=,4,µg/mL,Staphylococcus aureus,rjc.2023.1638382
+47h,NOT_DETECTED,MIC,=,4,µg/mL,Staphylococcus aureus,rjc.2023.1638382
+47i,NOT_DETECTED,MIC,=,4,µg/mL,Staphylococcus aureus,rjc.2023.1638382
+47f,NOT_DETECTED,MIC,=,8,µg/mL,Mycobacterium tuberculosis,rjc.2023.1638382
+1,NOT_DETECTED,pMIC,=,0.73,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+1,NOT_DETECTED,pMIC,=,1.63,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+2,NOT_DETECTED,pMIC,=,1.64,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+2,NOT_DETECTED,pMIC,=,1.64,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+3,NOT_DETECTED,pMIC,=,1.35,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+3,NOT_DETECTED,pMIC,=,1.65,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+4,NOT_DETECTED,pMIC,=,0.82,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+4,NOT_DETECTED,pMIC,=,1.72,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+5,NOT_DETECTED,pMIC,=,1.67,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+5,NOT_DETECTED,pMIC,=,1.67,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+6,NOT_DETECTED,pMIC,=,1.67,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+6,NOT_DETECTED,pMIC,=,1.67,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+7,NOT_DETECTED,pMIC,=,1.37,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+7,NOT_DETECTED,pMIC,=,1.67,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+8,NOT_DETECTED,pMIC,=,1.59,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+8,NOT_DETECTED,pMIC,=,1.89,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+9,NOT_DETECTED,pMIC,=,1.40,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+9,NOT_DETECTED,pMIC,=,1.70,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+10,NOT_DETECTED,pMIC,=,1.16,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+10,NOT_DETECTED,pMIC,=,1.76,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+11,NOT_DETECTED,pMIC,=,1,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+11,NOT_DETECTED,pMIC,=,1.60,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+12,NOT_DETECTED,pMIC,=,2.40,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+12,NOT_DETECTED,pMIC,=,1.19,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+13,NOT_DETECTED,pMIC,=,1.75,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+13,NOT_DETECTED,pMIC,=,1.15,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+14,NOT_DETECTED,pMIC,=,2.30,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+14,NOT_DETECTED,pMIC,=,1.39,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+15,NOT_DETECTED,pMIC,=,2.29,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+15,NOT_DETECTED,pMIC,=,1.39,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+16,NOT_DETECTED,pMIC,=,1.76,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+16,NOT_DETECTED,pMIC,=,1.16,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+17,NOT_DETECTED,pMIC,=,1.46,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+17,NOT_DETECTED,pMIC,=,1.16,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+18,NOT_DETECTED,pMIC,=,1.43,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+18,NOT_DETECTED,pMIC,=,1.13,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+19,NOT_DETECTED,pMIC,=,1.69,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+19,NOT_DETECTED,pMIC,=,1.09,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+20,NOT_DETECTED,pMIC,=,1.66,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+20,NOT_DETECTED,pMIC,=,1.36,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+21,NOT_DETECTED,pMIC,=,1.45,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+21,NOT_DETECTED,pMIC,=,1.15,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+22,NOT_DETECTED,pMIC,=,1.76,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+22,NOT_DETECTED,pMIC,=,1.15,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+23,NOT_DETECTED,pMIC,=,1.78,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+23,NOT_DETECTED,pMIC,=,1.18,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+24,NOT_DETECTED,pMIC,=,1.46,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+24,NOT_DETECTED,pMIC,=,1.16,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+25,NOT_DETECTED,pMIC,=,1.78,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+25,NOT_DETECTED,pMIC,=,1.18,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+26,NOT_DETECTED,pMIC,=,1.47,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+26,NOT_DETECTED,pMIC,=,1.17,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+27,NOT_DETECTED,pMIC,=,1.76,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+27,NOT_DETECTED,pMIC,=,1.16,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+28,NOT_DETECTED,pMIC,=,1.69,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+28,NOT_DETECTED,pMIC,=,1.39,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+29,NOT_DETECTED,pMIC,=,1.67,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+29,NOT_DETECTED,pMIC,=,1.37,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471
+30,NOT_DETECTED,pMIC,=,1.48,NOT_DETECTED,Escherichia coli,2023.12.si5a.0471
+30,NOT_DETECTED,pMIC,=,1.17,NOT_DETECTED,Staphylococcus aureus,2023.12.si5a.0471

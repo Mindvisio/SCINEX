@@ -1,0 +1,1 @@
+[{"compound_id": "1a", "target_type": "MIC", "target_relation": ">", "target_value": "64", "target_units": "mg mL-1", "bacteria": "MSSA"}, {"compound_id": "1a", "target_type": "MIC", "target_relation": ">", "target_value": "128", "target_units": "mg mL-1", "bacteria": "MRSA"}]

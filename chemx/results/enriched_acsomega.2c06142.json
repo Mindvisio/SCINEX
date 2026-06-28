@@ -1,0 +1,9 @@
+{
+ "5a": "CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+ "5b": "Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C",
+ "5c": "Cc1cc2nc(-c3ccc(-c4nnc(NCCCl)s4)cc3)[nH]c2cc1C",
+ "5d": "Cc1cc2nc(-c3ccc(-c4nnc(Nc5ccccc5Cl)s4)cc3)[nH]c2cc1C",
+ "5e": "Cc1cc2nc(-c3ccc(-c4nnc(NC5CCCCC5)s4)cc3)[nH]c2cc1C",
+ "5f": "Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C",
+ "5h": "COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1"
+}

@@ -1,0 +1,9 @@
+{
+ "pdf": "acsomega.2c06142",
+ "scaffold": "*Nc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+ "candidates": {
+  "*Nc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1": 3,
+  "*NC(=S)NNC(=O)c1ccc(-c2nc3cc(C)c(C)cc3[nH]2)cc1": 1,
+  "*NC1=NNC(O)(c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)S1": 1
+ }
+}

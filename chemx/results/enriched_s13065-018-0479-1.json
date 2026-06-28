@@ -1,0 +1,8 @@
+{
+ "4a": "COc1ccc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)nn1",
+ "4b": "Cc1ccc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)nn1",
+ "4c": "O=S(=O)(Nc1nccs1)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1",
+ "4d": "O=S(=O)(Nc1ncccn1)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1",
+ "4e": "COc1ccnc(NS(=O)(=O)c2ccc(-n3cc(CSc4nc5ccccc5[nH]4)nn3)cc2)n1",
+ "4f": "NC(=O)NS(=O)(=O)c1ccc(-n2cc(CSc3nc4ccccc4[nH]3)nn2)cc1"
+}

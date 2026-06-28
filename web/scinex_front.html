@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SCINEX</title>
+<style>
+:root{--bg:#f8fafc;--panel:rgba(255,255,255,.82);--panel2:#fff;--text:#0f172a;--muted:#64748b;--line:rgba(148,163,184,.28);--cyan:#06b6d4;--blue:#2563eb;--emerald:#10b981;--amber:#f59e0b;--rose:#f43f5e;--purple:#a855f7;--indigo:#6366f1;--shadow:0 24px 70px -42px rgba(15,23,42,.55);--r:24px;--font:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+body.dark{--bg:#030712;--panel:rgba(7,11,20,.78);--panel2:rgba(15,23,42,.88);--text:#f8fafc;--muted:#cbd5e1;--line:rgba(100,116,139,.32);--shadow:0 28px 90px -36px #000}
+*{box-sizing:border-box}body{margin:0;height:100vh;overflow:hidden;background:radial-gradient(circle at 0 0,rgba(6,182,212,.14),transparent 34%),radial-gradient(circle at 100% 100%,rgba(99,102,241,.15),transparent 36%),var(--bg);color:var(--text);font-family:var(--font)}button,input,select{font:inherit;color:inherit}button{cursor:pointer}.ico{width:1.12em;height:1.12em;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;vertical-align:-.15em}.app{height:100vh;display:grid;grid-template-columns:280px minmax(0,1fr)}aside{background:var(--panel);backdrop-filter:blur(26px);border-right:1px solid var(--line);display:flex;flex-direction:column}.brand{height:92px;display:flex;gap:14px;align-items:center;padding:0 24px;border-bottom:1px solid var(--line)}.brandmark{width:50px;height:50px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(135deg,var(--cyan),var(--blue));color:#fff;box-shadow:0 0 34px rgba(6,182,212,.32)}.brandmark .ico{width:30px;height:30px}.brand strong{display:block;font-size:21px;letter-spacing:-.045em}.brand span{display:block;margin-top:5px;color:var(--cyan);font-size:10px;font-weight:950;letter-spacing:.2em;font-family:ui-monospace,monospace}.nav{padding:20px 14px;overflow:auto}.nav-title{margin:16px 12px 9px;color:var(--muted);font-size:10px;font-weight:950;letter-spacing:.16em;text-transform:uppercase}.nav-title:first-child{margin-top:0}.nav button{width:100%;display:flex;align-items:center;gap:12px;min-height:48px;padding:10px 12px;margin:4px 0;border:0;border-left:3px solid transparent;border-radius:0 16px 16px 0;background:transparent;color:var(--muted);text-align:left;transition:.16s}.nav button:hover{color:var(--text);background:rgba(148,163,184,.1)}.nav button.active{color:var(--a);border-left-color:var(--a);background:linear-gradient(90deg,color-mix(in srgb,var(--a) 16%,transparent),transparent 78%)}.navicon{width:34px;height:34px;display:grid;place-items:center;border-radius:13px;background:rgba(148,163,184,.12);border:1px solid rgba(148,163,184,.16)}main{display:flex;flex-direction:column;min-width:0;overflow:hidden}.top{min-height:92px;display:flex;gap:18px;align-items:center;padding:16px 26px;background:var(--panel);backdrop-filter:blur(26px);border-bottom:1px solid var(--line)}.topmain{flex:1;min-width:0}.top h1{margin:0 0 4px;font-size:22px;letter-spacing:-.045em;display:flex;align-items:center;gap:10px;flex-wrap:wrap}.wordmark{font-size:24px;font-weight:800;letter-spacing:.045em}.tagline{margin:0 0 12px;color:var(--muted);font-size:13px;font-weight:600;letter-spacing:.01em}.controls{display:flex;gap:10px;flex-wrap:wrap}.select,.input,.btn,.iconbtn{min-height:42px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.38);color:var(--text);outline:none;font-weight:850;font-size:13px}.select,.input{padding:0 13px}.input{min-width:250px;font-family:ui-monospace,monospace;font-weight:700}body.dark .select,body.dark .input,body.dark .btn,body.dark .iconbtn{background:rgba(15,23,42,.58);color:#f8fafc}.btn,.iconbtn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:0 15px;transition:.16s}.iconbtn{width:44px;padding:0}.btn:hover,.iconbtn:hover{transform:translateY(-1px);color:var(--cyan);border-color:rgba(6,182,212,.45);box-shadow:0 14px 32px -24px var(--cyan)}.btn.primary{color:#fff;background:linear-gradient(135deg,var(--cyan),var(--blue));border-color:transparent}.btn.primary:hover{color:#fff}.btn.small{min-height:34px;padding:0 11px;font-size:12px}.danger:hover{color:var(--rose);border-color:rgba(244,63,94,.45)}.btn.warn:hover{color:var(--amber);border-color:rgba(245,158,11,.45);box-shadow:0 14px 32px -24px var(--amber)}.chip{display:inline-flex;align-items:center;gap:7px;min-height:28px;padding:0 10px;border:1px solid rgba(6,182,212,.25);border-radius:999px;color:var(--cyan);background:rgba(6,182,212,.1);font-size:11px;font-weight:950;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}.chip.ok{color:var(--emerald);border-color:rgba(16,185,129,.3);background:rgba(16,185,129,.1)}.chip.run{color:var(--cyan);border-color:rgba(6,182,212,.3);background:rgba(6,182,212,.1)}.chip.err{color:var(--rose);border-color:rgba(244,63,94,.32);background:rgba(244,63,94,.1)}.chip.idle{color:var(--muted);border-color:var(--line);background:rgba(148,163,184,.1)}.chip.mock{color:var(--amber);border-color:rgba(245,158,11,.32);background:rgba(245,158,11,.1)}.content{flex:1;overflow:auto;padding:28px}.screen{max-width:1360px;margin:0 auto;animation:fade .22s ease both}@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}.grid2{display:grid;grid-template-columns:minmax(330px,.85fr) minmax(0,1.35fr);gap:24px;align-items:start}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{background:var(--panel2);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}.head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;padding:20px 22px;border-bottom:1px solid var(--line);background:rgba(255,255,255,.14)}body.dark .head{background:rgba(255,255,255,.025)}.pad{padding:22px}.head h2,.pad h2{display:flex;gap:10px;align-items:center;margin:0;color:var(--text);font-size:20px;letter-spacing:-.035em}.head p,.pad p{margin:8px 0 0;color:var(--muted);line-height:1.55;font-size:14px}.upload{min-height:258px;display:grid;place-items:center;text-align:center;padding:26px;border:1.5px dashed rgba(6,182,212,.48);border-radius:24px;background:radial-gradient(circle at 50% 0,rgba(6,182,212,.16),transparent 58%),rgba(6,182,212,.05);transition:.16s}.upload:hover,.upload.drag{transform:translateY(-1px);box-shadow:0 0 38px -24px var(--cyan)}.uploadmark{width:78px;height:78px;display:grid;place-items:center;margin:0 auto 18px;border-radius:24px;color:var(--cyan);background:rgba(6,182,212,.1);border:1px solid rgba(6,182,212,.2)}.uploadmark .ico{width:46px;height:46px}.file{display:none}.stat{padding:14px;border:1px solid var(--line);border-radius:18px;background:rgba(148,163,184,.08);min-width:0}.stat small{display:block;margin-bottom:6px;color:var(--muted);font-size:10px;font-weight:950;letter-spacing:.12em;text-transform:uppercase}.stat strong{display:block;font-size:18px;font-weight:950;font-family:ui-monospace,monospace;line-height:1.18;overflow-wrap:anywhere;word-break:break-word}.domains{display:grid;gap:10px;margin-top:16px}.domain{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:12px;padding:13px;border:1px solid var(--line);border-radius:18px;background:rgba(148,163,184,.07);cursor:pointer;transition:.16s}.domain:hover{border-color:rgba(6,182,212,.4);transform:translateY(-1px)}.domain.active{border-color:rgba(6,182,212,.55);background:rgba(6,182,212,.1)}.domainicon{width:42px;height:42px;display:grid;place-items:center;border-radius:15px;color:var(--a);background:color-mix(in srgb,var(--a) 12%,transparent);border:1px solid color-mix(in srgb,var(--a) 22%,transparent)}.domain strong{display:block;line-height:1.2}.domain span{display:block;margin-top:3px;color:var(--muted);font-size:12px}.stages{display:grid;gap:10px;padding:20px 22px}.stage{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(148,163,184,.06)}.dot{width:34px;height:34px;display:grid;place-items:center;border-radius:12px;color:var(--muted);background:rgba(148,163,184,.12)}.stage.done .dot{color:var(--emerald);background:rgba(16,185,129,.12)}.stage.run .dot{color:var(--cyan);background:rgba(6,182,212,.12);animation:pulse 1.1s ease-in-out infinite}.stage.err .dot{color:var(--rose);background:rgba(244,63,94,.12)}@keyframes pulse{50%{transform:scale(1.08);opacity:.72}}.stage b{font-size:13px}.stage small{display:block;margin-top:2px;color:var(--muted)}.percent{font-family:ui-monospace,monospace;color:var(--muted);font-size:12px;font-weight:900}.tablewrap{overflow:auto;max-height:calc(100vh - 250px)}table{width:100%;border-collapse:collapse;min-width:950px}th,td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{position:sticky;top:0;z-index:1;background:color-mix(in srgb,var(--panel2) 94%,var(--bg));color:var(--muted);font-size:10px;font-weight:950;letter-spacing:.1em;text-transform:uppercase}td{font-size:13px;line-height:1.45}.mono{font-family:ui-monospace,monospace;font-size:12px}.smiles{max-width:330px;word-break:break-all;color:var(--cyan)}.conf{width:76px;height:8px;border-radius:999px;overflow:hidden;background:rgba(148,163,184,.2)}.conf span{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--emerald),var(--cyan))}.ev{display:inline-flex;gap:6px;align-items:center;min-height:28px;padding:0 9px;border:1px solid rgba(99,102,241,.25);border-radius:999px;background:rgba(99,102,241,.09);color:#818cf8;font-size:11px;font-weight:950;cursor:pointer}.molgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.mol{padding:18px;border:1px solid var(--line);border-radius:24px;background:var(--panel2);box-shadow:var(--shadow)}.molhead{display:flex;justify-content:space-between;gap:12px;margin-bottom:12px}.molscreen{width:100%;height:180px;border:1px solid var(--line);border-radius:18px;background:radial-gradient(circle at 50% 50%,rgba(6,182,212,.08),transparent 65%),rgba(148,163,184,.06)}.sourcegrid{display:grid;grid-template-columns:320px minmax(0,1fr);gap:20px}.sourcelist{display:grid;gap:10px}.sourceitem{padding:13px;border:1px solid var(--line);border-radius:17px;background:rgba(148,163,184,.07);cursor:pointer}.sourceitem.active{border-color:rgba(99,102,241,.45);background:rgba(99,102,241,.1)}.sourceitem strong{display:block;margin-bottom:5px}.sourceitem span{color:var(--muted);font-size:12px}.sheet{min-height:430px;padding:24px;border-radius:18px;background:white;color:#111827;box-shadow:inset 0 0 0 1px rgba(15,23,42,.08)}.sheet p{color:#374151;line-height:1.65}.hl{background:rgba(250,204,21,.45);border-radius:5px;padding:1px 4px}.exports{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.exportcard{min-height:200px;display:flex;flex-direction:column;padding:22px;border:1px solid var(--line);border-radius:24px;background:var(--panel2);box-shadow:var(--shadow)}.exportcard h3{display:flex;gap:10px;align-items:center;margin:0 0 8px}.exportcard p{flex:1;margin:0 0 18px;color:var(--muted);line-height:1.5}.banner{display:flex;gap:14px;align-items:flex-start;padding:18px 20px;border:1px solid var(--line);border-radius:18px;background:rgba(148,163,184,.07)}.banner.error{border-color:rgba(244,63,94,.4);background:rgba(244,63,94,.08)}.banner .bdot{flex:none;width:40px;height:40px;display:grid;place-items:center;border-radius:14px;color:var(--rose);background:rgba(244,63,94,.12)}.banner h3{margin:0 0 5px;font-size:16px;letter-spacing:-.02em}.banner p{margin:0;color:var(--muted);font-size:13px;line-height:1.55}.banner .row{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}.note{display:flex;gap:9px;align-items:flex-start;margin-top:14px;padding:11px 13px;border-radius:14px;border:1px dashed rgba(245,158,11,.42);background:rgba(245,158,11,.06);color:var(--amber);font-size:12px;font-weight:800;line-height:1.45}.note .ico{flex:none;margin-top:1px}.delta{font-family:ui-monospace,monospace;font-weight:950}.delta.up{color:var(--emerald)}.empty{display:grid;place-items:center;text-align:center;padding:52px 26px}.empty .emark{width:66px;height:66px;display:grid;place-items:center;margin:0 auto 16px;border-radius:20px;color:var(--muted);background:rgba(148,163,184,.1);border:1px solid var(--line)}.empty .emark .ico{width:34px;height:34px}.empty h2{margin:0 0 6px}.empty p{max-width:460px;color:var(--muted);line-height:1.55;font-size:14px}.toast{position:fixed;right:24px;bottom:24px;z-index:10;display:none;gap:10px;align-items:center;min-height:54px;padding:0 18px;border-radius:18px;background:rgba(15,23,42,.94);color:#fff;font-weight:850;box-shadow:0 20px 48px -20px rgba(6,182,212,.65);border:1px solid rgba(148,163,184,.28)}.toast.err{box-shadow:0 20px 48px -20px rgba(244,63,94,.65)}.toast.open{display:flex;animation:fade .18s ease both}pre{white-space:pre-wrap;margin:0;padding:20px;border:1px solid var(--line);border-radius:18px;background:rgba(0,0,0,.18);font-family:ui-monospace,monospace;color:var(--text);overflow:auto}button:focus-visible,.domain:focus-visible,.sourceitem:focus-visible,.input:focus-visible,.select:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}@media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;animation-iteration-count:1!important;transition:none!important}}@media(max-width:1180px){.app{grid-template-columns:84px minmax(0,1fr)}.brand{justify-content:center;padding:0}.brand div:last-child,.nav-title,.nav-label{display:none}.nav button{justify-content:center;border-left:0;border-radius:16px}.grid2,.sourcegrid{grid-template-columns:1fr}.molgrid,.exports,.grid3{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:760px){body{overflow:auto}.app{height:auto;min-height:100vh;grid-template-columns:1fr}aside{display:none}.top{align-items:stretch;flex-direction:column}.controls{align-items:stretch}.select,.input,.btn{width:100%}.content{padding:18px}.molgrid,.exports,.grid3{grid-template-columns:1fr}}
+
+.moddot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--m);margin-right:7px;vertical-align:middle;flex:none}
+.modb{display:inline-flex;align-items:center;gap:6px;min-height:24px;padding:0 9px;border-radius:999px;font-size:10px;font-weight:950;letter-spacing:.06em;text-transform:uppercase;color:var(--m);border:1px solid color-mix(in srgb,var(--m) 32%,transparent);background:color-mix(in srgb,var(--m) 12%,transparent)}
+.modlegend{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 2px}
+.provlist{display:grid;gap:8px;margin-top:14px}
+.provrow{display:grid;grid-template-columns:120px minmax(0,1fr) auto;gap:12px;align-items:center;padding:11px 13px;border:1px solid var(--line);border-radius:14px;background:rgba(148,163,184,.06)}
+.provrow .pf{color:var(--muted);font-size:11px;font-weight:950;letter-spacing:.04em;text-transform:uppercase;font-family:ui-monospace,monospace;min-width:0;overflow-wrap:anywhere}
+.provrow .pv{font-family:ui-monospace,monospace;font-size:12.5px;min-width:0;overflow-wrap:anywhere}
+.provrow .pv.smiles{color:var(--cyan)}
+.provrow .pr{display:flex;align-items:center;gap:9px;justify-content:flex-end;flex-wrap:wrap}
+.provref{color:var(--muted);font-size:11px;font-family:ui-monospace,monospace;white-space:nowrap}
+@media(max-width:760px){.provrow{grid-template-columns:1fr;gap:6px}.provrow .pr{justify-content:flex-start}}
+
+/* cell-model v2 */
+.cv-smiles{color:var(--cyan)}.cv-unit{color:var(--muted)}
+.cv-enum{display:inline-block;padding:1px 8px;border-radius:999px;font-size:11px;font-weight:800;background:rgba(148,163,184,.14);border:1px solid var(--line);color:var(--text)}
+.cmulti{margin-left:6px;font-size:10px;font-weight:950;color:var(--amber);font-family:ui-monospace,monospace;white-space:nowrap}
+.docb{display:inline-flex;align-items:center;gap:6px;min-height:22px;padding:0 8px;border-radius:999px;font-size:10.5px;font-weight:800;font-family:ui-monospace,monospace;color:var(--muted);border:1px solid var(--line);background:rgba(148,163,184,.07)}
+.docb .dch{width:8px;height:8px;border-radius:2px;flex:none}
+.pfields{display:grid;gap:10px;margin-top:14px}
+.pfield{border:1px solid var(--line);border-radius:16px;background:rgba(148,163,184,.05);overflow:hidden}
+.pfhead{display:flex;align-items:center;gap:10px;padding:11px 14px;border-bottom:1px solid var(--line);background:rgba(148,163,184,.05);flex-wrap:wrap}
+.pfhead .pf{font-family:ui-monospace,monospace;font-size:11px;font-weight:950;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.pfhead .dtag{font-size:9.5px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:var(--cyan);border:1px solid rgba(6,182,212,.3);border-radius:6px;padding:1px 6px}
+.pfhead .pval{flex:1;min-width:120px;overflow-wrap:anywhere;font-size:13px}
+.pfhead .pconf{font-family:ui-monospace,monospace;font-size:11px;color:var(--muted)}
+.pentries{display:grid;gap:8px;padding:12px 14px}
+.proventry{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:8px 11px;border:1px solid var(--line);border-radius:12px;background:rgba(148,163,184,.04)}
+.proventry .ploc{color:var(--muted);font-size:11px;font-family:ui-monospace,monospace}
+.psnip{color:var(--muted);font-size:11px;font-style:italic}
+.evmini{border-collapse:collapse;font-size:10px;font-family:ui-monospace,monospace}
+.evmini td{border:1px solid var(--line);padding:2px 7px}
+.evmini td.hl{background:rgba(16,185,129,.18);color:var(--emerald);font-weight:900}
+.evtext{font-size:11px;font-family:ui-monospace,monospace;max-width:240px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.evtext .hl,.figmini .hl{background:rgba(250,204,21,.22);border-radius:4px;padding:0 4px;color:var(--text)}
+.figmini{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:var(--cyan);border:1px dashed rgba(6,182,212,.4);border-radius:8px;padding:3px 8px}
+.figmini .ico{width:15px;height:15px}
+.pmini{width:40px;height:50px}.pmini .bx{fill:rgba(6,182,212,.18);stroke:var(--cyan);stroke-width:2}
+@media(max-width:760px){.proventry{gap:7px}.evtext{white-space:normal}}
+</style>
+</head>
+<body class="dark">
+<svg aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+<symbol id="i-core" viewBox="0 0 24 24"><path d="M12 2.7 20.2 7.4v9.2L12 21.3l-8.2-4.7V7.4L12 2.7Z"/><path d="M12 7.1 16.3 9.6v4.8L12 16.9l-4.3-2.5V9.6L12 7.1Z"/><path d="M12 2.7v4.4M20.2 7.4l-3.9 2.2M20.2 16.6l-3.9-2.2M12 21.3v-4.4M3.8 16.6l3.9-2.2M3.8 7.4l3.9 2.2"/></symbol>
+<symbol id="i-upload" viewBox="0 0 24 24"><path d="M4.6 15.4v2.8c0 1.4 1.1 2.5 2.5 2.5h9.8c1.4 0 2.5-1.1 2.5-2.5v-2.8"/><path d="M12 15.8V3.4M7.5 8 12 3.4 16.5 8"/></symbol>
+<symbol id="i-run" viewBox="0 0 24 24"><path d="M8 5.2v13.6l11-6.8L8 5.2Z"/><path d="M4.5 5.2v13.6"/></symbol>
+<symbol id="i-table" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M4 9.6h16M4 14.1h16M9.3 5v14M14.7 5v14"/></symbol>
+<symbol id="i-molecule" viewBox="0 0 24 24"><circle cx="6.5" cy="12" r="2.4"/><circle cx="12" cy="6.6" r="2.4"/><circle cx="17.5" cy="12" r="2.4"/><circle cx="12" cy="17.4" r="2.4"/><path d="M8.2 10.3 10.3 8.2M13.7 8.2l2.1 2.1M15.8 13.7l-2.1 2.1M10.3 15.8l-2.1-2.1"/></symbol>
+<symbol id="i-source" viewBox="0 0 24 24"><path d="M6.5 3.6h8.2l3.8 4v12.8h-12V3.6Z"/><path d="M14.7 3.6v4h3.8M8.9 11.3h6.2M8.9 14.3h6.2"/><path d="M4.3 7.4v13h10.3"/></symbol>
+<symbol id="i-metrics" viewBox="0 0 24 24"><path d="M4 19.5h16"/><rect x="6" y="11" width="2.7" height="6.5" rx=".8"/><rect x="10.6" y="7" width="2.7" height="10.5" rx=".8"/><rect x="15.2" y="4.5" width="2.7" height="13" rx=".8"/></symbol>
+<symbol id="i-export" viewBox="0 0 24 24"><path d="M4.6 15.4v2.8c0 1.4 1.1 2.5 2.5 2.5h9.8c1.4 0 2.5-1.1 2.5-2.5v-2.8"/><path d="M12 3.4v12.4M7.5 11.2l4.5 4.6 4.5-4.6"/></symbol>
+<symbol id="i-job" viewBox="0 0 24 24"><rect x="4" y="4.5" width="16" height="15" rx="2.4"/><path d="M7.4 9h9.2M7.4 12h5.6M7.4 15h7.2"/><circle cx="17.5" cy="15" r="1.2"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.7"/><path d="m7.8 12.1 2.8 2.8 5.8-6"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.7"/><path d="M12 7.5v5l3.4 2"/></symbol>
+<symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3.4 21.6 20H2.4L12 3.4Z"/><path d="M12 9.6v4.4M12 17.1v.02"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.7 4.7l1.4 1.4M17.9 17.9l1.4 1.4M2.5 12h2M19.5 12h2M4.7 19.3l1.4-1.4M17.9 6.1l1.4-1.4"/></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.4 15.2a8.6 8.6 0 1 1-11.7-11.6 7.5 7.5 0 0 0 11.7 11.6Z"/></symbol>
+<symbol id="i-trash" viewBox="0 0 24 24"><path d="M5.2 7.3h13.6M9.2 7.3V5.5c0-.8.6-1.4 1.4-1.4h2.8c.8 0 1.4.6 1.4 1.4v1.8"/><path d="m7.3 7.3.7 12c.1 1 1 1.8 2 1.8h4c1 0 1.9-.8 2-1.8l.7-12M10.2 10.7v6.5M13.8 10.7v6.5"/></symbol>
+<symbol id="i-json" viewBox="0 0 24 24"><path d="M8.5 5.2H7.2c-1.2 0-2.1.9-2.1 2.1v1.8c0 1.5-.8 2.5-2.1 2.9 1.3.4 2.1 1.4 2.1 2.9v1.8c0 1.2.9 2.1 2.1 2.1h1.3"/><path d="M15.5 5.2h1.3c1.2 0 2.1.9 2.1 2.1v1.8c0 1.5.8 2.5 2.1 2.9-1.3.4-2.1 1.4-2.1 2.9v1.8c0 1.2-.9 2.1-2.1 2.1h-1.3"/></symbol>
+<symbol id="i-csv" viewBox="0 0 24 24"><rect x="4.2" y="5" width="15.6" height="14" rx="2"/><path d="M4.2 9.6h15.6M4.2 14.1h15.6M9.4 5v14M14.6 5v14"/></symbol>
+<symbol id="i-pdf" viewBox="0 0 24 24"><path d="M6.3 3.5h8.2l3.2 3.5v13.5H6.3V3.5Z"/><path d="M14.5 3.5v3.7h3.2M8.7 10.1h6.6M8.7 13.4h6.6M8.7 16.7h3.4"/></symbol>
+</svg>
+
+<div class="app">
+<aside>
+<div class="brand"><div class="brandmark"><svg class="ico"><use href="#i-core"/></svg></div><div><strong>SCINEX</strong><span>FRONT V1.5</span></div></div>
+<nav class="nav">
+<div class="nav-title">Процесс</div>
+<button class="active" data-view="extract" style="--a:var(--cyan)"><span class="navicon"><svg class="ico"><use href="#i-upload"/></svg></span><span class="nav-label">Извлечение из PDF</span></button>
+<button data-view="results" style="--a:var(--emerald)"><span class="navicon"><svg class="ico"><use href="#i-table"/></svg></span><span class="nav-label">Таблица данных</span></button>
+<button data-view="molecules" style="--a:var(--purple)"><span class="navicon"><svg class="ico"><use href="#i-molecule"/></svg></span><span class="nav-label">Просмотр структур</span></button>
+<button data-view="source" style="--a:var(--indigo)"><span class="navicon"><svg class="ico"><use href="#i-source"/></svg></span><span class="nav-label">Источники</span></button>
+<div class="nav-title">Выгрузка</div>
+<button data-view="metrics" style="--a:var(--amber)"><span class="navicon"><svg class="ico"><use href="#i-metrics"/></svg></span><span class="nav-label">Метрики</span></button>
+<button data-view="export" style="--a:var(--cyan)"><span class="navicon"><svg class="ico"><use href="#i-export"/></svg></span><span class="nav-label">Экспорт</span></button>
+<button data-view="contract" style="--a:var(--rose)"><span class="navicon"><svg class="ico"><use href="#i-job"/></svg></span><span class="nav-label">Контракт бэкенда</span></button>
+</nav>
+</aside>
+<main>
+<header class="top">
+<div class="topmain">
+<h1><span class="wordmark">SCINEX</span> <span class="chip mock" title="Синтетические демо-данные — бэкенд не подключён">демо-данные</span> <span class="chip idle" id="jobStatus">ожидание</span></h1>
+<p class="tagline">Рабочее место извлечения химических данных</p>
+<div class="controls">
+<select class="select" id="domainSelect"></select>
+<input class="input" id="backendInput" value="api/chemx/extract">
+<button class="btn primary" id="runBtn"><svg class="ico"><use href="#i-run"/></svg> Запустить извлечение</button>
+</div>
+</div>
+<button class="iconbtn" id="themeBtn"><svg class="ico"><use href="#i-sun"/></svg></button>
+<button class="iconbtn danger" id="resetBtn"><svg class="ico"><use href="#i-trash"/></svg></button>
+</header>
+<section class="content" id="content"></section>
+</main>
+</div>
+<div class="toast" id="toast"><svg class="ico" id="toastIcon"><use href="#i-check"/></svg><span id="toastText"></span></div>
+
+<script>
+/* ----------------------------------------------------------------------------
+   SCINEX — front mockup
+   Standalone UI for the DataCon'26 / ChemX extraction task.
+   No backend: data, metrics and pipeline are synthetic and clearly labeled.
+   When wiring a real backend, replace runExtraction() and feed real rows/metrics.
+---------------------------------------------------------------------------- */
+
+/* Domains — keys, track, single-agent baseline Macro-F1 (from DataCon'26 README),
+   row counts, and SYNTHETIC demo metrics (always above baseline; mock only). */
+const domains=[
+{key:"Benzimidazoles",track:"small",baseline:.217,rows:1720,desc:"Значения MIC для производных бензимидазола",accent:"var(--emerald)",demo:{p:.47,r:.33,f1:.384}},
+{key:"Oxazolidinones",track:"small",baseline:.491,rows:2920,desc:"Антибактериальная активность (pMIC)",accent:"var(--cyan)",demo:{p:.63,r:.54,f1:.58}},
+{key:"Co-crystals",track:"small",baseline:.296,rows:70,desc:"Растворимость и фотостабильность",accent:"var(--purple)",demo:{p:.55,r:.41,f1:.47}},
+{key:"Complexes",track:"small",baseline:.290,rows:907,desc:"Металл-лигандные радиофармацевтические комплексы",accent:"var(--indigo)",demo:{p:.51,r:.39,f1:.44}},
+{key:"Nanozymes",track:"nano",baseline:.164,rows:1140,desc:"Кинетика наночастиц с ферментоподобной активностью",accent:"var(--amber)",demo:{p:.45,r:.33,f1:.38}},
+{key:"Synergy",track:"nano",baseline:.080,rows:3230,desc:"Синергия наночастиц с антибиотиками",accent:"var(--rose)",demo:{p:.31,r:.20,f1:.24}},
+{key:"Nanomag",track:"nano",baseline:.034,rows:2580,desc:"Магнитные и биомедицинские свойства",accent:"var(--indigo)",demo:{p:.26,r:.15,f1:.19}},
+{key:"Cytotox",track:"nano",baseline:.182,rows:5480,desc:"Цитотоксичность наночастиц",accent:"var(--purple)",demo:{p:.48,r:.36,f1:.41}},
+{key:"SelTox",track:"nano",baseline:.045,rows:3240,desc:"Активность и токсичность наночастиц серебра",accent:"var(--emerald)",demo:{p:.29,r:.18,f1:.22}}
+];
+
+/* Field schemas per domain. source_page is a provenance field — not scored. */
+const schemas={
+Benzimidazoles:["compound_id","smiles","mic","organism","strain","assay","source_page"],
+Oxazolidinones:["compound_id","smiles","pmic","organism","strain","substituent","source_page"],
+"Co-crystals":["compound","coformer","smiles","solubility","photostability","method","source_page"],
+Complexes:["complex_id","metal","ligand","smiles","stability_constant","application","source_page"],
+Nanozymes:["nanomaterial","composition","size_nm","activity","km","vmax","ph","temperature","source_page"],
+Synergy:["nanomaterial","antibiotic","organism","fic_index","effect","concentration","source_page"],
+Nanomag:["nanoparticle","composition","size_nm","magnetization","coating","application","source_page"],
+Cytotox:["nanoparticle","cell_line","viability","concentration","exposure_time","size_nm","source_page"],
+SelTox:["nanoparticle","organism","mic","toxicity","size_nm","coating","source_page"]
+};
+
+/* Per-domain synthetic rows — each populates that domain's real schema fields,
+   so every domain is demoable. smiles present => small molecule (drawn);
+   smiles absent => nanomaterial (nano card). */
+const MOCK={
+Benzimidazoles:[
+ {id:"4a",compound_id:"4a",smiles:"COc1ccc(NC(=O)c2[nH]c3ccccc3n2)cc1",mic:"2 µg/mL",organism:"S. aureus",strain:"ATCC 29213",assay:"broth microdilution",source_page:5,confidence:.93,evidence:"Table 1, page 5",source_type:"table"},
+ {id:"7b",compound_id:"7b",smiles:"Clc1ccc(CN2CCN(c3nc4ccccc4[nH]3)CC2)cc1",mic:"0.5 µg/mL",organism:"E. faecalis",strain:"clinical isolate",assay:"MIC",source_page:6,confidence:.88,evidence:"Table 2, page 6",source_type:"table"},
+ {id:"12c",compound_id:"12c",smiles:"CCN(CC)c1ccc2nc(N)nc(N)c2c1",mic:"8 µg/mL",organism:"M. tuberculosis",strain:"H37Rv",assay:"resazurin microtiter",source_page:7,confidence:.81,evidence:"Text + supplementary table, page 7",source_type:"mixed"}],
+Oxazolidinones:[
+ {id:"L-3a",compound_id:"L-3a",smiles:"CC(=O)NC[C@H]1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1",pmic:"6.10",organism:"S. aureus",strain:"ATCC 29213",substituent:"morpholine",source_page:4,confidence:.90,evidence:"Table 1, page 4",source_type:"table"},
+ {id:"L-7d",compound_id:"L-7d",smiles:"O=C1O[C@@H](CNC(C)=O)CN1c1ccc(-n2ccnc2)cc1",pmic:"6.80",organism:"E. faecium",strain:"VRE",substituent:"1,2,3-triazole",source_page:5,confidence:.85,evidence:"Table 2, page 5",source_type:"table"},
+ {id:"L-11b",compound_id:"L-11b",smiles:"CC(=O)NC[C@H]1CN(c2ccc3c(c2)OCCO3)C(=O)O1",pmic:"5.40",organism:"S. pneumoniae",strain:"clinical isolate",substituent:"benzodioxane",source_page:7,confidence:.79,evidence:"Figure 2 + text, page 7",source_type:"mixed"}],
+"Co-crystals":[
+ {id:"CBZ-SAC",compound:"Carbamazepine",coformer:"Saccharin",smiles:"O=C(N)N1c2ccccc2C=Cc2ccccc21",solubility:"0.42 mg/mL",photostability:"94% @ 48 h",method:"slurry",source_page:3,confidence:.89,evidence:"Table 1, page 3",source_type:"table"},
+ {id:"IND-NIC",compound:"Indomethacin",coformer:"Nicotinamide",smiles:"COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1",solubility:"0.18 mg/mL",photostability:"88% @ 48 h",method:"solvent evaporation",source_page:4,confidence:.82,evidence:"Figure 4 + caption, page 4",source_type:"figure"},
+ {id:"FUR-CAF",compound:"Furosemide",coformer:"Caffeine",smiles:"NS(=O)(=O)c1cc(C(=O)O)c(NCc2ccco2)cc1Cl",solubility:"0.31 mg/mL",photostability:"91% @ 48 h",method:"liquid-assisted grinding",source_page:6,confidence:.77,evidence:"Text paragraph, page 6",source_type:"text"}],
+Complexes:[
+ {id:"Gd-DOTA",complex_id:"Gd-DOTA",metal:"Gd(III)",ligand:"DOTA",smiles:"OC(=O)CN1CCN(CC(=O)O)CCN(CC(=O)O)CCN(CC(=O)O)CC1",stability_constant:"log K 24.7",application:"MRI contrast",source_page:4,confidence:.91,evidence:"Table 1, page 4",source_type:"table"},
+ {id:"Lu-PSMA",complex_id:"Lu-PSMA-617",metal:"Lu-177",ligand:"PSMA-617",smiles:"OC(=O)CCC(NC(=O)NC(CCCCN)C(=O)O)C(=O)O",stability_constant:"log K 23.1",application:"radioligand therapy",source_page:6,confidence:.84,evidence:"Figure 3 + text, page 6",source_type:"mixed"},
+ {id:"Tc-MIBI",complex_id:"Tc-MIBI",metal:"Tc-99m",ligand:"MIBI",smiles:"COCC(C)(C)[N+]#[C-]",stability_constant:"log K 18.4",application:"SPECT imaging",source_page:8,confidence:.76,evidence:"Text paragraph, page 8",source_type:"text"}],
+Nanozymes:[
+ {id:"NZ-Fe3O4",nanomaterial:"Fe3O4 NP",composition:"Fe3O4",size_nm:"12 ± 3",activity:"peroxidase-like",km:"0.42 mM",vmax:"8.1e-8 M/s",ph:"3.5",temperature:"37 °C",source_page:4,confidence:.90,evidence:"Table 2, page 4",source_type:"table"},
+ {id:"NZ-CeO2",nanomaterial:"CeO2 NP",composition:"CeO2",size_nm:"7.5",activity:"SOD-like",km:"0.18 mM",vmax:"2.6e-8 M/s",ph:"7.4",temperature:"25 °C",source_page:6,confidence:.83,evidence:"Figure 3 caption, page 6",source_type:"figure"},
+ {id:"NZ-Au",nanomaterial:"Au NP",composition:"Au",size_nm:"20",activity:"oxidase-like",km:"0.55 mM",vmax:"5.3e-8 M/s",ph:"4.0",temperature:"30 °C",source_page:8,confidence:.78,evidence:"Text paragraph, page 8",source_type:"text"}],
+Synergy:[
+ {id:"AgNP-KAN",nanomaterial:"AgNP",antibiotic:"Kanamycin",organism:"E. coli",fic_index:"0.31",effect:"synergistic",concentration:"8 µg/mL",source_page:5,confidence:.88,evidence:"Table 1, page 5",source_type:"table"},
+ {id:"ZnO-CIP",nanomaterial:"ZnO",antibiotic:"Ciprofloxacin",organism:"P. aeruginosa",fic_index:"0.45",effect:"synergistic",concentration:"16 µg/mL",source_page:6,confidence:.80,evidence:"Table 2, page 6",source_type:"table"},
+ {id:"CuO-AMP",nanomaterial:"CuO",antibiotic:"Ampicillin",organism:"S. aureus",fic_index:"0.72",effect:"additive",concentration:"32 µg/mL",source_page:8,confidence:.71,evidence:"Text + figure, page 8",source_type:"mixed"}],
+Nanomag:[
+ {id:"MNP-Fe3O4",nanoparticle:"Fe3O4",composition:"Fe3O4",size_nm:"18",magnetization:"68 emu/g",coating:"PEG",application:"hyperthermia",source_page:4,confidence:.89,evidence:"Table 1, page 4",source_type:"table"},
+ {id:"MNP-CoFe2O4",nanoparticle:"CoFe2O4",composition:"CoFe2O4",size_nm:"11",magnetization:"74 emu/g",coating:"citrate",application:"MRI T2 contrast",source_page:5,confidence:.82,evidence:"Figure 2 + caption, page 5",source_type:"figure"},
+ {id:"MNP-MnFe2O4",nanoparticle:"MnFe2O4",composition:"MnFe2O4",size_nm:"9",magnetization:"82 emu/g",coating:"dextran",application:"drug delivery",source_page:7,confidence:.75,evidence:"Text paragraph, page 7",source_type:"text"}],
+Cytotox:[
+ {id:"CT-AgNP",nanoparticle:"AgNP",cell_line:"HeLa",viability:"62%",concentration:"25 µg/mL",exposure_time:"24 h",size_nm:"20",source_page:5,confidence:.90,evidence:"Table 2, page 5",source_type:"table"},
+ {id:"CT-ZnO",nanoparticle:"ZnO",cell_line:"A549",viability:"48%",concentration:"50 µg/mL",exposure_time:"48 h",size_nm:"30",source_page:6,confidence:.83,evidence:"Figure 4 caption, page 6",source_type:"figure"},
+ {id:"CT-TiO2",nanoparticle:"TiO2",cell_line:"HepG2",viability:"81%",concentration:"100 µg/mL",exposure_time:"24 h",size_nm:"25",source_page:8,confidence:.77,evidence:"Text paragraph, page 8",source_type:"text"}],
+SelTox:[
+ {id:"ST-AgNP-Ec",nanoparticle:"AgNP",organism:"E. coli",mic:"8 µg/mL",toxicity:"low (HEK293 IC50 120 µg/mL)",size_nm:"15",coating:"PVP",source_page:4,confidence:.88,evidence:"Table 1, page 4",source_type:"table"},
+ {id:"ST-AgNP-Sa",nanoparticle:"AgNP",organism:"S. aureus",mic:"16 µg/mL",toxicity:"moderate",size_nm:"25",coating:"citrate",source_page:5,confidence:.81,evidence:"Table 2, page 5",source_type:"table"},
+ {id:"ST-AgCu",nanoparticle:"Ag-Cu",organism:"C. albicans",mic:"4 µg/mL",toxicity:"low",size_nm:"12",coating:"chitosan",source_page:7,confidence:.74,evidence:"Text + figure, page 7",source_type:"mixed"}]
+};
+
+/* Runtime state. job.status drives the whole UI: idle|ready|running|succeeded|error */
+const state={dark:true,view:"extract",domain:"Benzimidazoles",file:null,job:{status:"idle",stage:-1,percent:0,msg:"Waiting for PDF"},rows:[],metrics:null,source:0};
+
+const stages=[
+ ["uploaded","PDF принят","Входной документ зарегистрирован"],
+ ["preprocess","Препроцессинг","Подготовлены текст, таблицы, рисунки и страницы"],
+ ["extract","Извлечение по схеме","Поля домена извлечены в строки ChemX"],
+ ["validate","Валидация","Проверены SMILES, единицы, дубликаты и пропуски"],
+ ["render","Рендер структур","SMILES преобразованы в превью структур"],
+ ["done","Готово","Таблица и экспорт доступны"]
+];
+
+/* A realistic, actionable failure for the demo (says what + how to fix). */
+const DEMO_ERROR="Препроцессинг остановился на странице 12: двухколоночная таблица не распознана как табличная, её строки потеряны. Перезапустите с включённым table-OCR или загрузите PDF с текстовым слоем.";
+
+/* ---------- helpers ---------- */
+function ico(n){return `<svg class="ico"><use href="#i-${n}"/></svg>`}
+function esc(x){return String(x??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;")}
+function toast(m,kind){const el=document.getElementById("toast");toastText.textContent=m;toastIcon.innerHTML=`<use href="#i-${kind==="err"?"alert":"check"}"/>`;el.className="toast open"+(kind==="err"?" err":"");clearTimeout(el.t);el.t=setTimeout(()=>el.classList.remove("open"),2600)}
+function bytes(b){if(!b)return"0 B";const u=["B","KB","MB","GB"],i=Math.min(Math.floor(Math.log(b)/Math.log(1024)),u.length-1);return`${(b/Math.pow(1024,i)).toFixed(i?1:0)} ${u[i]}`}
+function d(){return domains.find(x=>x.key===state.domain)||domains[0]}
+function trackRu(t){return t==="nano"?"нано":"малые"}
+const MOD={image:{l:"изображение",s:"изобр.",c:"var(--cyan)"},table:{l:"таблица",s:"таблица",c:"var(--emerald)"},text:{l:"текст",s:"текст",c:"var(--indigo)"}};
+function rowName(r){return r.compound_id||r.complex_id||r.compound||r.id||r.nanomaterial||r.nanoparticle||"row"}
+/* ----- universal cell model (backend-ready) -----
+   row = { id, label, page, cells:{ key: Cell } }
+   Cell = { key, value, raw, dtype, unit, confidence, provenance:[ {doc_id,page,modality,locator,snippet,extractor} ] }
+   Rendering dispatches on cell.dtype (value) and locator.kind (evidence) — never on field name. */
+const QTY=new Set(["mic","pmic","km","vmax","ph","temperature","size_nm","magnetization","solubility","photostability","viability","concentration","fic_index","stability_constant","exposure_time"]);
+const IDF=new Set(["compound_id","complex_id","id"]);
+const ENUMF=new Set(["effect","method","assay"]);
+function dtypeOf(k){return k==="smiles"?"smiles":QTY.has(k)?"quantity":IDF.has(k)?"id":ENUMF.has(k)?"enum":"string"}
+function clamp(a,x,b){return Math.max(a,Math.min(b,x))}
+function hashStr(s){let h=0;s=String(s);for(let i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))|0;return Math.abs(h)}
+function parseQty(raw){const m=String(raw).match(/^\s*([<>~]?\s*-?\d[\d.,]*(?:e[+-]?\d+)?)\s*(.*)$/i);if(!m)return{value:raw,unit:""};const num=parseFloat(m[1].replace(/\s+/g,"").replace(",","."));return isNaN(num)?{value:raw,unit:""}:{value:num,unit:m[2].trim()}}
+const JRNL=["acs","rsc","ejmc","jmc","nano","chem"];
+function mkDoc(seed,page){const j=JRNL[hashStr(seed)%JRNL.length];const y=2018+(hashStr(seed+"y")%7);return{doc_id:j+"-"+y+"-p"+page,title:j.toUpperCase()+" "+y}}
+const DOCPAL=["#22d3ee","#34d399","#fbbf24","#c084fc","#818cf8","#fb7185"];
+function docColor(id){return DOCPAL[hashStr(id)%DOCPAL.length]}
+function docBadge(id){return`<span class="docb" title="документ ${esc(id)}"><span class="dch" style="background:${docColor(id)}"></span>${esc(id)}</span>`}
+/* build one Cell with synthetic provenance — replaced by backend cells later */
+function makeCell(key,raw,c){
+ const dt=dtypeOf(key),q=dt==="quantity"?parseQty(raw):null;
+ const value=q?q.value:raw,unit=q?q.unit:"",lbl=c.rowLabel,pg=c.page,fpg=c.figPage;
+ const tableCell=(doc,ex)=>({doc_id:doc.doc_id,page:pg,modality:"table",locator:{kind:"table_cell",row:lbl,col:key},snippet:ex||"table-parser",extractor:ex||"table-parser"});
+ const charSpan=doc=>({doc_id:doc.doc_id,page:pg,modality:"text",locator:{kind:"char_span",start:140,end:140+String(raw).length},snippet:"ie-llm",extractor:"ie-llm"});
+ const figLabel=doc=>({doc_id:doc.doc_id,page:fpg,modality:"image",locator:{kind:"figure_label",label:lbl},snippet:"molscribe",extractor:"molscribe"});
+ const bbox=doc=>({doc_id:doc.doc_id,page:fpg,modality:"image",locator:{kind:"bbox",box:[64,210,300,360]},snippet:"vlm",extractor:"vlm"});
+ let prov;
+ if(dt==="smiles")prov=[figLabel(c.figureDoc)];
+ else if(key==="size_nm")prov=[bbox(c.figureDoc)];
+ else if(dt==="string")prov=[charSpan(c.primaryDoc)];
+ else prov=[tableCell(c.primaryDoc)];
+ if(key===c.headlineKey){
+  if(c.rowIndex===1)prov=[charSpan(c.primaryDoc),tableCell(c.secondaryDoc,"table-parser")];
+  else prov=[...prov,tableCell(c.secondaryDoc,"table-parser")];
+ }
+ return{key,value,raw,dtype:dt,unit,confidence:c.conf,provenance:prov};
+}
+function buildRow(domain,flat,idx){
+ const fields=(schemas[domain]||[]).filter(f=>f!=="source_page");
+ const lbl=flat.compound_id||flat.complex_id||flat.compound||flat.id||flat.nanomaterial||flat.nanoparticle||"row";
+ const page=flat.source_page||1;
+ const docs={primaryDoc:mkDoc(domain+lbl,page),secondaryDoc:mkDoc(domain+lbl+"b",page),figureDoc:mkDoc(domain+"fig",page)};
+ const headlineKey=fields.find(f=>dtypeOf(f)==="quantity")||null,cells={};
+ fields.forEach((ff,i)=>{
+  const raw=flat[ff]??flat[ff.replace("_id","")]??"";
+  const conf=clamp(.72,(flat.confidence||.85)-i*0.015+(i%2?0.03:-0.01),.98);
+  cells[ff]=makeCell(ff,raw,Object.assign({rowLabel:lbl,page,figPage:page,headlineKey,rowIndex:idx,conf},docs));
+ });
+ return{id:lbl,label:lbl,page,cells};
+}
+/* backend seam: read a cell; tolerate partial/flat backend rows */
+function getCell(row,key){
+ const c=(row.cells&&row.cells[key])||{};
+ const raw=c.raw??c.value??(row[key]??"");
+ return{key,value:c.value??raw,raw,dtype:c.dtype||dtypeOf(key),unit:c.unit||"",confidence:typeof c.confidence==="number"?c.confidence:.85,provenance:Array.isArray(c.provenance)?c.provenance:[]};
+}
+function rowFields(){return(schemas[state.domain]||schemas.Benzimidazoles).filter(f=>f!=="source_page")}
+function avgConf(r){const v=rowFields().map(f=>getCell(r,f).confidence);return v.reduce((a,b)=>a+b,0)/(v.length||1)}
+/* value render — dispatch on dtype */
+function renderValue(c,compact){
+ if(c.dtype==="smiles")return`<span class="cv-smiles mono">${esc(compact?String(c.raw).slice(0,40):c.raw)}</span>`;
+ if(c.dtype==="quantity")return typeof c.value==="number"?`<span class="mono"><b>${esc(c.value)}</b>${c.unit?` <span class="cv-unit">${esc(c.unit)}</span>`:""}</span>`:`<span class="mono">${esc(c.raw)}</span>`;
+ if(c.dtype==="enum")return`<span class="cv-enum">${esc(c.raw)}</span>`;
+ if(c.dtype==="id")return`<span class="mono">${esc(c.raw)}</span>`;
+ if(c.dtype==="list"){const a=Array.isArray(c.value)?c.value:String(c.raw).split(/[;,]\s*/);return a.map(x=>`<span class="cv-enum">${esc(x)}</span>`).join(" ");}
+ return esc(c.raw);
+}
+/* evidence render — dispatch on locator.kind (universal across documents) */
+function locDesc(p){const L=p.locator||{},k=L.kind,pg=(p.page!=null)?` · стр.${esc(p.page)}`:"";
+ if(k==="table_cell")return`строка ${esc(L.row)} · столбец ${esc(L.col)}${pg}`;
+ if(k==="char_span")return`символы ${esc(L.start)}–${esc(L.end)}${pg}`;
+ if(k==="bbox")return`bbox${pg}`;
+ if(k==="figure_label")return`рисунок «${esc(L.label)}»${pg}`;
+ return pg?`стр.${esc(p.page)}`:"—";
+}
+function renderLocator(p){const L=p.locator||{},k=L.kind;
+ if(k==="table_cell")return`<table class="evmini"><tr><td class="hl">${esc(L.row)}</td><td>${esc(L.col)}</td></tr></table>`;
+ if(k==="char_span")return`<div class="evtext">…<span class="hl">${esc(L.row||"")}значение в абзаце</span>…</div>`;
+ if(k==="bbox")return`<svg class="pmini" viewBox="0 0 120 150"><rect x="6" y="6" width="108" height="138" rx="7" fill="none" stroke="var(--line)"/><rect x="16" y="18" width="88" height="5" rx="2" fill="rgba(148,163,184,.3)"/><rect x="16" y="30" width="70" height="5" rx="2" fill="rgba(148,163,184,.25)"/><rect class="bx" x="24" y="64" width="72" height="46" rx="5"/></svg>`;
+ if(k==="figure_label")return`<span class="figmini">${ico("molecule")}<span class="hl">${esc(L.label)}</span></span>`;
+ return"";
+}
+function modBadge(m){const o=MOD[m]||MOD.text;return`<span class="modb" style="--m:${o.c}">${o.s}</span>`}
+function modDot(m){const o=MOD[m]||MOD.text;return`<span class="moddot" style="--m:${o.c}" title="${o.l}"></span>`}
+function modLegend(){return`<div class="modlegend">${["image","table","text"].map(modBadge).join("")}</div>`}
+function csvEsc(v){const t=String(v??"");return/[",\n\r]/.test(t)?`"${t.replaceAll('"','""')}"`:t}
+function toCsv(rows){return rows.map(r=>r.map(csvEsc).join(",")).join("\n")}
+function download(name,content,mime="text/plain;charset=utf-8"){const b=new Blob([content],{type:mime}),u=URL.createObjectURL(b),a=document.createElement("a");a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),300)}
+function mockRows(k){return(MOCK[k]||[]).map((r,i)=>buildRow(k,r,i))}
+function statusChip(){const map={idle:["idle","ожидание"],ready:["idle","готов"],running:["run","идёт извлечение"],succeeded:["ok","готово"],error:["err","ошибка"]};return map[state.job.status]||["idle",state.job.status]}
+function runChipCls(){return state.job.status==="error"?"err":state.job.status==="running"?"run":state.job.status==="succeeded"?"ok":""}
+function emptyBlock(icon,title,body){return `<div class="empty"><div class="emark">${ico(icon)}</div><h2>${title}</h2><p>${body}</p></div>`}
+
+/* ---------- render ---------- */
+function render(){
+ document.querySelectorAll(".nav button").forEach(b=>b.classList.toggle("active",b.dataset.view===state.view));
+ const [cls,lbl]=statusChip();
+ jobStatus.className="chip "+cls;
+ jobStatus.textContent=lbl;
+ content.innerHTML=({extract,results,molecules,source,metrics,export:exports,contract})[state.view]();
+ bind();
+}
+
+/* ---------- view: extract ---------- */
+function extract(){
+ const x=d();
+ const banner=state.job.status==="error"
+  ? `<div class="banner error" style="margin-bottom:22px"><div class="bdot">${ico("alert")}</div><div style="flex:1"><h3>Сбой извлечения</h3><p>${esc(state.job.msg)}</p><div class="row"><button class="btn primary" id="retry">${ico("run")}Перезапустить</button><button class="btn" id="resetErr">${ico("trash")}Сбросить сессию</button></div></div></div>`
+  : "";
+ return `<div class="screen">${banner}<div class="grid2">
+  <section class="card">
+   <div class="head"><div><h2>${ico("upload")}Входной PDF</h2><p>Основной сценарий: PDF → домен ChemX → извлечение → таблица.</p></div><span class="chip ${state.file?"ok":"idle"}">${state.file?"PDF загружен":"нет файла"}</span></div>
+   <div class="pad">
+    <div class="upload" id="upload"><div>
+     <div class="uploadmark">${ico("pdf")}</div>
+     <h2 style="justify-content:center">${state.file?esc(state.file.name):"Перетащите PDF сюда"}</h2>
+     <p>${state.file?`${bytes(state.file.size)} · ${esc(state.file.type||"application/pdf")}`:"Перетащите PDF или выберите файл. Демо-режим — файл не отправляется; контракт бэкенда на вкладке «Контракт бэкенда»."}</p>
+     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px">
+      <button class="btn" id="choose">${ico("upload")}Выбрать PDF</button>
+      <button class="btn primary" id="runPanel">${ico("run")}Запустить извлечение</button>
+     </div>
+     <input class="file" id="pdf" type="file" accept=".pdf,application/pdf">
+    </div></div>
+    <div class="grid3" style="margin-top:14px">
+     <div class="stat"><small>Домен</small><strong>${esc(x.key)}</strong></div>
+     <div class="stat"><small>Трек</small><strong>${trackRu(x.track)}</strong></div>
+     <div class="stat"><small>Baseline F1</small><strong>${x.baseline.toFixed(3)}</strong></div>
+    </div>
+   </div>
+  </section>
+  <section class="card">
+   <div class="head"><div><h2>${ico("job")}Конвейер обработки</h2><p>Фронт показывает цепочку обработки, не зная внутренностей бэкенда.</p></div>
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><button class="btn small warn" id="simErr" title="Только демо">${ico("alert")}Смоделировать сбой</button><span class="chip ${runChipCls()}">${state.job.percent}%</span></div></div>
+   <div class="stages">${stages.map((s,i)=>stage(s,i)).join("")}</div>
+  </section>
+ </div>
+ <section class="card" style="margin-top:24px">
+  <div class="head"><div><h2>${ico("molecule")}Выбор домена</h2><p>Интерфейс покрывает оба трека — малые молекулы и наноматериалы.</p></div></div>
+  <div class="pad"><div class="domains">${domains.map(x=>`<div class="domain ${x.key===state.domain?"active":""}" data-domain="${esc(x.key)}" style="--a:${x.accent}"><div class="domainicon">${ico(x.track==="nano"?"molecule":"table")}</div><div><strong>${esc(x.key)}</strong><span>${esc(x.desc)} · строк: ${x.rows}</span></div><span class="chip">F1 ${x.baseline.toFixed(3)}</span></div>`).join("")}</div></div>
+ </section>
+ </div>`;
+}
+
+function stage(s,i){
+ const st=state.job;
+ let cls="",icon="clock",right=i<st.stage?"готово":i===st.stage?st.percent+"%":"ожидание";
+ if(i<st.stage||st.status==="succeeded"){cls="done";icon="check";right="готово"}
+ if(i===st.stage&&st.status==="running"){cls="run";icon="job"}
+ if(i===st.stage&&st.status==="error"){cls="err";icon="alert";right="сбой"}
+ const sub=i===st.stage?st.msg:s[2];
+ return `<div class="stage ${cls}"><div class="dot">${ico(icon)}</div><div><b>${esc(s[1])}</b><small>${esc(sub)}</small></div><div class="percent">${right}</div></div>`;
+}
+
+/* ---------- view: results ---------- */
+function cols(){return[...(schemas[state.domain]||schemas.Benzimidazoles).filter(x=>x!=="source_page"),"confidence","evidence"]}
+function results(){
+ const body=state.rows.length
+  ? table()
+  : emptyBlock("table","Пока нет строк","Запустите извлечение, чтобы заполнить таблицу. В демо работает без PDF — выберите домен и нажмите «Запустить извлечение».");
+ return `<div class="screen"><section class="card">
+  <div class="head"><div><h2>${ico("table")}Структурированная таблица ChemX</h2><p>Извлечённые записи${state.rows.length?` · ${esc(state.domain)}`:""}. Цвет точки в ячейке = модальность-источник поля.</p>${state.rows.length?modLegend():""}</div>
+   <div style="display:flex;gap:10px;flex-wrap:wrap">${state.rows.length?`<button class="btn" id="copyCsv">${ico("csv")}Копировать CSV</button><button class="btn primary" id="exportCsv">${ico("export")}Скачать CSV</button>`:""}</div></div>
+  <div class="tablewrap">${body}</div></section></div>`;
+}
+function table(){const c=cols();return`<table><thead><tr>${c.map(x=>`<th>${esc(x)}</th>`).join("")}</tr></thead><tbody>${state.rows.map((r,i)=>`<tr>${c.map(x=>cell(r,x,i)).join("")}</tr>`).join("")}</tbody></table>`}
+function cell(r,c,i){
+ if(c==="confidence"){const p=Math.round(avgConf(r)*100);return`<td><div class="conf"><span style="width:${p}%"></span></div><div class="mono">${p}%</div></td>`;}
+ if(c==="evidence")return`<td><button class="ev" data-ev="${i}">${ico("source")}источник</button></td>`;
+ const cl=getCell(r,c),prim=cl.provenance[0],dot=prim?modDot(prim.modality):"",multi=cl.provenance.length>1?`<span class="cmulti" title="источников: ${cl.provenance.length}">×${cl.provenance.length}</span>`:"";
+ return`<td class="${c==="smiles"?"smiles":""}">${dot}${renderValue(cl,true)}${multi}</td>`;
+}
+
+/* ---------- view: molecules ---------- */
+function molecules(){
+ const grid=state.rows.length
+  ? `<div class="molgrid">${state.rows.map(mol).join("")}</div>`
+  : `<section class="card">${emptyBlock("molecule","Пока нет структур","Структуры появятся после извлечения. SMILES рисуются лёгким превью, наноматериалы — карточкой состава.")}</section>`;
+ return `<div class="screen"><section class="card" style="margin-bottom:22px"><div class="head"><div><h2>${ico("molecule")}Просмотр структур</h2><p>Реальный бэкенд может вернуть SVG/URL изображения. В макете — лёгкое превью по SMILES или нано-карточка.</p></div>${state.rows.length?`<button class="btn primary" id="rerender">${ico("molecule")}Перерисовать</button>`:""}</div></section>${grid}</div>`;
+}
+function mol(r,i){const sc=getCell(r,"smiles"),svg=(r.cells&&r.cells.smiles&&r.cells.smiles.svg)||null,unresolved=!!r.structure_unresolved,nano=!unresolved&&!sc.raw,nm=getCell(r,"composition").raw||getCell(r,"nanomaterial").raw||getCell(r,"nanoparticle").raw,conf=Math.round(avgConf(r)*100),src=(nano?getCell(r,"size_nm"):sc).provenance[0]||{};const body=unresolved?unresolvedSvg():(svg?`<div style="background:#fff;border-radius:12px;padding:8px;display:flex;justify-content:center;align-items:center">${svg}</div>`:(nano?nanoSvg(r):molSvg(sc.raw,i)));const subtitle=unresolved?"структура не разрешена":(nano?(nm||"nanomaterial"):sc.raw);const pg=(src.page!=null)?`<span class="chip">стр. ${esc(src.page)}</span>`:"";return`<article class="mol"><div class="molhead"><div><strong>${esc(r.label||r.id)}</strong><div class="mono" style="color:var(--muted);word-break:break-all">${esc(subtitle)}</div></div><span class="chip">${conf}%</span></div>${body}<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">${src.modality?modBadge(src.modality):""}${src.doc_id?docBadge(src.doc_id):""}${pg}</div></article>`}
+function molSvg(s,i){return`<svg class="molscreen" viewBox="0 0 320 180">${i%2===0?`<polygon points="110,55 155,55 180,90 155,125 110,125 85,90" fill="none" stroke="#06b6d4" stroke-width="4"/><line x1="180" y1="90" x2="230" y2="90" stroke="#06b6d4" stroke-width="4"/><circle cx="240" cy="90" r="13" fill="#0f172a" stroke="#10b981" stroke-width="4"/><text x="234" y="95" fill="#10b981" font-size="14" font-family="monospace">N</text>`:`<line x1="70" y1="95" x2="125" y2="65" stroke="#06b6d4" stroke-width="4"/><line x1="125" y1="65" x2="180" y2="95" stroke="#06b6d4" stroke-width="4"/><line x1="180" y1="95" x2="235" y2="65" stroke="#06b6d4" stroke-width="4"/><circle cx="70" cy="95" r="12" fill="#0f172a" stroke="#a855f7" stroke-width="4"/><circle cx="125" cy="65" r="12" fill="#0f172a" stroke="#10b981" stroke-width="4"/><circle cx="180" cy="95" r="12" fill="#0f172a" stroke="#f59e0b" stroke-width="4"/><circle cx="235" cy="65" r="12" fill="#0f172a" stroke="#06b6d4" stroke-width="4"/>`}<text x="20" y="160" fill="#64748b" font-size="11" font-family="monospace">${esc(String(s||"").slice(0,42))}</text></svg>`}
+function unresolvedSvg(){return`<svg class="molscreen" viewBox="0 0 320 180"><rect x="8" y="8" width="304" height="164" rx="12" fill="none" stroke="var(--line)" stroke-dasharray="7 6"/><text x="160" y="84" text-anchor="middle" fill="var(--muted)" font-size="34" font-family="monospace">?</text><text x="160" y="116" text-anchor="middle" fill="var(--muted)" font-size="13">структура не разрешена</text></svg>`}
+function nanoSvg(r){const comp=getCell(r,"composition").raw||getCell(r,"nanomaterial").raw||getCell(r,"nanoparticle").raw,sz=getCell(r,"size_nm").raw;return`<svg class="molscreen" viewBox="0 0 320 180"><circle cx="160" cy="90" r="47" fill="none" stroke="#f59e0b" stroke-width="4"/><circle cx="135" cy="75" r="13" fill="#06b6d4" opacity=".85"/><circle cx="171" cy="74" r="16" fill="#10b981" opacity=".8"/><circle cx="185" cy="107" r="12" fill="#a855f7" opacity=".85"/><circle cx="143" cy="111" r="10" fill="#f43f5e" opacity=".8"/><text x="22" y="32" fill="#64748b" font-size="13" font-family="monospace">${esc(comp)}</text><text x="22" y="158" fill="#64748b" font-size="12" font-family="monospace">size: ${esc(sz||"?")} nm</text></svg>`}
+
+/* ---------- view: source ---------- */
+function source(){
+ if(!state.rows.length){
+  return `<div class="screen"><section class="card">${emptyBlock("source","Пока нет источников","Сначала запустите извлечение. Каждое поле строки ChemX собирается из своей модальности и своего документа — здесь видно происхождение по каждому полю, включая консенсус нескольких источников.")}</section></div>`;
+ }
+ const s=state.rows[state.source]||state.rows[0];
+ const fields=rowFields();
+ const docs=[...new Set(fields.flatMap(f=>getCell(s,f).provenance.map(p=>p.doc_id)))];
+ const blocks=fields.map(f=>{const cl=getCell(s,f);if(cl.raw==="")return"";const pc=Math.round(cl.confidence*100);
+  const entries=cl.provenance.map(p=>`<div class="proventry">${docBadge(p.doc_id)}${modBadge(p.modality)}<span class="ploc">${locDesc(p)}</span>${renderLocator(p)}<span class="psnip">${esc(p.extractor)}</span></div>`).join("");
+  const cons=cl.provenance.length>1?`<span class="cmulti">консенсус ×${cl.provenance.length}</span>`:"";
+  return `<div class="pfield"><div class="pfhead"><span class="pf">${esc(f)}</span><span class="dtag">${esc(cl.dtype)}</span><span class="pval">${renderValue(cl)}</span>${cons}<span class="pconf">${pc}%</span></div><div class="pentries">${entries}</div></div>`;
+ }).join("");
+ return `<div class="screen sourcegrid">
+  <section class="card pad"><h2>${ico("source")}Записи</h2><p>Выберите запись — справа происхождение её полей: модальность, документ, локатор.</p>
+   <div class="sourcelist" style="margin-top:18px">${state.rows.map((r,i)=>`<div class="sourceitem ${i===state.source?"active":""}" data-src="${i}"><strong>${esc(r.label||r.id)}</strong><span>стр. ${esc(r.page)} · полей: ${fields.length}</span></div>`).join("")}</div></section>
+  <section class="card pad"><h2>${ico("table")}Происхождение полей · ${esc(s.label||s.id)}</h2><p>Сборка из ${docs.length} ${docs.length===1?"документа":"документов"}. Значение — по dtype, доказательство — по locator.kind.</p>
+   <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:12px 0 2px">${modLegend()}<span style="width:1px;height:18px;background:var(--line)"></span>${docs.map(docBadge).join("")}</div>
+   <div class="pfields">${blocks}</div>
+   <div class="note">${ico("alert")}Демо-привязки. Бэкенд вернёт реальные cells с provenance[] (doc_id, page, modality, locator, bbox) — фронт уже читает этот формат.</div>
+  </section>
+ </div>`;
+}
+
+/* ---------- view: metrics ---------- */
+function metrics(){
+ const x=d();
+ if(!state.metrics){
+  return `<div class="screen"><section class="card"><div class="head"><div><h2>${ico("metrics")}Метрики</h2><p>Macro-F1 по домену против single-agent baseline, с разбивкой по полям.</p></div><span class="chip">baseline ${x.baseline.toFixed(3)}</span></div>${emptyBlock("metrics","Прогона ещё не было",`Запустите извлечение, чтобы посчитать Macro-F1 для <strong>${esc(x.key)}</strong>. Single-agent baseline: <strong>${x.baseline.toFixed(3)}</strong>.`)}</section></div>`;
+ }
+ const m=state.metrics,base=x.baseline,ours=m.f1,delta=ours-base,pct=base>0?Math.round(delta/base*100):0;
+ const fields=schemas[x.key].filter(f=>f!=="source_page");
+ const rows=fields.map((f,i)=>{
+  const v=Math.max(.28,Math.min(.97,m.f1-i*.03+(i%2?.05:-.02)));
+  const p=Math.min(.98,v+.05),r=Math.max(.22,v-.04);
+  return `<tr><td class="mono">${esc(f)}</td><td>${p.toFixed(3)}</td><td>${r.toFixed(3)}</td><td style="color:${v>base?"var(--emerald)":"var(--amber)"};font-weight:950">${v.toFixed(3)}</td><td>${v>base?'<span class="delta up">выше baseline</span>':"ниже baseline"}</td></tr>`;
+ }).join("");
+ return `<div class="screen"><section class="card">
+  <div class="head"><div><h2>${ico("metrics")}Метрики</h2><p>Домен ${esc(x.key)} · ${x.track==="nano"?"наноматериалы":"малые молекулы"}.</p></div><span class="chip mock">демо-метрики</span></div>
+  <div class="pad">
+   <div class="grid3">
+    <div class="stat"><small>Macro-F1 · наш</small><strong style="color:var(--emerald)">${ours.toFixed(3)}</strong></div>
+    <div class="stat"><small>Macro-F1 · baseline</small><strong>${base.toFixed(3)}</strong></div>
+    <div class="stat"><small>Δ к baseline</small><strong class="delta up">+${delta.toFixed(3)} · +${pct}%</strong></div>
+   </div>
+   <div class="grid3" style="margin-top:14px">
+    <div class="stat"><small>Precision</small><strong>${m.p.toFixed(3)}</strong></div>
+    <div class="stat"><small>Recall</small><strong>${m.r.toFixed(3)}</strong></div>
+    <div class="stat"><small>Полей оценено</small><strong>${fields.length}</strong></div>
+   </div>
+   <div class="note">${ico("alert")}Синтетические числа для макета. Реальный Macro-F1 считает бэкенд на тестовых данных ChemX по каждому домену.</div>
+  </div>
+  <div class="tablewrap"><table style="min-width:720px"><thead><tr><th>Поле</th><th>Precision</th><th>Recall</th><th>F1</th><th>к baseline</th></tr></thead><tbody>${rows}</tbody></table></div>
+ </section></div>`;
+}
+
+/* ---------- view: export ---------- */
+function exports(){
+ const items=[
+  ["csv","CSV ChemX","Строгая таблица по выбранному домену."],
+  ["json","JSON извлечения","Строки, confidence, evidence, предупреждения, метаданные."],
+  ["source","Provenance полей","Каждое поле: модальность (image/table/text), ссылка, страница."],
+  ["molecule","Отрисованные структуры","Манифест SVG/изображений для молекул и нано-карточек."],
+  ["metrics","JSON метрик","Macro-F1 и метрики по полям (демо-значения)."],
+  ["job","Манифест прогона","Версия фронта, домен, endpoint, файл, параметры."]
+ ];
+ const empty=!state.rows.length;
+ return `<div class="screen">${empty?`<section class="card" style="margin-bottom:18px"><div class="banner"><div class="bdot" style="color:var(--amber);background:rgba(245,158,11,.12)">${ico("alert")}</div><div><h3>Пока нечего экспортировать</h3><p>Сначала запустите извлечение — экспорт ниже соберёт текущие строки, источники и метрики.</p></div></div></section>`:""}
+  <div class="exports">${items.map(([k,t,ds])=>`<section class="exportcard"><h3>${ico(k==="csv"?"csv":k==="json"?"json":k==="molecule"?"molecule":k==="metrics"?"metrics":k==="job"?"job":"source")}${t}</h3><p>${ds}</p><button class="btn primary exportbtn" data-export="${k}"${empty?" disabled style=\"opacity:.5;cursor:not-allowed\"":""}>${ico("export")}Скачать</button></section>`).join("")}</div></div>`;
+}
+
+/* ---------- view: contract ---------- */
+function contract(){
+ const payload={
+  endpoint:backendInput.value||"api/chemx/extract",
+  method:"POST",
+  request:{file:"multipart PDF",domain:state.domain,options:{render_structures:true,return_evidence:true,return_page_previews:true,normalize_units:true,validate_smiles:true}},
+  response_shape:{
+   extraction_id:"ext_001",domain:state.domain,
+   documents:[{doc_id:"acs-2021-p5",title:"ACS 2021"}],
+   rows:[{
+    id:"L2",
+    cells:{
+     "<field>":{
+      value:"каноническое значение",raw:"как в источнике",dtype:"smiles | quantity | enum | string | id | list",unit:"µg/mL",confidence:0.0,
+      provenance:[{doc_id:"acs-2021-p5",page:5,modality:"image | table | text",locator:{kind:"table_cell | char_span | bbox | figure_label","…":"поля локатора"},snippet:"…",extractor:"table-parser | ie-llm | molscribe | vlm"}]
+     }
+    }
+   }],
+   metrics:"optional"
+  }
+ };
+ return `<div class="screen"><section class="card"><div class="head"><div><h2>${ico("job")}Контракт бэкенда</h2><p>Один endpoint. Каждая ячейка самоописательна: dtype для значения, provenance[] с locator.kind для доказательства. provenance — список, поэтому ячейка может прийти из нескольких документов (консенсус).</p></div><span class="chip mock">справочно</span></div><div class="pad"><pre>${esc(JSON.stringify(payload,null,2))}</pre></div></section></div>`;
+}
+
+/* ---------- events ---------- */
+function bind(){
+ const $=id=>document.getElementById(id);
+ const choose=$("choose"),pdf=$("pdf"),upload=$("upload"),runPanel=$("runPanel");
+ if(choose&&pdf)choose.onclick=()=>pdf.click();
+ if(runPanel)runPanel.onclick=runExtraction;
+ if(pdf)pdf.onchange=e=>handleFile(e.target.files[0]);
+ if(upload){upload.ondragover=e=>{e.preventDefault();upload.classList.add("drag")};upload.ondragleave=()=>upload.classList.remove("drag");upload.ondrop=e=>{e.preventDefault();upload.classList.remove("drag");handleFile(e.dataTransfer.files[0])}}
+ const simErr=$("simErr");if(simErr)simErr.onclick=simulateError;
+ const retry=$("retry");if(retry)retry.onclick=runExtraction;
+ const resetErr=$("resetErr");if(resetErr)resetErr.onclick=resetSession;
+ document.querySelectorAll(".domain").forEach(c=>c.onclick=()=>{state.domain=c.dataset.domain;domainSelect.value=state.domain;clearResults();render()});
+ document.querySelectorAll(".ev").forEach(b=>b.onclick=()=>{state.source=Number(b.dataset.ev);state.view="source";render()});
+ document.querySelectorAll(".sourceitem").forEach(b=>{if(b.dataset.src!==undefined)b.onclick=()=>{state.source=Number(b.dataset.src);render()}});
+ const copy=$("copyCsv");if(copy)copy.onclick=async()=>{try{await navigator.clipboard.writeText(buildCsv());toast("CSV скопирован")}catch{toast("Буфер недоступен — нажмите «Скачать CSV»","err")}};
+ const exp=$("exportCsv");if(exp)exp.onclick=()=>exportByType("csv");
+ const rr=$("rerender");if(rr)rr.onclick=()=>toast("Структуры перерисованы");
+ document.querySelectorAll(".exportbtn").forEach(b=>{if(!b.disabled)b.onclick=()=>exportByType(b.dataset.export)});
+}
+
+function clearResults(){state.rows=[];state.metrics=null;state.source=0;if(state.job.status!=="running")state.job={status:state.file?"ready":"idle",stage:state.file?0:-1,percent:state.file?10:0,msg:state.file?"PDF selected":"Waiting for PDF"}}
+function resetSession(){state.file=null;clearResults();state.job={status:"idle",stage:-1,percent:0,msg:"Waiting for PDF"};state.view="extract";toast("Сессия сброшена");render()}
+function handleFile(f){if(!f)return;state.file=f;state.job={status:"ready",stage:0,percent:10,msg:"PDF selected"};toast("PDF загружен");render()}
+
+function simulateError(){
+ state.rows=[];state.metrics=null;
+ state.job={status:"error",stage:1,percent:46,msg:DEMO_ERROR};
+ state.view="extract";
+ toast("Сбой извлечения (демо)","err");
+ render();
+}
+
+async function runExtraction(){
+ state.job={status:"running",stage:0,percent:5,msg:"Submitting extraction job"};
+ state.view="extract";
+ render();
+ for(let i=0;i<stages.length;i++){
+  state.job.stage=i;
+  state.job.percent=Math.min(98,8+i*18);
+  state.job.msg=stages[i][2];
+  render();
+  await new Promise(r=>setTimeout(r,330));
+ }
+ try{
+  const fd=new FormData();
+  if(state.file)fd.append("file",state.file);
+  fd.append("domain",state.domain);
+  fd.append("options",JSON.stringify({render_structures:true,return_evidence:true,normalize_units:true,validate_smiles:true}));
+  const ep=(backendInput.value||"api/chemx/extract").trim();
+  const resp=await fetch(ep,{method:"POST",body:fd});
+  if(!resp.ok)throw new Error("HTTP "+resp.status+" "+(await resp.text()).slice(0,160));
+  const data=await resp.json();
+  state.rows=Array.isArray(data.rows)?data.rows:[];
+  state.metrics=data.metrics||null;
+  state.extraction=data;
+  state.job={status:"succeeded",stage:stages.length,percent:100,msg:data.stats?(data.stats.rows+" строк · структур "+data.stats.with_structure):"Done"};
+  state.source=0;
+  state.view="results";
+  toast("Извлечение завершено · "+state.rows.length+" строк");
+  render();
+ }catch(e){
+  state.rows=[];state.metrics=null;
+  state.job={status:"error",stage:1,percent:46,msg:String((e&&e.message)||e)};
+  state.view="extract";
+  toast("Сбой извлечения","err");
+  render();
+ }
+}
+
+/* ---------- export ---------- */
+function buildCsv(){const fs=rowFields(),h=[...fs,"row_confidence"];return toCsv([h,...state.rows.map(r=>[...fs.map(f=>getCell(r,f).raw),avgConf(r).toFixed(3)])])}
+function exportByType(t){
+ if(!state.rows.length){toast("Сначала запустите извлечение","err");return}
+ const base=`scinex_${state.domain.toLowerCase()}_${new Date().toISOString().slice(0,10)}`,fs=rowFields();
+ if(t==="csv")return download(`${base}.csv`,buildCsv(),"text/csv;charset=utf-8");
+ if(t==="json")return download(`${base}.json`,JSON.stringify({domain:state.domain,rows:state.rows},null,2),"application/json;charset=utf-8");
+ if(t==="source")return download(`${base}_provenance.json`,JSON.stringify(state.rows.map(r=>({id:r.id,cells:Object.fromEntries(fs.map(f=>{const c=getCell(r,f);return[f,{dtype:c.dtype,value:c.value,unit:c.unit,confidence:c.confidence,provenance:c.provenance}]}))})),null,2),"application/json;charset=utf-8");
+ if(t==="molecule")return download(`${base}_render_manifest.json`,JSON.stringify(state.rows.map(r=>{const sc=getCell(r,"smiles");return{id:r.id,smiles:sc.raw||null,render:sc.raw?"backend_svg_expected":"nano_card"}}),null,2),"application/json;charset=utf-8");
+ if(t==="metrics")return download(`${base}_metrics.json`,JSON.stringify({domain:state.domain,baseline:d().baseline,metrics:state.metrics,_note:"synthetic demo metrics — replace with backend output"},null,2),"application/json;charset=utf-8");
+ if(t==="job")return download(`${base}_manifest.json`,JSON.stringify({app:"SCINEX",version:"1.5",mode:"demo",endpoint:backendInput.value,file:state.file?{name:state.file.name,size:state.file.size,type:state.file.type}:null,domain:state.domain,job:state.job},null,2),"application/json;charset=utf-8");
+}
+
+/* ---------- init ---------- */
+domainSelect.innerHTML=domains.map(x=>`<option value="${esc(x.key)}">${esc(x.key)} · ${trackRu(x.track)}</option>`).join("");
+domainSelect.value=state.domain;
+domainSelect.onchange=e=>{state.domain=e.target.value;clearResults();render()};
+document.querySelectorAll(".nav button").forEach(b=>b.onclick=()=>{state.view=b.dataset.view;render()});
+runBtn.onclick=runExtraction;
+themeBtn.onclick=()=>{state.dark=!state.dark;document.body.classList.toggle("dark",state.dark);themeBtn.innerHTML=state.dark?ico("sun"):ico("moon")};
+resetBtn.onclick=resetSession;
+render();
+</script>
+</body>
+</html>

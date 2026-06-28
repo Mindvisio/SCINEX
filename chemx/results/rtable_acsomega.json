@@ -1,0 +1,42 @@
+{
+ "5a": {
+  "r_smiles": "[*:1]C",
+  "smiles": "CNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+  "in_gold": true
+ },
+ "5b": {
+  "r_smiles": "[*:1]C(C)C",
+  "smiles": "Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C",
+  "in_gold": true
+ },
+ "5c": {
+  "r_smiles": "[*:1]CCCl",
+  "smiles": "Cc1cc2nc(-c3ccc(-c4nnc(NCCCl)s4)cc3)[nH]c2cc1C",
+  "in_gold": true
+ },
+ "5d": {
+  "r_smiles": "[*:1]c1ccccc1Cl",
+  "smiles": "Cc1cc2nc(-c3ccc(-c4nnc(Nc5ccccc5Cl)s4)cc3)[nH]c2cc1C",
+  "in_gold": true
+ },
+ "5e": {
+  "r_smiles": "[*:1]C1CCCCC1",
+  "smiles": "Cc1cc2nc(-c3ccc(-c4nnc(NC5CCCCC5)s4)cc3)[nH]c2cc1C",
+  "in_gold": true
+ },
+ "5f": {
+  "r_smiles": "[*:1]C(C)C",
+  "smiles": "Cc1cc2nc(-c3ccc(-c4nnc(NC(C)C)s4)cc3)[nH]c2cc1C",
+  "in_gold": true
+ },
+ "5g": {
+  "r_smiles": "[*:1]CCC",
+  "smiles": "CCCNc1nnc(-c2ccc(-c3nc4cc(C)c(C)cc4[nH]3)cc2)s1",
+  "in_gold": true
+ },
+ "5h": {
+  "r_smiles": "[*:1]c1ccc(OC)cc1",
+  "smiles": "COc1ccc(Nc2nnc(-c3ccc(-c4nc5cc(C)c(C)cc5[nH]4)cc3)s2)cc1",
+  "in_gold": true
+ }
+}

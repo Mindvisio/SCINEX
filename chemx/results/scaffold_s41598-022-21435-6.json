@@ -1,0 +1,8 @@
+{
+ "pdf": "s41598-022-21435-6",
+ "scaffold": "*C(c1cc2cc(Br)ccc2nc1OC)C(O)(CCN(C)C)c1cccc2ccccc12",
+ "candidates": {
+  "*C(c1cc2cc(Br)ccc2nc1OC)C(O)(CCN(C)C)c1cccc2ccccc12": 1,
+  "*C(=O)Nc1cccc2cccnc12": 1
+ }
+}

@@ -1,0 +1,15 @@
+flowchart LR
+  PDF[/"PDF"/] --> DT{"text layer?<br/>&ge;100 ch/page"}
+  DT -->|digital| PYMU["PyMuPDF<br/>text + figure crops<br/>$0 offline"]
+  DT -->|scanned| MIS["Mistral OCR 4<br/>per-word conf"]
+  PYMU --> MQ{"math / tables?"}
+  MQ -->|yes| MX["Mathpix<br/>LaTeX + tables"]
+  MQ -->|no| TXT[("corpus text")]
+  MIS --> MC{"min word-conf<br/>&lt; 0.92?"}
+  MC -->|yes| MX
+  MC -->|no| TXT
+  MX --> TXT
+  PYMU --> CR[("figure crops")]
+  MIS -. low-conf .-> RVW[["review"]]
+  classDef flag fill:#fff3e0,stroke:#e65100;
+  class RVW flag;

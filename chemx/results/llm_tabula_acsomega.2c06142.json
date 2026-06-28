@@ -1,0 +1,1 @@
+[{"compound_id": "5d", "target_type": "MIC", "target_relation": "==", "target_value": "3.90", "target_units": "μg/mL", "bacteria": "Enterococcus faecalis ATCC 2942"}, {"compound_id": "5e", "target_type": "MIC", "target_relation": "==", "target_value": "3.90", "target_units": "μg/mL", "bacteria": "Enterococcus faecalis ATCC 2942"}]

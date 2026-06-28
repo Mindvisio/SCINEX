@@ -1,0 +1,55 @@
+flowchart TD
+  PDF[/"PDF paper"/]
+
+  subgraph INGEST["ingestion / OCR"]
+    PDF --> DT{"text layer?<br/>(&ge;100 chars/page)"}
+    DT -->|digital| PYMU["PyMuPDF<br/>text + figure crops<br/>$0 / offline"]
+    DT -->|scanned| MIS["Mistral OCR 4<br/>per-word confidence"]
+    PYMU --> MQ{"math / tables<br/>critical?"}
+    MQ -->|yes| MX["Mathpix<br/>LaTeX + clean tables + OCR"]
+    MIS --> MC{"min word-conf<br/>&lt; 0.92 ?"}
+    MC -->|yes| MX
+    MC -->|no| TXT[("corpus text")]
+    MQ -->|no| TXT
+    MX --> TXT
+    PYMU --> CROPS[("figure crops")]
+  end
+
+  subgraph OCSR["structure in figure to SMILES"]
+    CROPS --> ISMOL{"molecular<br/>structure?"}
+    ISMOL -->|yes| VIS["Opus-vision to SMILES"]
+    VIS --> RDK{"RDKit valid &amp;<br/>self-consistent?"}
+    RDK -->|yes| SMI[("SMILES / InChIKey")]
+    RDK -->|no| DEC["DECIMER<br/>independent reader<br/>noise-robust 4/4"]
+    DEC --> AGR{"vision and DECIMER<br/>same InChIKey?"}
+    AGR -->|yes| SMI
+    AGR -->|no| RVW[["review queue"]]
+  end
+
+  subgraph ENT["chemical name in text to SMILES"]
+    TXT --> NM{"IUPAC name?"}
+    NM -->|yes| OPS["OPSIN name to SMILES<br/>deterministic"]
+    OPS --> RDK2{"RDKit canon ok?"}
+    RDK2 -->|yes| SMI
+    RDK2 -->|no| RVW
+  end
+
+  subgraph QA["paper QA (bench)"]
+    TXT --> IDX[("vector index")]
+    CROPS --> IDX
+    IDX --> RET["retrieve top-k"]
+    RET --> LV{"level / answer-conf"}
+    LV -->|L1| A1["Opus answer (+vision)"]
+    LV -->|"L2/L3 or low conf"| A2["Opus + Gemini consensus"]
+    A1 --> STR["call_json structuring"]
+    A2 --> STR
+    STR --> BA[/"BenchAnswer<br/>answer + quantities + confidence"/]
+  end
+
+  MIS -. "flag low-conf tokens" .-> RVW
+  MX -. "line conf_rate &lt; 0.97" .-> RVW
+
+  classDef det fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+  classDef flag fill:#fff3e0,stroke:#e65100;
+  class RDK,RDK2,OPS,SMI det;
+  class RVW flag;

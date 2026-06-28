@@ -1,0 +1,8 @@
+{
+ "pdf": "d2ra06667j",
+ "scaffold": "[4*]c1ccc2nc(-c3ccc4c(c3)OCO4)[nH]c2c1",
+ "candidates": {
+  "[4*]c1ccc2nc(-c3cccnc3)[nH]c2c1": 1,
+  "[4*]c1ccc2nc(-c3ccc4c(c3)OCO4)[nH]c2c1": 1
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "paper_id": "EXAMPLE-2023",
+  "doi": null,
+  "domain": "comp-chem",
+  "records": [
+    {"entity_type": "molecule", "value": "caffeine",
+     "normalized": {"name": "caffeine", "inchikey": "RYYVLZVUVIJVGH-UHFFFAOYSA-N"}},
+    {"entity_type": "method", "value": "B3LYP/6-31G(d)",
+     "normalized": {"kind": "dft", "functional": "B3LYP", "basis": "6-31G(d)", "software": "Gaussian 16"}},
+    {"entity_type": "property", "value": "HOMO-LUMO gap",
+     "normalized": {"name": "HOMO-LUMO gap"}, "quantity": 5.1, "unit": "eV"},
+    {"entity_type": "relation", "value": "rapamycin extends lifespan in C. elegans",
+     "normalized": {"intervention": "rapamycin", "model_organism": "C. elegans", "outcome": "lifespan", "direction": "+"}}
+  ]
+}

@@ -1,0 +1,10 @@
+flowchart LR
+  TX[("corpus text")] --> IDX[("vector index")]
+  CR[("figure crops")] --> IDX
+  IDX --> RET["retrieve top-k"]
+  RET --> LV{"level /<br/>answer-conf"}
+  LV -->|L1| A1["Opus answer<br/>+ vision"]
+  LV -->|L2/L3 or low conf| A2["Opus + Gemini<br/>consensus"]
+  A1 --> STR["call_json<br/>structuring"]
+  A2 --> STR
+  STR --> BA[/"BenchAnswer<br/>answer + quantities + conf"/]

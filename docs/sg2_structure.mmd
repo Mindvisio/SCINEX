@@ -1,0 +1,22 @@
+flowchart LR
+  subgraph S1["structure in figure (OCSR)"]
+    direction LR
+    CR[("figure crop")] --> V["vision<br/>Opus + Gemini"]
+    CR --> D["DECIMER<br/>CNN, offline"]
+    V --> AG{"same<br/>InChIKey?"}
+    D --> AG
+    AG -->|agree| SMI1[("SMILES /<br/>InChIKey")]
+    AG -->|disagree / single| RV1[["review"]]
+  end
+  subgraph S2["name in text (OPSIN)"]
+    direction LR
+    TX[("corpus text")] --> NM{"IUPAC<br/>name?"}
+    NM -->|yes| OP["OPSIN<br/>deterministic $0"]
+    OP --> RK{"RDKit<br/>canon?"}
+    RK -->|ok| SMI2[("SMILES /<br/>InChIKey")]
+    RK -->|fail| RV2[["review"]]
+  end
+  classDef det fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+  classDef flag fill:#fff3e0,stroke:#e65100;
+  class OP,SMI1,SMI2 det;
+  class RV1,RV2 flag;

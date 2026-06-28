@@ -1,0 +1,28 @@
+# ── секреты ──
+.env
+*.env
+!*.env.example
+.api_keys
+.netrc
+*.key
+*.pem
+
+# ── окружения ──
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ── логи / маркеры прогона ──
+*.log
+*.FINISHED
+
+# ── тяжёлые данные / промежуточное ──
+data/pdfs/
+data/raw/
+data/cache/
+**/crops/
+*.tar.gz
+*.zip

@@ -1,0 +1,10 @@
+{
+ "13a": "O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccccc2)cc1",
+ "13b": "O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(F)cc2)cc1",
+ "13c": "O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Cl)cc2)cc1",
+ "13d": "O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Br)cc2)cc1",
+ "39a": "CCOC(=O)c1cn(-c2ccc(C(=O)C3=NNCC3C(=O)Nc3nc4ccccc4[nH]3)cc2)nc1C",
+ "3d": "O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccccc2)cc1",
+ "3g": "O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Cl)cc2)cc1",
+ "3h": "O=C(C1=NNCC1C(=O)Nc1nc2ccccc2[nH]1)c1ccc(-c2ccc(Br)cc2)cc1"
+}

@@ -1,0 +1,10 @@
+{
+ "pdf": "intechopen.108949",
+ "scaffold": "*n1c(=O)c(C(=O)Nc2nc3ccccc3[nH]2)c(O)c2ccccc21",
+ "candidates": {
+  "*c1ccc2cc(C#N)c3nc4ccccc4n3c2c1": 1,
+  "*#CN(C)CCNC": 1,
+  "*#CN1CCOCC1": 1,
+  "*n1c(=O)c(C(=O)Nc2nc3ccccc3[nH]2)c(O)c2ccccc21": 1
+ }
+}
