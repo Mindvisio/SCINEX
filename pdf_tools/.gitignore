@@ -1,0 +1,6 @@
+data/pdfs/
+**/*.pdf
+__pycache__/
+*.pyc
+*.log
+*.pid

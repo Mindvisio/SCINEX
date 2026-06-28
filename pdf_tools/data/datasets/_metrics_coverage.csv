@@ -1,0 +1,11 @@
+domain,hf_dataset,rows_total,unique_pdf,rows_matched,unique_pdf_matched,pdf_files_on_disk
+eyedrops,EyeDrops,163,,0,,0
+benzimidazole,Benzimidazoles,1721,34.0,226,4.0,4
+oxazolidinone,Oxazolidinones,2923,23.0,0,0.0,0
+nanozymes,Nanozymes,1135,395.0,25,9.0,9
+synergy,Synergy,3232,87.0,506,15.0,15
+nanomag,Nanomag,2578,386.0,262,42.0,42
+cocrystals,Co-crystals,70,33.0,4,2.0,2
+complexes,Complexes,907,22.0,22,1.0,1
+cytotox,Cytotox,5476,169.0,686,19.0,19
+seltox,SelTox,3244,163.0,805,29.0,29

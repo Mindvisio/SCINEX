@@ -1,0 +1,122 @@
+domain,pdf,doi,status,reason,saved_path,source_url
+nanomag,adfm.201403436.pdf,10.1002/adfm.201403436,failed,http_403,,
+nanomag,adma.201101877.pdf,10.1002/adma.201101877,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,adma.201203169.pdf,10.1002/adma.201203169,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,advs.201901800.pdf,10.1002/advs.201901800,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,anie.201100101.pdf,10.1002/anie.201100101,failed,http_405,,
+nanomag,cmmi.1473.pdf,10.1002/cmmi.1473,downloaded,downloaded,data/pdfs/pdf_nanomag/cmmi.1473.pdf,https://orbi.umons.ac.be/bitstream/20.500.12907/13955/1/ye2012.pdf
+nanomag,smll.202107426.pdf,10.1002/smll.202107426,failed,request_error:SSLError,,
+nanomag,smtd.202300647.pdf,10.1002/smtd.202300647,downloaded,downloaded,data/pdfs/pdf_nanomag/smtd.202300647.pdf,https://pure.au.dk/ws/files/417856313/Small_Methods_-_2023_-_Muzzi_-_Defect_Engineering_by_Solvent_Mediated_Mild_Oxidation_as_a_Tool_to_Induce_Exchange_Bias_in.pdf
+nanomag,j.bioactmat.2021.09.028.pdf,10.1016/j.bioactmat.2021.09.028,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,j.colsurfa.2023.132281.pdf,10.1016/j.colsurfa.2023.132281,downloaded,downloaded,data/pdfs/pdf_nanomag/j.colsurfa.2023.132281.pdf,https://hal.science/hal-04283600/document
+nanomag,j.heliyon.2023.e22876.pdf,10.1016/j.heliyon.2023.e22876,failed,http_403,,
+nanomag,j.jcis.2020.06.011.pdf,10.1016/j.jcis.2020.06.011,failed,no_oa_url,,
+nanomag,j.jmmm.2007.01.007.pdf,10.1016/j.jmmm.2007.01.007,downloaded,downloaded,data/pdfs/pdf_nanomag/j.jmmm.2007.01.007.pdf,https://arxiv.org/pdf/nlin/0604027
+nanomag,j.jmmm.2018.05.064.pdf,10.1016/j.jmmm.2018.05.064,failed,no_oa_url,,
+nanomag,j.jmmm.2019.165783.pdf,10.1016/j.jmmm.2019.165783,failed,no_oa_url,,
+nanomag,j.jmmm.2019.165940.pdf,10.1016/j.jmmm.2019.165940,failed,no_oa_url,,
+nanomag,j.jsamd.2020.04.001.pdf,10.1016/j.jsamd.2020.04.001,failed,http_403,,
+nanomag,j.materresbull.2022.112035.pdf,10.1016/j.materresbull.2022.112035,failed,no_oa_url,,
+nanomag,j.msec.2009.09.003.pdf,10.1016/j.msec.2009.09.003,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,j.rinp.2024.107469.pdf,10.1016/j.rinp.2024.107469,failed,http_403,,
+nanomag,acs.chemmater.0c03017.pdf,10.1021/acs.chemmater.0c03017,failed,no_oa_url,,
+nanomag,acs.jpcc.7b01469.pdf,10.1021/acs.jpcc.7b01469,failed,request_error:ConnectTimeout,,
+nanomag,acs.nanolett.0c02795.pdf,10.1021/acs.nanolett.0c02795,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,acsami.3c18334.pdf,10.1021/acsami.3c18334,downloaded,downloaded,data/pdfs/pdf_nanomag/acsami.3c18334.pdf,https://ddd.uab.cat/pub/artpub/2024/kb7j62cq3re3/acsappmat_a2024_v16_p14799.pdf
+nanomag,acsnano.8b06542.pdf,10.1021/acsnano.8b06542,failed,no_oa_url,,
+nanomag,acsomega.0c03332.pdf,10.1021/acsomega.0c03332,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,acsomega.0c05382.pdf,10.1021/acsomega.0c05382,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,acsomega.8b03004.pdf,10.1021/acsomega.8b03004,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,ja104503g.pdf,10.1021/ja104503g,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,nl102623x.pdf,10.1021/nl102623x,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,nn101643u.pdf,10.1021/nn101643u,failed,no_oa_url,,
+nanomag,nn305991e.pdf,10.1021/nn305991e,failed,no_oa_url,,
+nanomag,nn5038652.pdf,10.1021/nn5038652,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,ncomms15468.pdf,10.1038/ncomms15468,downloaded,downloaded,data/pdfs/pdf_nanomag/ncomms15468.pdf,https://www.nature.com/articles/ncomms15468.pdf
+nanomag,ncomms3266.pdf,10.1038/ncomms3266,downloaded,downloaded,data/pdfs/pdf_nanomag/ncomms3266.pdf,https://www.nature.com/articles/ncomms3266.pdf
+nanomag,s41467-024-47537-5.pdf,10.1038/s41467-024-47537-5,downloaded,downloaded,data/pdfs/pdf_nanomag/s41467-024-47537-5.pdf,https://www.nature.com/articles/s41467-024-47537-5.pdf
+nanomag,s41598-018-19676-5.pdf,10.1038/s41598-018-19676-5,downloaded,downloaded,data/pdfs/pdf_nanomag/s41598-018-19676-5.pdf,https://www.nature.com/articles/s41598-018-19676-5.pdf
+nanomag,s41598-019-55649-y.pdf,10.1038/s41598-019-55649-y,downloaded,downloaded,data/pdfs/pdf_nanomag/s41598-019-55649-y.pdf,https://www.nature.com/articles/s41598-019-55649-y.pdf
+nanomag,s41598-020-74188-5.pdf,10.1038/s41598-020-74188-5,downloaded,downloaded,data/pdfs/pdf_nanomag/s41598-020-74188-5.pdf,https://www.nature.com/articles/s41598-020-74188-5.pdf
+nanomag,s41598-020-75669-3.pdf,10.1038/s41598-020-75669-3,downloaded,downloaded,data/pdfs/pdf_nanomag/s41598-020-75669-3.pdf,https://www.nature.com/articles/s41598-020-75669-3.pdf
+nanomag,s41598-023-43734-2.pdf,10.1038/s41598-023-43734-2,downloaded,downloaded,data/pdfs/pdf_nanomag/s41598-023-43734-2.pdf,https://www.nature.com/articles/s41598-023-43734-2.pdf
+nanomag,s41598-024-65757-z.pdf,10.1038/s41598-024-65757-z,downloaded,downloaded,data/pdfs/pdf_nanomag/s41598-024-65757-z.pdf,https://www.nature.com/articles/s41598-024-65757-z.pdf
+nanomag,srep06641.pdf,10.1038/srep06641,downloaded,downloaded,data/pdfs/pdf_nanomag/srep06641.pdf,https://www.nature.com/articles/srep06641.pdf
+nanomag,C7NR03740F.pdf,10.1039/C7NR03740F,failed,request_error:ConnectTimeout,,
+nanomag,D1RA01902C.pdf,10.1039/D1RA01902C,downloaded,downloaded,data/pdfs/pdf_nanomag/D1RA01902C.pdf,https://pubs.rsc.org/en/content/articlepdf/2021/ra/d1ra01902c
+nanomag,D2MA00629D.pdf,10.1039/D2MA00629D,downloaded,downloaded,data/pdfs/pdf_nanomag/D2MA00629D.pdf,https://pubs.rsc.org/en/content/articlepdf/2022/ma/d2ma00629d
+nanomag,D2TC03144B.pdf,10.1039/D2TC03144B,downloaded,downloaded,data/pdfs/pdf_nanomag/D2TC03144B.pdf,https://arxiv.org/pdf/2306.13108
+nanomag,D3NA01108A.pdf,10.1039/D3NA01108A,downloaded,downloaded,data/pdfs/pdf_nanomag/D3NA01108A.pdf,https://pubs.rsc.org/en/content/articlepdf/2024/na/d3na01108a
+nanomag,c5nr00055f.pdf,10.1039/c5nr00055f,downloaded,downloaded,data/pdfs/pdf_nanomag/c5nr00055f.pdf,https://pubs.rsc.org/en/content/articlepdf/2015/nr/c5nr00055f
+nanomag,c5nr00774g.pdf,10.1039/c5nr00774g,downloaded,downloaded,data/pdfs/pdf_nanomag/c5nr00774g.pdf,https://pubs.rsc.org/en/content/articlepdf/2015/nr/c5nr00774g
+nanomag,c6nr01303a.pdf,10.1039/c6nr01303a,downloaded,downloaded,data/pdfs/pdf_nanomag/c6nr01303a.pdf,https://pubs.rsc.org/en/content/articlepdf/2016/nr/c6nr01303a
+nanomag,c7ra05495e.pdf,10.1039/c7ra05495e,downloaded,downloaded,data/pdfs/pdf_nanomag/c7ra05495e.pdf,https://pubs.rsc.org/en/content/articlepdf/2017/ra/c7ra05495e
+nanomag,d0na00820f.pdf,10.1039/d0na00820f,downloaded,downloaded,data/pdfs/pdf_nanomag/d0na00820f.pdf,https://pubs.rsc.org/en/content/articlepdf/2021/na/d0na00820f
+nanomag,d1na00312g.pdf,10.1039/d1na00312g,downloaded,downloaded,data/pdfs/pdf_nanomag/d1na00312g.pdf,https://pubs.rsc.org/en/content/articlepdf/2021/na/d1na00312g
+nanomag,d1nr03335b.pdf,10.1039/d1nr03335b,downloaded,downloaded,data/pdfs/pdf_nanomag/d1nr03335b.pdf,https://pubs.rsc.org/en/content/articlepdf/2021/nr/d1nr03335b
+nanomag,d2ra04454d.pdf,10.1039/d2ra04454d,downloaded,downloaded,data/pdfs/pdf_nanomag/d2ra04454d.pdf,https://pubs.rsc.org/en/content/articlepdf/2022/ra/d2ra04454d
+nanomag,d2tc03144b.pdf,10.1039/d2tc03144b,downloaded,downloaded,data/pdfs/pdf_nanomag/d2tc03144b.pdf,https://arxiv.org/pdf/2306.13108
+nanomag,1.2736303.pdf,10.1063/1.2736303,failed,request_error:SSLError,,
+nanomag,1.2739217.pdf,10.1063/1.2739217,downloaded,downloaded,data/pdfs/pdf_nanomag/1.2739217.pdf,https://arxiv.org/pdf/cond-mat/0610078
+nanomag,1.4926424.pdf,10.1063/1.4926424,failed,no_oa_url,,
+nanomag,1.4979919.pdf,10.1063/1.4979919,failed,http_403,,
+nanomag,1.4982893.pdf,10.1063/1.4982893,failed,http_403,,
+nanomag,1.5041017.pdf,10.1063/1.5041017,failed,http_403,,
+nanomag,1.5135586.pdf,10.1063/1.5135586,failed,request_error:ConnectionError,,
+nanomag,5.0008366.pdf,10.1063/5.0008366,failed,not_pdf:text/html;charset=utf-8,,
+nanomag,5.0015339.pdf,10.1063/5.0015339,downloaded,downloaded,data/pdfs/pdf_nanomag/5.0015339.pdf,https://arxiv.org/pdf/2008.05971
+nanomag,9.0000340.pdf,10.1063/9.0000340,failed,http_403,,
+nanomag,9.0000547.pdf,10.1063/9.0000547,failed,request_error:ConnectTimeout,,
+nanomag,9.0000552.pdf,10.1063/9.0000552,failed,http_403,,
+nanomag,9.0000561.pdf,10.1063/9.0000561,failed,http_403,,
+nanomag,9.0000583.pdf,10.1063/9.0000583,failed,http_403,,
+nanomag,9.0000845.pdf,10.1063/9.0000845,failed,http_403,,
+nanomag,pnas.0902365106.pdf,10.1073/pnas.0902365106,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,245002.pdf,10.1088/0022-3727/43/24/245002,failed,no_oa_url,,
+nanomag,017.pdf,10.1088/0957-4484/15/4/017,failed,not_pdf:text/html; charset=UTF-8,,
+nanomag,abc386.pdf,10.1088/1361-6528/abc386,failed,request_error:SSLError,,
+nanomag,012001.pdf,10.1088/1742-6596/663/1/012001,failed,request_error:ConnectTimeout,,
+nanomag,ab65e4.pdf,10.1088/2053-1591/ab65e4,downloaded,downloaded,data/pdfs/pdf_nanomag/ab65e4.pdf,https://iopscience.iop.org/article/10.1088/2053-1591/ab65e4/pdf
+nanomag,ab66a4.pdf,10.1088/2053-1591/ab66a4,failed,not_pdf:text/html; charset=UTF-8,,
+nanomag,ab7e6e.pdf,10.1088/2053-1591/ab7e6e,failed,not_pdf:text/html; charset=UTF-8,,
+nanomag,abce87.pdf,10.1088/2053-1591/abce87,failed,not_pdf:text/html; charset=UTF-8,,
+nanomag,PhysRevB.80.064427.pdf,10.1103/PhysRevB.80.064427,downloaded,downloaded,data/pdfs/pdf_nanomag/PhysRevB.80.064427.pdf,https://arxiv.org/pdf/0905.0268
+nanomag,PhysRevB.92.054416.pdf,10.1103/PhysRevB.92.054416,failed,request_error:ConnectTimeout,,
+nanomag,PhysRevB.94.054432.pdf,10.1103/PhysRevB.94.054432,failed,request_error:ConnectTimeout,,
+nanomag,PhysRevB.94.184410.pdf,10.1103/PhysRevB.94.184410,downloaded,downloaded,data/pdfs/pdf_nanomag/PhysRevB.94.184410.pdf,https://arxiv.org/pdf/1607.01336
+nanomag,physrevb.92.054416.pdf,10.1103/physrevb.92.054416,failed,request_error:ConnectTimeout,,
+nanomag,physrevb.94.184410.pdf,10.1103/physrevb.94.184410,downloaded,downloaded,data/pdfs/pdf_nanomag/physrevb.94.184410.pdf,https://arxiv.org/pdf/1607.01336
+nanomag,462540.pdf,10.1155/2013/462540,failed,http_403,,
+nanomag,3743164.pdf,10.1155/2018/3743164,failed,http_403,,
+nanomag,5066167.pdf,10.1155/2022/5066167,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,s12951-020-0580-1.pdf,10.1186/s12951-020-0580-1,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,s12951-022-01562-y.pdf,10.1186/s12951-022-01562-y,downloaded,downloaded,data/pdfs/pdf_nanomag/s12951-022-01562-y.pdf,https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s12951-022-01562-y
+nanomag,s40580-014-0032-4.pdf,10.1186/s40580-014-0032-4,downloaded,downloaded,data/pdfs/pdf_nanomag/s40580-014-0032-4.pdf,https://nanoconvergencejournal.springeropen.com/counter/pdf/10.1186/s40580-014-0032-4
+nanomag,v1.pdf,10.21203/rs.3.rs-3848974/v1,downloaded,downloaded,data/pdfs/pdf_nanomag/v1.pdf,https://www.researchsquare.com/article/rs-3848974/latest.pdf
+nanomag,ijn.s322894.pdf,10.2147/ijn.s322894,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,nnm-2020-0467.pdf,10.2217/nnm-2020-0467,failed,http_403,,
+nanomag,applnano1010007.pdf,10.3390/applnano1010007,failed,request_error:SSLError,,
+nanomag,coatings11020122.pdf,10.3390/coatings11020122,failed,http_403,,
+nanomag,ijms23158279.pdf,10.3390/ijms23158279,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,ijms232314825.pdf,10.3390/ijms232314825,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,ma15062228.pdf,10.3390/ma15062228,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,magnetochemistry7030040.pdf,10.3390/magnetochemistry7030040,failed,http_403,,
+nanomag,magnetochemistry7110146.pdf,10.3390/magnetochemistry7110146,failed,http_403,,
+nanomag,magnetochemistry8120165.pdf,10.3390/magnetochemistry8120165,failed,http_403,,
+nanomag,nano10050907.pdf,10.3390/nano10050907,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,nano11030627.pdf,10.3390/nano11030627,failed,http_500,,
+nanomag,nano12020262.pdf,10.3390/nano12020262,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,nano12030456.pdf,10.3390/nano12030456,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,nano12173023.pdf,10.3390/nano12173023,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,nano12183159.pdf,10.3390/nano12183159,downloaded,downloaded,data/pdfs/pdf_nanomag/nano12183159.pdf,https://arxiv.org/pdf/2406.00680
+nanomag,nano12193304.pdf,10.3390/nano12193304,downloaded,downloaded,data/pdfs/pdf_nanomag/nano12193304.pdf,https://repositorio.imdeananociencia.org/bitstreams/45dab8c3-ce86-4b5d-96c0-774ea8ca5eac/download
+nanomag,nano13050880.pdf,10.3390/nano13050880,failed,http_403,,
+nanomag,nano13101657.pdf,10.3390/nano13101657,failed,http_403,,
+nanomag,nano14060482.pdf,10.3390/nano14060482,failed,http_403,,
+nanomag,nano6110221.pdf,10.3390/nano6110221,downloaded,downloaded,data/pdfs/pdf_nanomag/nano6110221.pdf,https://arxiv.org/pdf/1612.09455
+nanomag,nano7030061.pdf,10.3390/nano7030061,failed,not_pdf:text/html; charset=utf-8,,
+nanomag,nano7080225.pdf,10.3390/nano7080225,downloaded,downloaded,data/pdfs/pdf_nanomag/nano7080225.pdf,https://iris.unil.ch/bitstreams/41c592e3-4288-4910-8b1a-e30b61742ae9/download
+nanomag,nano7120415.pdf,10.3390/nano7120415,failed,http_403,,
+nanomag,matersci.2022005.pdf,10.3934/matersci.2022005,failed,http_403,,
+nanomag,thno.14280.pdf,10.7150/thno.14280,downloaded,downloaded,data/pdfs/pdf_nanomag/thno.14280.pdf,https://www.thno.org/v06p1780.pdf
+nanomag,1.4926424.pdf,dx.10.1063/1.4926424,failed,no_oa_url,,

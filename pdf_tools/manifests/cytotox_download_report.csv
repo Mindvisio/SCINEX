@@ -1,0 +1,59 @@
+domain,pdf,doi,status,reason,saved_path,source_url
+cytotox,54_liang2013.pdf,10.1002/jat.2953,failed,http_403,,
+cytotox,32_costa2015.pdf,10.1002/jat.3213,failed,request_error:ConnectTimeout,,
+cytotox,105_nahle2019.pdf,10.1002/jat.3765,failed,not_pdf:text/html; charset=utf-8,,
+cytotox,3_mojicapisciotti2014.pdf,10.1002/jbm.b.33068,failed,request_error:ConnectTimeout,,
+cytotox,10_soenen2014.pdf,10.1002/ppsc.201300357,downloaded,downloaded,data/pdfs/pdf_cytotox/10_soenen2014.pdf,https://biblio.ugent.be/publication/6852091/file/8520044.pdf
+cytotox,41_senut2015.pdf,10.1002/smll.201502346,failed,not_pdf:text/html; charset=utf-8,,
+cytotox,44_10.1007@s10856-019-6221-2.pdf,10.1007/s10856-019-6221-2,downloaded,downloaded,data/pdfs/pdf_cytotox/44_10.1007@s10856-019-6221-2.pdf,https://link.springer.com/content/pdf/10.1007/s10856-019-6221-2.pdf
+cytotox,72_10.1007@s11051-018-4406-0.pdf,10.1007/s11051-018-4406-0,downloaded,downloaded,data/pdfs/pdf_cytotox/72_10.1007@s11051-018-4406-0.pdf,https://link.springer.com/content/pdf/10.1007/s11051-018-4406-0.pdf
+cytotox,136_hanley2009.pdf,10.1007/s11671-009-9413-8,downloaded,downloaded,data/pdfs/pdf_cytotox/136_hanley2009.pdf,https://link.springer.com/content/pdf/10.1007/s11671-009-9413-8.pdf
+cytotox,67_botelho2014.67_pdf.pdf,10.1016/j.biopha.2013.08.006,failed,request_error:ConnectTimeout,,
+cytotox,164_krishnaraj2014.pdf,10.1016/j.btre.2014.08.002,failed,http_403,,
+cytotox,48_park2019.pdf,10.1016/j.matdes.2019.108187,failed,not_pdf:text/html;charset=UTF-8,,
+cytotox,39_10.1016@j.mrgentox.2019.05.015.pdf,10.1016/j.mrgentox.2019.05.015,failed,http_500,,
+cytotox,36_wang2011.pdf,10.1016/j.scitotenv.2011.07.039,failed,not_pdf:text/html; charset=utf-8,,
+cytotox,45_paino2012.pdf,10.1016/j.toxlet.2012.09.025,failed,not_pdf:text/html;charset=UTF-8,,
+cytotox,113_shukla2015.pdf,10.1016/j.toxrep.2014.11.002,failed,not_pdf:text/html; charset=utf-8,,
+cytotox,5_arvizo2010.pdf,10.1021/nl101140t,failed,not_pdf:text/html; charset=utf-8,,
+cytotox,158_herd2013.pdf,10.1021/nn304439f,failed,no_oa_url,,
+cytotox,133_mccracken2013.pdf,10.1021/tx400231u,downloaded,downloaded,data/pdfs/pdf_cytotox/133_mccracken2013.pdf,https://kb.osu.edu/bitstreams/d6fb63d5-1549-57f9-8ebb-2af15f08e10d/download
+cytotox,81_feng2018.pdf,10.1038/s41598-018-19628-z,downloaded,downloaded,data/pdfs/pdf_cytotox/81_feng2018.pdf,https://www.nature.com/articles/s41598-018-19628-z.pdf
+cytotox,129_chen2008.pdf,10.1080/17458080802235765,failed,http_403,,
+cytotox,120_chen2011.pdf,10.1088/0957-4484/22/10/105708,failed,no_oa_url,,
+cytotox,135_baek2011.pdf,10.1088/1742-6596/304/1/012044,failed,not_pdf:text/html; charset=UTF-8,,
+cytotox,95_oup-accepted-manuscript-2017.pdf,10.1093/mutage/gex027,failed,http_403,,
+cytotox,154_braydich-stolle2005.pdf,10.1093/toxsci/kfi256,failed,not_pdf:text/html; charset=utf-8,,
+cytotox,107_mrakovcic2014.pdf,10.1093/toxsci/kfu260,failed,http_403,,
+cytotox,56_peng2012.pdf,10.1155/2012/160145,failed,http_403,,
+cytotox,162_vijayakumar2012.pdf,10.1155/2012/734398,failed,http_403,,
+cytotox,89_sahu2014.pdf,10.1155/2014/827019,failed,not_pdf:text/html; charset=utf-8,,
+cytotox,88_10.1155@2016@4023852.pdf,10.1155/2016/4023852,failed,http_403,,
+cytotox,24_f49b4c3eccf090acd4d0bf7d19be972f.pdf,10.1155/2018/1367801,failed,not_pdf:text/html; charset=utf-8,,
+cytotox,57_yang2018.pdf,10.1155/2018/2036176,failed,not_pdf:text/html; charset=utf-8,,
+cytotox,122_10.1155@2019@5287632.pdf,10.1155/2019/5287632,failed,http_403,,
+cytotox,21_3c8805ef2a3d99c34dd3823dfe1e3bbc.pdf,10.1177/1559325818807382,failed,http_403,,
+cytotox,138_hoskins2012.pdf,10.1186/1556-276x-7-77,failed,not_pdf:text/html; charset=utf-8,,
+cytotox,146_10.1186@1743-8977-5-22.pdf,10.1186/1743-8977-5-22,downloaded,downloaded,data/pdfs/pdf_cytotox/146_10.1186@1743-8977-5-22.pdf,https://particleandfibretoxicology.biomedcentral.com/counter/pdf/10.1186/1743-8977-5-22
+cytotox,156_lanone2009.pdf,10.1186/1743-8977-6-14,downloaded,downloaded,data/pdfs/pdf_cytotox/156_lanone2009.pdf,https://particleandfibretoxicology.biomedcentral.com/counter/pdf/10.1186/1743-8977-6-14
+cytotox,161_uboldi2009.pdf,10.1186/1743-8977-6-18,downloaded,downloaded,data/pdfs/pdf_cytotox/161_uboldi2009.pdf,https://link.springer.com/content/pdf/10.1186/1743-8977-6-18.pdf
+cytotox,28_10.1186@s11671-019-2967-1.pdf,10.1186/s11671-019-2967-1,downloaded,downloaded,data/pdfs/pdf_cytotox/28_10.1186@s11671-019-2967-1.pdf,https://link.springer.com/content/pdf/10.1186/s11671-019-2967-1.pdf
+cytotox,109_long2017.pdf,10.1186/s12951-017-0318-x,downloaded,downloaded,data/pdfs/pdf_cytotox/109_long2017.pdf,https://jnanobiotechnology.biomedcentral.com/track/pdf/10.1186/s12951-017-0318-x
+cytotox,35_10.1186@s12951-019-0456-4.pdf,10.1186/s12951-019-0456-4,failed,not_pdf:text/html; charset=utf-8,,
+cytotox,46_boyles2015.pdf,10.1186/s12989-016-0160-6,downloaded,downloaded,data/pdfs/pdf_cytotox/46_boyles2015.pdf,https://particleandfibretoxicology.biomedcentral.com/counter/pdf/10.1186/s12989-016-0160-6
+cytotox,106_jiang2013.pdf,10.1371/journal.pone.0065756,downloaded,downloaded,data/pdfs/pdf_cytotox/106_jiang2013.pdf,https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0065756&type=printable
+cytotox,98_siddiqui2013.pdf,10.1371/journal.pone.0069534,downloaded,downloaded,data/pdfs/pdf_cytotox/98_siddiqui2013.pdf,https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0069534&type=printable
+cytotox,74_liu2014.pdf,10.1371/journal.pone.0099175,downloaded,downloaded,data/pdfs/pdf_cytotox/74_liu2014.pdf,https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0099175&type=printable
+cytotox,110_zakrzewska2015.pdf,10.1371/journal.pone.0122579,downloaded,downloaded,data/pdfs/pdf_cytotox/110_zakrzewska2015.pdf,https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0122579&type=printable
+cytotox,87_naqvi2010.pdf,10.2147/ijn.s13244,failed,not_pdf:text/html; charset=utf-8,,
+cytotox,50_wu2017.pdf,10.2147/ijn.s135189,failed,not_pdf:text/html; charset=UTF-8,,
+cytotox,40_10.2147@IJN.S208225.pdf,10.2147/ijn.s208225,failed,not_pdf:text/html; charset=utf-8,,
+cytotox,73_xia2019.pdf,10.2147/ijn.s214008,failed,http_404,,
+cytotox,119_tyner2014.pdf,10.2147/ijn.s72580,failed,request_error:ConnectTimeout,,
+cytotox,23_10.3390@cells8050444.pdf,10.3390/cells8050444,failed,http_403,,
+cytotox,140_watanabe2013.pdf,10.3390/ijms140815546,failed,http_403,,
+cytotox,19_10.3390@nano9081081.pdf,10.3390/nano9081081,failed,request_error:ConnectTimeout,,
+cytotox,139_landgraf2015.pdf,10.3762/bjnano.6.28,downloaded,downloaded,data/pdfs/pdf_cytotox/139_landgraf2015.pdf,https://www.beilstein-journals.org/bjnano/content/pdf/2190-4286-6-28.pdf
+cytotox,43_201915-pdf.pdf,10.3762/bxiv.2019.15.v1,downloaded,downloaded,data/pdfs/pdf_cytotox/43_201915-pdf.pdf,https://www.beilstein-archives.org/xiv/download/pdf/201915-pdf
+cytotox,128_sonkusre2014.pdf,10.4172/2157-7439.1000194,downloaded,downloaded,data/pdfs/pdf_cytotox/128_sonkusre2014.pdf,https://doi.org/10.4172/2157-7439.1000194
+cytotox,2_International Scholarly Research Notices - 2012 - Bancos - Evaluation of Viability and Proliferation Profiles on.pdf,10.5402/2012/454072,failed,http_403,,

@@ -1,0 +1,40 @@
+domain,pdf,doi,status,reason,saved_path,source_url
+nanozymes,ANIE.200805279,10.1002/anie.200805279,failed,not_pdf:text/html; charset=utf-8,,
+nanozymes,CBIC.202000147,10.1002/cbic.202000147,failed,no_oa_url,,
+nanozymes,S1320501710821,10.1007/s13205-017-1082-1,failed,not_pdf:text/html; charset=utf-8,,
+nanozymes,J.ACA.2015.04.052,10.1016/j.aca.2015.04.052,failed,no_oa_url,,
+nanozymes,J.ACA.2020.01.035,10.1016/j.aca.2020.01.035,failed,no_oa_url,,
+nanozymes,J.APMT.2019.03.009,10.1016/j.apmt.2019.03.009,failed,no_oa_url,,
+nanozymes,J.BIOMATERIALS.2009.05.005,10.1016/j.biomaterials.2009.05.005,failed,no_oa_url,,
+nanozymes,J.BIOS.2013.11.040,10.1016/j.bios.2013.11.040,failed,not_pdf:image/jpeg,,
+nanozymes,J.JCIS.2017.11.064,10.1016/j.jcis.2017.11.064,failed,request_error:ConnectTimeout,,
+nanozymes,J.JCIS.2018.12.093,10.1016/j.jcis.2018.12.093,failed,request_error:ConnectTimeout,,
+nanozymes,J.JCIS.2021.06.170,10.1016/j.jcis.2021.06.170,failed,not_pdf:text/html; charset=utf-8,,
+nanozymes,J.JCIS.2022.01.041,10.1016/j.jcis.2022.01.041,failed,not_pdf:text/html; charset=UTF-8,,
+nanozymes,J.LWT.2021.112821,10.1016/j.lwt.2021.112821,failed,not_pdf:text/html;charset=UTF-8,,
+nanozymes,J.SINTL.2020.100031,10.1016/j.sintl.2020.100031,failed,http_403,,
+nanozymes,J.SNB.2016.04.041,10.1016/j.snb.2016.04.041,failed,no_oa_url,,
+nanozymes,ACS.ANALCHEM.7B02880,10.1021/acs.analchem.7b02880,failed,not_pdf:text/html; charset=utf-8,,
+nanozymes,ACSOMEGA.0C00147,10.1021/acsomega.0c00147,failed,not_pdf:text/html; charset=utf-8,,
+nanozymes,ACSOMEGA.9B03252,10.1021/acsomega.9b03252,failed,not_pdf:text/html; charset=utf-8,,
+nanozymes,CM8031863,10.1021/cm8031863,failed,not_pdf:text/html; charset=utf-8,,
+nanozymes,JACS.0C12605,10.1021/jacs.0c12605,failed,request_error:ConnectTimeout,,
+nanozymes,JACS.5B09337,10.1021/jacs.5b09337,failed,not_pdf:text/html; charset=utf-8,,
+nanozymes,SREP35344,10.1038/srep35344,downloaded,downloaded,data/pdfs/pdf_nanozymes/SREP35344.pdf,https://www.nature.com/articles/srep35344.pdf
+nanozymes,SREP40103,10.1038/srep40103,downloaded,downloaded,data/pdfs/pdf_nanozymes/SREP40103.pdf,https://www.nature.com/articles/srep40103.pdf
+nanozymes,C6TB01233G,10.1039/C6TB01233G,failed,no_oa_url,,
+nanozymes,C7RA10370K,10.1039/C7RA10370K,downloaded,downloaded,data/pdfs/pdf_nanozymes/C7RA10370K.pdf,https://pubs.rsc.org/en/content/articlepdf/2017/ra/c7ra10370k
+nanozymes,C8RA05487H,10.1039/C8RA05487H,downloaded,downloaded,data/pdfs/pdf_nanozymes/C8RA05487H.pdf,https://pubs.rsc.org/en/content/articlepdf/2019/ra/c8ra05487h
+nanozymes,C8TB01132J,10.1039/C8TB01132J,failed,not_pdf:text/html; charset=utf-8,,
+nanozymes,C9RA01227C,10.1039/C9RA01227C,downloaded,downloaded,data/pdfs/pdf_nanozymes/C9RA01227C.pdf,https://pubs.rsc.org/en/content/articlepdf/2019/ra/c9ra01227c
+nanozymes,D0RA05342B,10.1039/D0RA05342B,downloaded,downloaded,data/pdfs/pdf_nanozymes/D0RA05342B.pdf,https://pubs.rsc.org/en/content/articlepdf/2020/ra/d0ra05342b
+nanozymes,D1RA03456A,10.1039/D1RA03456A,downloaded,downloaded,data/pdfs/pdf_nanozymes/D1RA03456A.pdf,https://pubs.rsc.org/en/content/articlepdf/2021/ra/d1ra03456a
+nanozymes,5416963,10.1155/2019/5416963,failed,not_pdf:text/html; charset=utf-8,,
+nanozymes,S129510190487X,10.1186/s12951-019-0487-x,downloaded,downloaded,data/pdfs/pdf_nanozymes/S129510190487X.pdf,https://jnanobiotechnology.biomedcentral.com/track/pdf/10.1186/s12951-019-0487-x
+nanozymes,CHEMOSENSORS10090359,10.3390/chemosensors10090359,failed,http_403,,
+nanozymes,NANO10020313,10.3390/nano10020313,failed,http_403,,
+nanozymes,NANO10061015,10.3390/nano10061015,failed,not_pdf:text/html; charset=utf-8,,
+nanozymes,NANO12050755,10.3390/nano12050755,failed,request_error:SSLError,,
+nanozymes,NANO9020210,10.3390/nano9020210,failed,not_pdf:text/html; charset=utf-8,,
+nanozymes,S16040584,10.3390/s16040584,failed,not_pdf:text/html; charset=utf-8,,
+nanozymes,THNO.19257,10.7150/thno.19257,downloaded,downloaded,data/pdfs/pdf_nanozymes/THNO.19257.pdf,https://www.thno.org/v07p2277.pdf

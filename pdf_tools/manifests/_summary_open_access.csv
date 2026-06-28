@@ -1,0 +1,11 @@
+domain,hf_dataset,rows_total,oa_rows,unique_oa_pdf,unique_oa_doi,manifest_rows,manifest_path
+eyedrops,EyeDrops,163,0,,0,0,manifests/eyedrops_open_access_manifest.csv
+benzimidazole,Benzimidazoles,1721,456,9.0,9,9,manifests/benzimidazole_open_access_manifest.csv
+oxazolidinone,Oxazolidinones,2923,215,2.0,2,2,manifests/oxazolidinone_open_access_manifest.csv
+nanozymes,Nanozymes,1135,111,39.0,39,39,manifests/nanozymes_open_access_manifest.csv
+synergy,Synergy,3232,2158,53.0,53,53,manifests/synergy_open_access_manifest.csv
+nanomag,Nanomag,2578,704,120.0,121,121,manifests/nanomag_open_access_manifest.csv
+cocrystals,Co-crystals,70,27,13.0,13,13,manifests/cocrystals_open_access_manifest.csv
+complexes,Complexes,907,214,4.0,3,4,manifests/complexes_open_access_manifest.csv
+cytotox,Cytotox,5476,1990,58.0,58,58,manifests/cytotox_open_access_manifest.csv
+seltox,SelTox,3244,2512,135.0,139,140,manifests/seltox_open_access_manifest.csv

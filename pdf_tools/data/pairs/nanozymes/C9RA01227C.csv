@@ -1,0 +1,2 @@
+formula,activity,syngony,length,width,depth,surface,km_value,km_unit,vmax_value,vmax_unit,target_source,reaction_type,c_min,c_max,c_const,c_const_unit,ccat_value,ccat_unit,ph,temperature,doi,pdf,access,title,journal,year
+Mn3O4,oxidase,,800,800,800,,0.02715,mM,127.0,nM s-1,text,TMB,0.0,0.4,,,5.0,μg mL−1,4.5,37.0,10.1039/C9RA01227C,C9RA01227C,1,Mn<sub>3</sub>O<sub>4</sub> microspheres as an oxidase mimic for rapid detection of glutathione,RSC Advances,2019

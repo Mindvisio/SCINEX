@@ -1,0 +1,5 @@
+domain,pdf,doi,status,reason,size_bytes,path
+complexes,uzal2022,10.1016/j.ccr.2022.214606,missing,file_not_found,0,data/pdfs/pdf_complexes/uzal2022.pdf
+complexes,uzal2023,10.1016/j.ccr.2022.214606,missing,file_not_found,0,data/pdfs/pdf_complexes/uzal2023.pdf
+complexes,wadas2010,10.1021/cr900325h,missing,file_not_found,0,data/pdfs/pdf_complexes/wadas2010.pdf
+complexes,abram2006,10.1590/S0103-50532006000800004,ok,,553620,data/pdfs/pdf_complexes/abram2006.pdf

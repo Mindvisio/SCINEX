@@ -1,0 +1,5 @@
+formula,activity,syngony,length,width,depth,surface,km_value,km_unit,vmax_value,vmax_unit,target_source,reaction_type,c_min,c_max,c_const,c_const_unit,ccat_value,ccat_unit,ph,temperature,doi,pdf,access,title,journal,year
+Ru,peroxidase,,20-30,20-30,20-30,,0.234,mM,4.95,μM min-1,text,TMB + H2O2,0.05,0.15,0.1,mM,10.0,μg mL−1,7.4,,10.1039/C7RA10370K,C7RA10370K,1,Mimicking horseradish peroxidase and oxidase using ruthenium nanomaterials,RSC Advances,2017
+Ru,peroxidase,,20-30,20-30,20-30,,2.206,mM,35.0,μM min-1,text,H2O2 + TMB,0.05,0.2,0.1,mM,10.0,μg mL−1,7.4,,10.1039/C7RA10370K,C7RA10370K,1,Mimicking horseradish peroxidase and oxidase using ruthenium nanomaterials,RSC Advances,2017
+Ru,oxidase,,20-30,20-30,20-30,,54.92,mM,0.57,μM min-1,text,TMB,0.05,0.5,,,50.0,μg mL−1,7.4,,10.1039/C7RA10370K,C7RA10370K,1,Mimicking horseradish peroxidase and oxidase using ruthenium nanomaterials,RSC Advances,2017
+Ru,oxidase,,20-30,20-30,20-30,,0.155,mM,2.33,μM min-1,text,NaA,0.05,0.2,,,50.0,μg mL−1,7.4,,10.1039/C7RA10370K,C7RA10370K,1,Mimicking horseradish peroxidase and oxidase using ruthenium nanomaterials,RSC Advances,2017

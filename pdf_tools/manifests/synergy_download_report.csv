@@ -1,0 +1,54 @@
+domain,pdf,doi,status,reason,saved_path,source_url
+synergy,33_s11274-017-2406-3.pdf,10.1007/s11274-017-2406-3,downloaded,downloaded,data/pdfs/pdf_synergy/33_s11274-017-2406-3.pdf,https://link.springer.com/content/pdf/10.1007/s11274-017-2406-3.pdf
+synergy,53_burygin2009.pdf,10.1007/s11671-009-9316-8,downloaded,downloaded,data/pdfs/pdf_synergy/53_burygin2009.pdf,https://link.springer.com/content/pdf/10.1007/s11671-009-9316-8.pdf
+synergy,43_roshmi2015.pdf,10.1007/s13404-015-0162-4,downloaded,downloaded,data/pdfs/pdf_synergy/43_roshmi2015.pdf,https://link.springer.com/content/pdf/10.1007/s13404-015-0162-4.pdf
+synergy,69_pageni2018.pdf,10.1016/j.biomaterials.2018.05.007,failed,no_oa_url,,
+synergy,70_10.1016@j.dib.2019.104929.pdf,10.1016/j.dib.2019.104929,failed,not_pdf:text/html; charset=utf-8,,
+synergy,63_pallela2019.pdf,10.1016/j.heliyon.2019.e02765,failed,not_pdf:text/html; charset=utf-8,,
+synergy,45_1-s2.0-S1876034121003282-main.pdf,10.1016/j.jiph.2021.10.007,failed,http_403,,
+synergy,55_8f8eba2a8c57f32465306f7e987d8050.pdf,10.1016/j.jsps.2018.11.010,failed,not_pdf:text/html; charset=utf-8,,
+synergy,23_1-s2.0-S0944501315300136-main.pdf,10.1016/j.micres.2015.09.009,failed,no_oa_url,,
+synergy,66_1-s2.0-S2590123022001207-main.pdf,10.1016/j.rineng.2022.100450,failed,http_403,,
+synergy,83_10.1016@j.sajb.2019.05.024.pdf,10.1016/j.sajb.2019.05.024,failed,not_pdf:text/html;charset=UTF-8,,
+synergy,41_li2014.pdf,10.1021/nn5042625,failed,not_pdf:text/html; charset=utf-8,,
+synergy,30_s41598-022-19698-0.pdf,10.1038/s41598-022-19698-0,downloaded,downloaded,data/pdfs/pdf_synergy/30_s41598-022-19698-0.pdf,https://www.nature.com/articles/s41598-022-19698-0.pdf
+synergy,31_thirumurugan2016.pdf,10.1038/srep29982,downloaded,downloaded,data/pdfs/pdf_synergy/31_thirumurugan2016.pdf,https://www.nature.com/articles/srep29982.pdf
+synergy,75_d1ra04390k.pdf,10.1039/d1ra04390k,downloaded,downloaded,data/pdfs/pdf_synergy/75_d1ra04390k.pdf,https://pubs.rsc.org/en/content/articlepdf/2021/ra/d1ra04390k
+synergy,78_priyanka2016.pdf,10.1049/iet-nbt.2015.0038,failed,not_pdf:text/html; charset=utf-8,,
+synergy,2_ghafoori2017.pdf,10.1088/2043-6254/aa92bb,failed,not_pdf:text/html; charset=UTF-8,,
+synergy,19_markowska2014.pdf,10.1099/jmm.0.068833-0,failed,no_oa_url,,
+synergy,22_lambio0680.pdf,10.1111/lam.13759,failed,request_error:ConnectionError,,
+synergy,5_habash2014.pdf,10.1128/aac.03170-14,failed,not_pdf:text/html; charset=utf-8,,
+synergy,72_10.1186@s12951-020-0588-6.pdf,10.1186/s12951-020-0588-6,downloaded,downloaded,data/pdfs/pdf_synergy/72_10.1186@s12951-020-0588-6.pdf,https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s12951-020-0588-6
+synergy,28_10.1371@journal.pone.0224904.pdf,10.1371/journal.pone.0224904,downloaded,downloaded,data/pdfs/pdf_synergy/28_10.1371@journal.pone.0224904.pdf,https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0224904&type=printable
+synergy,89_sharma2016.pdf,10.1590/0001-3765201620150713,downloaded,downloaded,data/pdfs/pdf_synergy/89_sharma2016.pdf,http://www.scielo.br/pdf/aabc/v88n3s0/0001-3765-aabc-201620150713.pdf
+synergy,34_abo-shama2020.pdf,10.2147/idr.s234425,downloaded,downloaded,data/pdfs/pdf_synergy/34_abo-shama2020.pdf,https://www.dovepress.com/article/download/51638
+synergy,56_li2016.pdf,10.2147/ijn.s119618,failed,not_pdf:text/html; charset=utf-8,,
+synergy,35_10.2147@IJN.S246484.pdf,10.2147/ijn.s246484,failed,request_error:ConnectionError,,
+synergy,36_chopade2012.pdf,10.2147/ijn.s24793,failed,http_404,,
+synergy,62_azam2012.pdf,10.2147/ijn.s29020,failed,not_pdf:text/html; charset=UTF-8,,
+synergy,37_chopade2013.pdf,10.2147/ijn.s48913,failed,not_pdf:text/html; charset=UTF-8,,
+synergy,16_IJN-49284-combined-efficacy-of-biologically-synthesized-silver-nanopar_081913.pdf,10.2147/ijn.s49284,failed,not_pdf:text/html; charset=UTF-8,,
+synergy,86_2023.08.01.34.pdf,10.21931/rb/2023.08.01.34,failed,http_403,,
+synergy,38_NMRJ_Volume 5_Issue 1_Pages 44-54.pdf,10.22034/nmrj.2020.01.006,failed,no_oa_url,,
+synergy,68_patra2016.pdf,10.3109/21691401.2016.1153484,failed,http_403,,
+synergy,11_fbioe-09-652362.pdf,10.3389/fbioe.2021.652362,failed,not_pdf:text/html; charset=utf-8,,
+synergy,12_patra2017.pdf,10.3389/fmicb.2017.00167,downloaded,downloaded,data/pdfs/pdf_synergy/12_patra2017.pdf,https://www.frontiersin.org/articles/10.3389/fmicb.2017.00167/pdf
+synergy,13_pompilio2018.pdf,10.3389/fmicb.2018.01349,failed,not_pdf:text/html; charset=utf-8,,
+synergy,14_fmicb-12-750556.pdf,10.3389/fmicb.2021.750556,downloaded,downloaded,data/pdfs/pdf_synergy/14_fmicb-12-750556.pdf,https://www.frontiersin.org/articles/10.3389/fmicb.2021.750556/pdf
+synergy,15_fmicb-13-929491.pdf,10.3389/fmicb.2022.929491,downloaded,downloaded,data/pdfs/pdf_synergy/15_fmicb-13-929491.pdf,https://www.frontiersin.org/articles/10.3389/fmicb.2022.929491/pdf
+synergy,3_antibiotics-11-01205-v2.pdf,10.3390/antibiotics11091205,failed,not_pdf:text/html; charset=utf-8,,
+synergy,4_antibiotics-11-01219-v2.pdf,10.3390/antibiotics11091219,failed,not_pdf:text/html; charset=utf-8,,
+synergy,77_catalysts-12-00181-v3.pdf,10.3390/catal12020181,failed,http_403,,
+synergy,91_crystals-12-01513-v3.pdf,10.3390/cryst12111513,failed,http_403,,
+synergy,71_jfb-13-00138.pdf,10.3390/jfb13030138,failed,not_pdf:text/html; charset=utf-8,,
+synergy,74_grumezescu2014.pdf,10.3390/molecules19045013,failed,http_403,,
+synergy,61_10.3390@molecules24173055.pdf,10.3390/molecules24173055,failed,not_pdf:text/html; charset=utf-8,,
+synergy,24_swolana2020.pdf,10.3390/nano10051010,failed,not_pdf:text/html; charset=utf-8,,
+synergy,52_shamaila2016.pdf,10.3390/nano6040071,failed,http_403,,
+synergy,29_10.3390@polym13040659.pdf,10.3390/polym13040659,failed,not_pdf:text/html; charset=utf-8,,
+synergy,54_polymers-14-00771-v2.pdf,10.3390/polym14040771,failed,not_pdf:text/html; charset=utf-8,,
+synergy,82_processes-11-00272.pdf,10.3390/pr11010272,failed,http_403,,
+synergy,39_PM-13-828.pdf,10.4103/pm.pm_120_17,failed,no_oa_url,,
+synergy,79_10.4236@jbnb.2010.11005.pdf,10.4236/jbnb.2010.11005,downloaded,downloaded,data/pdfs/pdf_synergy/79_10.4236@jbnb.2010.11005.pdf,http://www.scirp.org/journal/PaperDownload.aspx?paperID=3005
+synergy,57_2634_pdf.pdf,10.7324/japs.2018.8516,downloaded,downloaded,data/pdfs/pdf_synergy/57_2634_pdf.pdf,http://www.japsonline.com/admin/php/uploads/2634_pdf.pdf

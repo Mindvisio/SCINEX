@@ -1,0 +1,4 @@
+domain,pdf,doi,doi_url,suggested_filename,notes
+complexes,uzal2022,10.1016/j.ccr.2022.214606,https://doi.org/10.1016/j.ccr.2022.214606,uzal2022.pdf,Download only legal OA PDF. Save into data/pdfs/pdf_complexes/ with suggested filename.
+complexes,uzal2023,10.1016/j.ccr.2022.214606,https://doi.org/10.1016/j.ccr.2022.214606,uzal2023.pdf,Download only legal OA PDF. Save into data/pdfs/pdf_complexes/ with suggested filename.
+complexes,wadas2010,10.1021/cr900325h,https://doi.org/10.1021/cr900325h,wadas2010.pdf,Download only legal OA PDF. Save into data/pdfs/pdf_complexes/ with suggested filename.

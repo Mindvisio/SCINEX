@@ -1,0 +1,14 @@
+domain,pdf,doi,status,reason,saved_path,source_url
+cocrystals,Li2020,10.1002/anie.202009714,failed,no_oa_url,,
+cocrystals,Qu2024,10.1016/j.cej.2024.151902,failed,no_oa_url,,
+cocrystals,Nugrahani2024,10.1016/j.heliyon.2024.e33280,failed,http_403,,
+cocrystals,Kawabata2023,10.1016/j.jpap.2023.100172,failed,http_403,,
+cocrystals,Cugovčan2017,10.1016/j.jpba.2017.01.025,failed,no_oa_url,,
+cocrystals,Diniz2024,10.1021/acs.molpharmaceut.4c00393,failed,not_pdf:text/html; charset=utf-8,,
+cocrystals,Zheng2024,10.1021/acsomega.4c03864,failed,not_pdf:text/html; charset=utf-8,,
+cocrystals,Eesam2020,10.1186/s43094-020-00083-5,downloaded,downloaded,data/pdfs/pdf_cocrystals/Eesam2020.pdf,https://fjps.springeropen.com/counter/pdf/10.1186/s43094-020-00083-5
+cocrystals,Teraoka2019,10.1248/cpb.c18-00812,downloaded,downloaded,data/pdfs/pdf_cocrystals/Teraoka2019.pdf,https://www.jstage.jst.go.jp/article/cpb/67/9/67_c18-00812/_pdf
+cocrystals,Yutani2019,10.3390/cryst9110553,failed,http_403,,
+cocrystals,Xie2024,10.3390/molecules29102208,failed,http_403,,
+cocrystals,Dhakar2019,10.3390/pharmaceutics11100545,failed,not_pdf:text/html; charset=utf-8,,
+cocrystals,Nugrahani2023,10.3390/pharmaceutics15010124,failed,not_pdf:text/html; charset=utf-8,,

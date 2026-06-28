@@ -1,0 +1,141 @@
+domain,pdf,doi,status,reason,saved_path,source_url
+seltox,97_boda2015.pdf,10.1002/smll.201403014,failed,no_oa_url,,
+seltox,4_antibiotics-11-01219-v2.pdf,10.1007/s10876-020-01759-x,failed,no_oa_url,,
+seltox,33_s11274-017-2406-3.pdf,10.1007/s11274-017-2406-3,downloaded,downloaded,data/pdfs/pdf_seltox/33_s11274-017-2406-3.pdf,https://link.springer.com/content/pdf/10.1007/s11274-017-2406-3.pdf
+seltox,171_1-s2.0-S2211926423001625-main.pdf,10.1016/j.algal.2023.103129,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,159_1-s2.0-S1878535214002482-main.pdf,10.1016/j.arabjc.2014.10.036,failed,http_403,,
+seltox,174_1-s2.0-S1878535216300387-main.pdf,10.1016/j.arabjc.2016.04.014,failed,request_error:ConnectTimeout,,
+seltox,167_1-s2.0-S1878535221005402-main.pdf,10.1016/j.arabjc.2021.103525,failed,http_403,,
+seltox,145_1-s2.0-S187853522200079X-main.pdf,10.1016/j.arabjc.2022.103763,failed,http_403,,
+seltox,196_1-s2.0-S1878535222001149-main.pdf,10.1016/j.arabjc.2022.103798,failed,request_error:ConnectTimeout,,
+seltox,190_1-s2.0-S1878535222001587-main.pdf,10.1016/j.arabjc.2022.103842,failed,not_pdf:text/html; charset=UTF-8,,
+seltox,158_1-s2.0-S1878535223006561-main.pdf,10.1016/j.arabjc.2023.105194,downloaded,downloaded,data/pdfs/pdf_seltox/158_1-s2.0-S1878535223006561-main.pdf,https://eprints.whiterose.ac.uk/214093/1/Enhanced%20in%20vivo%20wound%20healing%20efficacy%20and%20excellent%20antibacterial%2C%20antifungal%2C%20antioxidant%20and%20anticancer%20activities%20via%20AgNPs%40PCS.pdf
+seltox,175_1-s2.0-S1878535224000637-main.pdf,10.1016/j.arabjc.2024.105661,failed,not_pdf:text/html; charset=UTF-8,,
+seltox,197_1-s2.0-S0003996919302067-main.pdf,10.1016/j.archoralbio.2019.104481,failed,request_error:ReadTimeout,,
+seltox,169_1-s2.0-S0003996921000649-main.pdf,10.1016/j.archoralbio.2021.105101,failed,request_error:ReadTimeout,,
+seltox,198_1-s2.0-S2590207524000170-main.pdf,10.1016/j.bioflm.2024.100192,failed,http_403,,
+seltox,69_pageni2018.pdf,10.1016/j.biomaterials.2018.05.007,failed,no_oa_url,,
+seltox,183_mishra2020.pdf,10.1016/j.btre.2020.e00571,failed,not_pdf:text/html; charset=utf-8,,
+seltox,116_1-s2.0-S2215017X2300036X-main.pdf,10.1016/j.btre.2023.e00816,failed,http_403,,
+seltox,199_1-s2.0-S0927775724007131-main.pdf,10.1016/j.colsurfa.2024.133852,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,173_1-s2.0-S2666086524000134-main.pdf,10.1016/j.crgsc.2024.100408,failed,http_403,,
+seltox,155_1-s2.0-S0928098723003111-main.pdf,10.1016/j.ejps.2023.106683,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,121_1-s2.0-S2405665024000490-main.pdf,10.1016/j.emcon.2024.100348,failed,http_403,,
+seltox,143_1-s2.0-S235218642100715X-main.pdf,10.1016/j.eti.2021.102067,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,120_1-s2.0-S2772753X24001059-main.pdf,10.1016/j.focha.2024.100709,failed,http_403,,
+seltox,111_1-s2.0-S0308814622019227-main.pdf,10.1016/j.foodchem.2022.133960,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,203_1-s2.0-S0956713518302330-main.pdf,10.1016/j.foodcont.2018.05.008,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,92_10.1016@j.heliyon.2019.e01333.pdf,10.1016/j.heliyon.2019.e01333,failed,http_403,,
+seltox,114_10.1016@j.heliyon.2019.e02980.pdf,10.1016/j.heliyon.2019.e02980,failed,http_403,,
+seltox,185_1-s2.0-S2405844020304692-main.pdf,10.1016/j.heliyon.2020.e03624,failed,not_pdf:text/html; charset=utf-8,,
+seltox,124_1-s2.0-S2405844020313372-main.pdf,10.1016/j.heliyon.2020.e04493,failed,not_pdf:text/html; charset=utf-8,,
+seltox,205_1-s2.0-S2405844021021368-main.pdf,10.1016/j.heliyon.2021.e08033,failed,not_pdf:text/html; charset=utf-8,,
+seltox,122_1-s2.0-S2405844022007605-main.pdf,10.1016/j.heliyon.2022.e09472,failed,request_error:ConnectTimeout,,
+seltox,122_1-s2.0-S2405844022007605-main.pdf,10.1016/j.heliyon.2022.e09474,failed,not_pdf:text/html; charset=utf-8,,
+seltox,154_1-s2.0-S2405844022012981-main.pdf,10.1016/j.heliyon.2022.e10010,failed,not_pdf:text/html; charset=utf-8,,
+seltox,218_1-s2.0-S240584402302950X-main.pdf,10.1016/j.heliyon.2023.e15743,failed,http_403,,
+seltox,131_1-s2.0-S2405844023059960-main.pdf,10.1016/j.heliyon.2023.e18788,failed,http_403,,
+seltox,126_1-s2.0-S2405844023062692-main.pdf,10.1016/j.heliyon.2023.e19061,failed,http_403,,
+seltox,144_1-s2.0-S2405844023099796-main.pdf,10.1016/j.heliyon.2023.e22771,failed,http_403,,
+seltox,140_1-s2.0-S2405844024008466-main.pdf,10.1016/j.heliyon.2024.e24815,failed,http_403,,
+seltox,117_1-s2.0-S240584402401291X-main.pdf,10.1016/j.heliyon.2024.e25260,failed,http_403,,
+seltox,163_1-s2.0-S2405844024016955-main.pdf,10.1016/j.heliyon.2024.e25664,downloaded,downloaded,data/pdfs/pdf_seltox/163_1-s2.0-S2405844024016955-main.pdf,https://research.chalmers.se/publication/539994/file/539994_Fulltext.pdf
+seltox,182_main.pdf,10.1016/j.heliyon.2024.e28971,failed,http_403,,
+seltox,119_1-s2.0-S2405844024065319-main.pdf,10.1016/j.heliyon.2024.e30500,failed,http_403,,
+seltox,146_1-s2.0-S2405844024071470-main.pdf,10.1016/j.heliyon.2024.e31116,failed,http_403,,
+seltox,200_1-s2.0-S0141813023028775-main.pdf,10.1016/j.ijbiomac.2023.125982,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,165_1-s2.0-S2590156724000173-main.pdf,10.1016/j.ijpx.2024.100245,failed,not_pdf:text/html; charset=utf-8,,
+seltox,150_1-s2.0-S2666934X23000259-main.pdf,10.1016/j.jciso.2023.100098,failed,http_403,,
+seltox,133_1-s2.0-S030057122030066X-main.pdf,10.1016/j.jdent.2020.103327,failed,no_oa_url,,
+seltox,161_1-s2.0-S0304389421012802-main.pdf,10.1016/j.jhazmat.2021.126316,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,106_steffy2017.pdf,10.1016/j.jiph.2017.10.006,failed,http_403,,
+seltox,137_asimuddin2018.pdf,10.1016/j.jksus.2018.09.014,failed,http_403,,
+seltox,219_1-s2.0-S1018364720303001-main.pdf,10.1016/j.jksus.2020.09.024,failed,http_403,,
+seltox,157_1-s2.0-S1018364720304092-main.pdf,10.1016/j.jksus.2020.101296,failed,http_403,,
+seltox,166_1-s2.0-S1018364721002494-main.pdf,10.1016/j.jksus.2021.101587,failed,http_403,,
+seltox,112_1-s2.0-S1018364721004110-main.pdf,10.1016/j.jksus.2021.101749,failed,http_403,,
+seltox,216_1-s2.0-S1018364722000775-main.pdf,10.1016/j.jksus.2022.101896,failed,http_403,,
+seltox,220_1-s2.0-S1018364722000787-main.pdf,10.1016/j.jksus.2022.101897,failed,http_403,,
+seltox,132_1-s2.0-S1018364722005547-main.pdf,10.1016/j.jksus.2022.102373,failed,http_403,,
+seltox,217_1-s2.0-S1018364723004214-main.pdf,10.1016/j.jksus.2023.102959,failed,not_pdf:text/html; charset=UTF-8,,
+seltox,170_1-s2.0-S1018364724001769-main.pdf,10.1016/j.jksus.2024.103264,failed,not_pdf:text/html; charset=UTF-8,,
+seltox,184_1-s2.0-S1018364724002489-main.pdf,10.1016/j.jksus.2024.103336,failed,not_pdf:text/html; charset=UTF-8,,
+seltox,192_1-s2.0-S1684118216300238-main.pdf,10.1016/j.jmii.2016.03.002,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,172_1-s2.0-S2238785422002198-main.pdf,10.1016/j.jmrt.2022.02.049,failed,http_403,,
+seltox,160_1-s2.0-S1687850724001882-main.pdf,10.1016/j.jrras.2024.101004,failed,http_403,,
+seltox,118_1-s2.0-S1319610314001586-main.pdf,10.1016/j.jscs.2014.10.004,failed,http_403,,
+seltox,204_1-s2.0-S1658361217300483-main.pdf,10.1016/j.jtumed.2017.02.008,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,23_1-s2.0-S0944501315300136-main.pdf,10.1016/j.micres.2015.09.009,failed,no_oa_url,,
+seltox,113_1-s2.0-S2773078623000079-main.pdf,10.1016/j.napere.2023.100026,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,123_1-s2.0-S2949822823000710-main.pdf,10.1016/j.nxmate.2023.100071,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,156_1-s2.0-S294982952400024X-main.pdf,10.1016/j.nxnano.2024.100063,failed,http_403,,
+seltox,148_1-s2.0-S2352952022000469-main.pdf,10.1016/j.onano.2022.100084,failed,http_403,,
+seltox,115_1-s2.0-S2352952023000270-main.pdf,10.1016/j.onano.2023.100148,downloaded,downloaded,data/pdfs/pdf_seltox/115_1-s2.0-S2352952023000270-main.pdf,http://sedici.unlp.edu.ar/bitstream/handle/10915/153644/Documento_completo.pdf?sequence=1
+seltox,149_1-s2.0-S2773111123000293-main.pdf,10.1016/j.plana.2023.100052,failed,http_403,,
+seltox,109_gunalan2012.pdf,10.1016/j.pnsc.2012.11.015,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,194_1-s2.0-S003257912300514X-main.pdf,10.1016/j.psj.2023.102995,failed,http_403,,
+seltox,162_1-s2.0-S2211715622004052-main.pdf,10.1016/j.rechem.2022.100686,failed,http_403,,
+seltox,128_1-s2.0-S2211715623002229-main.pdf,10.1016/j.rechem.2023.100983,failed,http_403,,
+seltox,168_1-s2.0-S2211715623005131-main.pdf,10.1016/j.rechem.2023.101274,failed,http_403,,
+seltox,134_1-s2.0-S2211715624002066-main.pdf,10.1016/j.rechem.2024.101510,downloaded,downloaded,data/pdfs/pdf_seltox/134_1-s2.0-S2211715624002066-main.pdf,https://eprints.whiterose.ac.uk/214085/1/Green%20synthesis%20of%20non-toxic%20silver%20nanoparticles%20using%20Salvia%20tebesana%20Bunge%20extract%20Optimization%2C%20cytotoxicity%2C%20and%20antibacterial%20activities.pdf
+seltox,136_1-s2.0-S2590048X24000244-main.pdf,10.1016/j.rinma.2024.100550,failed,http_403,,
+seltox,184_1-s2.0-S1018364724002489-main.pdf,10.1016/j.rinp.2017.07.044,failed,http_403,,
+seltox,201_1-s2.0-S1013905218301780-main.pdf,10.1016/j.sdentj.2018.10.004,failed,not_pdf:text/html; charset=utf-8,,
+seltox,151_1-s2.0-S1319562X19301676-main.pdf,10.1016/j.sjbs.2019.09.005,failed,not_pdf:text/html;charset=UTF-8,,
+seltox,186_1-s2.0-S1319562X2030139X-main.pdf,10.1016/j.sjbs.2020.04.026,failed,not_pdf:text/html; charset=utf-8,,
+seltox,147_1-s2.0-S1319562X21003788-main.pdf,10.1016/j.sjbs.2021.05.007,failed,not_pdf:text/html; charset=utf-8,,
+seltox,191_1-s2.0-S1319562X21007725-main.pdf,10.1016/j.sjbs.2021.08.084,failed,not_pdf:text/html; charset=utf-8,,
+seltox,129_1-s2.0-S1319562X21010408-main.pdf,10.1016/j.sjbs.2021.12.007,failed,not_pdf:text/html; charset=utf-8,,
+seltox,135_1-s2.0-S1319562X22003734-main.pdf,10.1016/j.sjbs.2022.103457,failed,not_pdf:text/html; charset=utf-8,,
+seltox,176_1-s2.0-S1350417724001718-main.pdf,10.1016/j.ultsonch.2024.106923,failed,http_403,,
+seltox,30_s41598-022-19698-0.pdf,10.1038/s41598-022-19698-0,downloaded,downloaded,data/pdfs/pdf_seltox/30_s41598-022-19698-0.pdf,https://www.nature.com/articles/s41598-022-19698-0.pdf
+seltox,31_thirumurugan2016.pdf,10.1038/srep29982,downloaded,downloaded,data/pdfs/pdf_seltox/31_thirumurugan2016.pdf,https://www.nature.com/articles/srep29982.pdf
+seltox,178_d2ra00231k.pdf,10.1039/D2RA00231K,downloaded,downloaded,data/pdfs/pdf_seltox/178_d2ra00231k.pdf,https://pubs.rsc.org/en/content/articlepdf/2022/ra/d2ra00231k
+seltox,202_d3ra07819a.pdf,10.1039/D3RA07819A,downloaded,downloaded,data/pdfs/pdf_seltox/202_d3ra07819a.pdf,https://pubs.rsc.org/en/content/articlepdf/2024/ra/d3ra07819a
+seltox,142_c3ra44507k.pdf,10.1039/c3ra44507k,downloaded,downloaded,data/pdfs/pdf_seltox/142_c3ra44507k.pdf,https://pubs.rsc.org/en/content/articlepdf/2014/ra/c3ra44507k
+seltox,164_c9na00017h.pdf,10.1039/c9na00017h,downloaded,downloaded,data/pdfs/pdf_seltox/164_c9na00017h.pdf,https://pubs.rsc.org/en/content/articlepdf/2019/na/c9na00017h
+seltox,152_d1ra00488c.pdf,10.1039/d1ra00488c,downloaded,downloaded,data/pdfs/pdf_seltox/152_d1ra00488c.pdf,https://pubs.rsc.org/en/content/articlepdf/2021/ra/d1ra00488c
+seltox,180_d1ra08238h.pdf,10.1039/d1ra08238h,downloaded,downloaded,data/pdfs/pdf_seltox/180_d1ra08238h.pdf,https://pubs.rsc.org/en/content/articlepdf/2022/ra/d1ra08238h
+seltox,138_d2ma00613h.pdf,10.1039/d2ma00613h,downloaded,downloaded,data/pdfs/pdf_seltox/138_d2ma00613h.pdf,https://pubs.rsc.org/en/content/articlepdf/2022/ma/d2ma00613h
+seltox,139_d2ra01734b.pdf,10.1039/d2ra01734b,downloaded,downloaded,data/pdfs/pdf_seltox/139_d2ra01734b.pdf,https://pubs.rsc.org/en/content/articlepdf/2022/ra/d2ra01734b
+seltox,179_d2ra04717a.pdf,10.1039/d2ra04717a,failed,not_pdf:text/html; charset=utf-8,,
+seltox,181_d3ma00089c.pdf,10.1039/d3ma00089c,downloaded,downloaded,data/pdfs/pdf_seltox/181_d3ma00089c.pdf,https://pubs.rsc.org/en/content/articlepdf/2023/ma/d3ma00089c
+seltox,189_d3pm00077j.pdf,10.1039/d3pm00077j,downloaded,downloaded,data/pdfs/pdf_seltox/189_d3pm00077j.pdf,https://pubs.rsc.org/en/content/articlepdf/2024/pm/d3pm00077j
+seltox,110_d3ra07733k.pdf,10.1039/d3ra07733k,downloaded,downloaded,data/pdfs/pdf_seltox/110_d3ra07733k.pdf,https://pubs.rsc.org/en/content/articlepdf/2024/ra/d3ra07733k
+seltox,195_d4ra04140b.pdf,10.1039/d4ra04140b,downloaded,downloaded,data/pdfs/pdf_seltox/195_d4ra04140b.pdf,https://pubs.rsc.org/en/content/articlepdf/2024/ra/d4ra04140b
+seltox,19_markowska2014.pdf,10.1099/jmm.0.068833-0,failed,no_oa_url,,
+seltox,22_lambio0680.pdf,10.1111/lam.13759,failed,not_pdf:text/html; charset=utf-8,,
+seltox,5_habash2014.pdf,10.1128/aac.03170-14,failed,not_pdf:text/html; charset=utf-8,,
+seltox,24_swolana2020.pdf,10.1128/aac.03170-14,failed,not_pdf:text/html; charset=utf-8,,
+seltox,130_Evidence-Based Complementary and Alternative Medicine - 2018 - Ansari - OneРІР‚С’Pot Facile Green Synthesis of Silver.pdf,10.1155/2018/1860280,failed,not_pdf:text/html; charset=utf-8,,
+seltox,153_Bioinorganic Chemistry and Applications - 2019 - Qais - Antibacterial Effect of Silver Nanoparticles Synthesized Using.pdf,10.1155/2019/4649506,failed,not_pdf:text/html; charset=utf-8,,
+seltox,24_swolana2020.pdf,10.1166/jnn.2018.15013,failed,no_oa_url,,
+seltox,72_10.1186@s12951-020-0588-6.pdf,10.1186/s12951-020-0588-6,downloaded,downloaded,data/pdfs/pdf_seltox/72_10.1186@s12951-020-0588-6.pdf,https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s12951-020-0588-6
+seltox,141_1-s2.0-S1687157X23007692-main.pdf,10.1186/s43141-020-00093-z,downloaded,downloaded,data/pdfs/pdf_seltox/141_1-s2.0-S1687157X23007692-main.pdf,https://jgeb.springeropen.com/track/pdf/10.1186/s43141-020-00093-z
+seltox,177_1-s2.0-S1687157X23008247-main.pdf,10.1186/s43141-022-00414-4,downloaded,downloaded,data/pdfs/pdf_seltox/177_1-s2.0-S1687157X23008247-main.pdf,https://jgeb.springeropen.com/counter/pdf/10.1186/s43141-022-00414-4
+seltox,28_10.1371@journal.pone.0224904.pdf,10.1371/journal.pone.0224904,downloaded,downloaded,data/pdfs/pdf_seltox/28_10.1371@journal.pone.0224904.pdf,https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0224904&type=printable
+seltox,105_journal.pone.0259190.pdf,10.1371/journal.pone.0259190,downloaded,downloaded,data/pdfs/pdf_seltox/105_journal.pone.0259190.pdf,https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0259190&type=printable
+seltox,103_alekish2018.pdf,10.14202/vetworld.2018.1428-1432,downloaded,downloaded,data/pdfs/pdf_seltox/103_alekish2018.pdf,http://www.veterinaryworld.org/Vol.11/October-2018/11.pdf
+seltox,34_abo-shama2020.pdf,10.2147/IDR.S234425,downloaded,downloaded,data/pdfs/pdf_seltox/34_abo-shama2020.pdf,https://www.dovepress.com/article/download/51638
+seltox,36_chopade2012.pdf,10.2147/IJN.S24793,failed,http_404,,
+seltox,37_chopade2013.pdf,10.2147/IJN.S48913,failed,not_pdf:text/html; charset=UTF-8,,
+seltox,16_IJN-49284-combined-efficacy-of-biologically-synthesized-silver-nanopar_081913.pdf,10.2147/IJN.S49284,failed,not_pdf:text/html; charset=UTF-8,,
+seltox,38_NMRJ_Volume 5_Issue 1_Pages 44-54.pdf,10.22034/nmrj.2020.01.006,failed,no_oa_url,,
+seltox,98_ijpr-19-70.pdf,10.22037/ijpr.2019.15578.13190,failed,no_oa_url,,
+seltox,108_JPAM_Vol_15_Issue4_p_1907-1914.pdf,10.22207/ JPAM.15.4.12,failed,no_oa_url,,
+seltox,210_JPAM_Vol_15_Issue4_p_1907-1914.pdf,10.22207/JPAM.15.4.12,downloaded,downloaded,data/pdfs/pdf_seltox/210_JPAM_Vol_15_Issue4_p_1907-1914.pdf,https://microbiologyjournal.org/download/52954/
+seltox,214_JMedLife-14-823.pdf,10.25122/jml-2021-0270,failed,not_pdf:text/html; charset=utf-8,,
+seltox,93_green-synthesis-of-silver-nanoparticles-using-cinnamomum-zylinicum-and-their-synergistic-effect-against-multidrug-resistance-bacte.pdf,10.26502/jnr.2688-8521008,failed,not_pdf:text/html; charset=utf-8,,
+seltox,125_848.pdf,10.2741/E848,failed,no_oa_url,,
+seltox,127_1-s2.0-S0022030221000254-main.pdf,10.3168/jds.2020-19049,failed,http_403,,
+seltox,211_fbioe-10-820218.pdf,10.3389/fbioe.2022.820218,failed,not_pdf:text/html; charset=utf-8,,
+seltox,12_patra2017.pdf,10.3389/fmicb.2017.00167,downloaded,downloaded,data/pdfs/pdf_seltox/12_patra2017.pdf,https://www.frontiersin.org/articles/10.3389/fmicb.2017.00167/pdf
+seltox,13_pompilio2018.pdf,10.3389/fmicb.2018.01349,failed,not_pdf:text/html; charset=utf-8,,
+seltox,15_fmicb-13-929491.pdf,10.3389/fmicb.2022.929491,downloaded,downloaded,data/pdfs/pdf_seltox/15_fmicb-13-929491.pdf,https://www.frontiersin.org/articles/10.3389/fmicb.2022.929491/pdf
+seltox,4_antibiotics-11-01219-v2.pdf,10.3390/antibiotics11091219,failed,not_pdf:text/html; charset=utf-8,,
+seltox,107_molecules-26-06140-v4.pdf,10.3390/molecules26206140,failed,not_pdf:text/html; charset=utf-8,,
+seltox,24_swolana2020.pdf,10.3390/nano10051010,failed,not_pdf:text/html; charset=utf-8,,
+seltox,99_10.3390@nano10081614.pdf,10.3390/nano10081614,failed,not_pdf:text/html; charset=utf-8,,
+seltox,188_nanomaterials-08-00586-v2.pdf,10.3390/nano8080586,failed,not_pdf:text/html; charset=utf-8,,
+seltox,29_10.3390@polym13040659.pdf,10.3390/polym13040659,failed,not_pdf:text/html; charset=utf-8,,
+seltox,39_PM-13-828.pdf,10.4103/pm.pm_120_17,failed,no_oa_url,,

@@ -1,0 +1,10 @@
+domain,pdf,doi,status,reason,saved_path,source_url
+benzimidazole,acsomega.2c06142,10.1021/acsomega.2c06142,failed,not_pdf:text/html; charset=utf-8,,
+benzimidazole,s41598-022-21435-6,10.1038/s41598-022-21435-6,downloaded,downloaded,data/pdfs/pdf_benzimidazole/s41598-022-21435-6.pdf,https://www.nature.com/articles/s41598-022-21435-6.pdf
+benzimidazole,d2ra06667j,10.1039/d2ra06667j,downloaded,downloaded,data/pdfs/pdf_benzimidazole/d2ra06667j.pdf,https://pubs.rsc.org/en/content/articlepdf/2023/ra/d2ra06667j
+benzimidazole,s13065-018-0479-1,10.1186/s13065-018-0479-1,downloaded,downloaded,data/pdfs/pdf_benzimidazole/s13065-018-0479-1.pdf,https://bmcchem.biomedcentral.com/counter/pdf/10.1186/s13065-018-0479-1
+benzimidazole,RJC.2023.1638382,10.31788/RJC.2023.1638382,failed,http_403,,
+benzimidazole,antibiotics10081002,10.3390/antibiotics10081002,failed,not_pdf:text/html; charset=utf-8,,
+benzimidazole,antibiotics12071220,10.3390/antibiotics12071220,failed,http_403,,
+benzimidazole,2023.12.si5a.0471,10.48047/ecb/2023.12.si5a.0471,failed,no_oa_url,,
+benzimidazole,intechopen.108949,10.5772/intechopen.108949,downloaded,downloaded,data/pdfs/pdf_benzimidazole/intechopen.108949.pdf,https://www.intechopen.com/citation-pdf-url/85057
