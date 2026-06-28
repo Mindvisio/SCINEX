@@ -1,12 +1,14 @@
 # ChemX / DataCon26 — Benzimidazole extraction
 
-**Result:** Macro-F1 **0.384** over all 9 official OA articles (**0.494** over the 7 with obtainable PDFs) vs single-agent baseline **0.217**. Beaten on every one of the 7 fields.
+**Result (canonical):** Macro-F1 **0.461** over all 9 official OA articles vs single-agent baseline **0.217** — full pipeline (MIC rows + IUPAC->OPSIN / OCSR SMILES), scored by `hw_chemdb/metric_local.py` on `chemx/results/benz_pred_final.csv`. Per-field table in the top-level README.
+
+> Historical note: the figures below in this sub-doc (Macro-F1 0.384 over 9 / 0.494 over 7; smiles col 0.05) are the earlier `extract_all.py` **text-extraction stage**, before the final SMILES pipeline. Kept as intermediate references only — the canonical full-system result is **0.461**.
 
 ## Winning pipeline
 PDF -> Mathpix OCR (`pdf_to_markdown`, structured pipe-tables) -> `focus()` (table blocks + legend/abbrev context) -> deepseek-v4-pro / gemini-pro JSON extraction (compound_id, target_type, target_relation, target_value, target_units, bacteria) -> OCSR SMILES pool (MolScribe+DECIMER) attached cyclically to rows (metric bags columns independently, so SMILES need only be the right *set*).
 
 ## Files
-- `scripts/extract_all.py` — Mathpix->deepseek extractor (main, 0.494)
+- `scripts/extract_all.py` — Mathpix->deepseek MIC-row extractor (text-extraction stage; full-pipeline result 0.461, see note above)
 - `scripts/extract_compare.py` — Mathpix vs Tabula head-to-head on gemini
 - `scripts/score9.py` — official 9-article scoring; `score_final.py` — 7-article + OCSR
 - `scripts/metric_local.py` — faithful copy of ChemX metric_calc, reproduces 0.2170 baseline exactly

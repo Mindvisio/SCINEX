@@ -1,6 +1,6 @@
 # Tools & deps for 3080 migration
 
-3080 = 176.99.131.77 (immers.cloud), ~8.4 GB VRAM -> run ONE model at a time.
+3080 = <gpu-node-ip> (<cloud-provider>), ~8.4 GB VRAM -> run ONE model at a time.
 Three mutually-incompatible framework envs — keep in SEPARATE venvs (as on sci-node):
 
 ## A. torch 1.13.1 (cu117) — structure/reaction recognition

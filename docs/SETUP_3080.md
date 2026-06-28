@@ -1,6 +1,6 @@
-# scinex — GPU tool stack on RTX 3080 (immers.cloud / spine-inference-server)
+# scinex — GPU tool stack on RTX 3080 (<cloud-provider> / spine-inference-server)
 
-Host: `ubuntu@176.99.131.77` (SSH alias `immers`). RTX 3080 10GB, driver 570.86 (**CUDA 12.8 ceiling**, not 13), Ubuntu 24.04, Py3.12 system, 16c/31G. Repo: `/home/ubuntu/scinex`.
+Host: `<user>@<gpu-node>` (SSH alias `immers`). RTX 3080 10GB, driver 570.86 (**CUDA 12.8 ceiling**, not 13), Ubuntu 24.04, Py3.12 system, 16c/31G. Repo: `/home/ubuntu/scinex`.
 Isolation: one `uv`-managed venv per tool (own Python, own cache), **no system pip**, prod untouched (voice-trainer + TotalSpineSeg segmentator verified intact). uv at `~/.local/bin/uv`.
 
 ## Environments (all built + verified)
