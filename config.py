@@ -15,7 +15,7 @@ RECONCILE_MODEL = "claude-opus"     # Opus 4.8 (max effort) — hard cases / tie
 SUMMARIZE_MODEL = "gemini-pro"      # synthesis / review (1M ctx, fast); swap to claude-opus for polish
 
 # Domain layer: None = domain-agnostic core. Set to a registered preset name
-# (e.g. "chemistry", "longevity") to specialize extraction + validation. See domains/.
+# (e.g. "chemistry", "longevity") to specialize extraction + validation. See archive/domains/.
 DEFAULT_DOMAIN = None
 
 # Open enrichment APIs (no RU proxy needed)
