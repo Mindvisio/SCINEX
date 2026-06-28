@@ -301,23 +301,26 @@ FastAPI backend + single-page app, deployed at `neuro-mri.pro/scinex/`, дела
 ### Quick start
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Mindvisio/SCINEX.git scinex
 cd scinex
 
+# requirements.txt — только core (без FastAPI/uvicorn); для демо нужен ещё requirements-web.txt
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r requirements.txt -r requirements-web.txt
 
-cp .env.example .env
-# заполните API-ключи только если нужен live OCR/LLM extraction
+cp .env.example .env && chmod 600 .env
+# ключи нужны только для live OCR/LLM; демо на готовом benz_pred работает и без них
 
-uvicorn web.app:app --host 0.0.0.0 --port 8000
+cd web && python -m uvicorn app:app --host 127.0.0.1 --port 8088
+# проверка: curl http://127.0.0.1:8088/api/health  ->  {"status":"ok","rdkit":true,"benz_pred":true,"front":true}
+# фронт (web/scinex_front.html) отдаётся бэкендом — npm/сборка не нужны
 ```
 
 После запуска web-интерфейс доступен по адресу:
 
 ```text
-http://localhost:8000
+http://127.0.0.1:8088/
 ```
 
 ### Environment variables
