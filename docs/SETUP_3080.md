@@ -1,6 +1,6 @@
-# scinex — GPU tool stack on RTX 3080 (<cloud-provider> / spine-inference-server)
+# scinex — GPU tool stack on RTX 3080 (<cloud-provider> / <gpu-node>)
 
-Host: `<user>@<gpu-node>` (SSH alias `immers`). RTX 3080 10GB, driver 570.86 (**CUDA 12.8 ceiling**, not 13), Ubuntu 24.04, Py3.12 system, 16c/31G. Repo: `/home/ubuntu/scinex`.
+Host: `<user>@<gpu-node>` (SSH alias `immers`). RTX 3080 10GB, driver 570.86 (**CUDA 12.8 ceiling**, not 13), Ubuntu 24.04, Py3.12 system, 16c/31G. Repo: `<repo-path>`.
 Isolation: one `uv`-managed venv per tool (own Python, own cache), **no system pip**, prod untouched (voice-trainer + TotalSpineSeg segmentator verified intact). uv at `~/.local/bin/uv`.
 
 ## Environments (all built + verified)
@@ -19,7 +19,7 @@ Isolation: one `uv`-managed venv per tool (own Python, own cache), **no system p
 
 ## Build recipe (each venv)
 ```
-export PATH=\$HOME/.local/bin:\$PATH; cd /home/ubuntu/scinex
+export PATH=\$HOME/.local/bin:\$PATH; cd <repo-path>
 uv venv --python <ver> .venv-X
 uv pip install -p .venv-X/bin/python <pkgs>
 ```
