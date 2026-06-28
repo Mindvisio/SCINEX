@@ -1,0 +1,8 @@
+# Web/backend demo (web/app.py). Легче полного конвейера извлечения.
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pandas>=2.2
+rdkit
+pydantic>=2.6
+python-dotenv>=1.0

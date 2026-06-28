@@ -26,3 +26,5 @@ data/cache/
 **/crops/
 *.tar.gz
 *.zip
+third_party/
+OpenChemIE/

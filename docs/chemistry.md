@@ -12,7 +12,7 @@ Keeps chem/benchmark specifics OUT of SPEC.md.
   - PubChem PUG-REST, ChEMBL : name/identifier -> structure
   - OPSIN          : IUPAC name -> structure (text -> SMILES)
   - OCSR (ocr/ocsr.py) : structure IMAGE -> SMILES. Backend = DECIMER (installed, .venv-decimer, py3.10).
-                     MolScribe/OpenChemIE need py3.8 (onmt->torchtext) -> deferred to a docker iff needed.
+                     MolScribe/OpenChemIE installed in .venv-chem (torch 1.13.1+cu117, transformers 4.39.3); see SETUP.md.
   - reactions w/o Reaxys (open DBs): Open Reaction Database, USPTO/Lowe, Rhea/KEGG
 
 ## 2. ChemPaperBench — the benchmark

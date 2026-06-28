@@ -14,7 +14,7 @@ This recovers fused polycyclics that fail upright (e.g. naltrindole: rot90/rot27
 upright crop yields garbage). Only the hard subset pays the extra cost.
 
 DECIMER lives in a TensorFlow venv (.venv-decimer); we shell out to ocr/decimer_worker.py so TF
-never enters the runtime venv. MolScribe likewise in .venv-molscribe via ocr/molscribe_worker.py.
+never enters the runtime venv. MolScribe likewise in .venv-chem via ocr/molscribe_worker.py.
 """
 from __future__ import annotations
 import json
@@ -25,9 +25,10 @@ import tempfile
 from dataclasses import dataclass, field
 from typing import Optional
 
-_DEF_DECIMER = "/root/scinex/.venv-decimer/bin/python"
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_DEF_DECIMER = os.path.join(_ROOT, ".venv-decimer", "bin", "python")
 DECIMER_PY = os.environ.get("DECIMER_PYTHON") or (_DEF_DECIMER if os.path.exists(_DEF_DECIMER) else sys.executable)
-_DEF_MOLSCRIBE = "/root/scinex/.venv-molscribe/bin/python"
+_DEF_MOLSCRIBE = os.path.join(_ROOT, ".venv-chem", "bin", "python")
 MOLSCRIBE_PY = os.environ.get("MOLSCRIBE_PYTHON") or (_DEF_MOLSCRIBE if os.path.exists(_DEF_MOLSCRIBE) else sys.executable)
 VISION_MODEL = "claude-opus"            # vision OCSR reader; "gemini-pro" is an alternate
 _WORKER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "decimer_worker.py")
