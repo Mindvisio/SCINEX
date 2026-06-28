@@ -48,9 +48,9 @@
 
 **+0.337 абсолютных пункта (+69%)**. Основной прирост связан с чтением табличных измерений и нормализацией единиц, а **не** только с улучшением SMILES.
 
-### Восемь bonus-доменов — post-extraction улучшения без повторного чтения PDF
+### Восемь bonus-доменов — улучшение готовых baseline-предсказаний (без чтения PDF; ablation слоёв нормализации)
 
-Использованы предсказания baseline и дополнительные слои нормализации/разрешения scinex: корректные ключи PDF, Unicode-нормализация единиц, name→structure, canonical SMILES.
+Для восьми bonus-доменов оценивался **не** полный end-to-end режим scinex, а отдельный post-extraction слой: система **не читает PDF** и не выполняет повторное извлечение. На вход подаётся готовый baseline pred.csv, поверх которого применяются детерминированные улучшения — нормализация PDF-ключей, Unicode-нормализация единиц, name→structure, canonical SMILES, исправление представления названий. Эти числа показывают вклад переиспользуемых слоёв нормализации scinex, но **не являются** end-to-end метрикой полного PDF→ChemX pipeline (в отличие от Benzimidazoles/Oxazolidinones выше).
 
 | domain | baseline | + improvements | главный фактор |
 |---|---:|---:|---|
@@ -70,13 +70,13 @@
 |---|---|---:|---|
 | Benzimidazoles | end-to-end extraction | да | проверено локальной метрикой ChemX |
 | Oxazolidinones | end-to-end extraction | да | проверено локальной метрикой ChemX |
-| Co-crystals | post-extraction normalization | нет | baseline pred + слои scinex |
-| Nanozymes | post-extraction normalization | нет | baseline pred + слои scinex |
-| SelTox | post-extraction normalization | нет | baseline pred + слои scinex |
-| Cytotoxicity | post-extraction normalization | нет | baseline pred + слои scinex |
-| Synergy | post-extraction normalization | нет | baseline pred + слои scinex |
-| Magnetic / Nanomag | post-extraction normalization | нет | baseline pred + слои scinex |
-| Complexes | post-extraction normalization | нет | baseline pred + слои scinex |
+| Co-crystals | normalization over baseline pred.csv | нет | готовый baseline pred.csv + слои нормализации scinex |
+| Nanozymes | normalization over baseline pred.csv | нет | готовый baseline pred.csv + слои нормализации scinex |
+| SelTox | normalization over baseline pred.csv | нет | готовый baseline pred.csv + слои нормализации scinex |
+| Cytotoxicity | normalization over baseline pred.csv | нет | готовый baseline pred.csv + слои нормализации scinex |
+| Synergy | normalization over baseline pred.csv | нет | готовый baseline pred.csv + слои нормализации scinex |
+| Magnetic / Nanomag | normalization over baseline pred.csv | нет | готовый baseline pred.csv + слои нормализации scinex |
+| Complexes | normalization over baseline pred.csv | нет | готовый baseline pred.csv + слои нормализации scinex |
 
 Здесь важно разделять два режима. **End-to-end** означает, что система читает PDF и строит структурированный вывод. **Post-extraction normalization** означает, что уже существующий baseline output улучшается детерминированными слоями: нормализацией ключей PDF, Unicode-единиц, SMILES и названий веществ.
 
@@ -397,10 +397,16 @@ web/
 
 ### Минимальный checklist перед сдачей
 
-- [ ] `README.md` объясняет, какие домены поддержаны end-to-end, а какие только через post-extraction normalization.
+- [ ] `README.md` объясняет, какие домены поддержаны end-to-end, а какие только через normalization over baseline pred.csv.
 - [ ] Есть команда запуска backend и web-интерфейса.
 - [ ] Есть команда воспроизведения метрик.
 - [ ] Есть пример `pred.csv` в ChemX-compatible формате.
 - [ ] Есть `.env.example`, но нет настоящего `.env`.
 - [ ] В репозиторий не добавлены приватные PDF и API-ключи.
 - [ ] Для неизвестных PDF интерфейс не показывает Macro-F1 без GT, а показывает extraction, confidence и provenance.
+
+---
+
+## Установка
+
+Быстрый старт — core + опциональные локальные OCSR-движки (каждый в своём venv) + проброс `*_PYTHON` + воспроизведение метрики: см. **[SETUP.md](SETUP.md)**.
