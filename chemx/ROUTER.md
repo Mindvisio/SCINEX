@@ -42,7 +42,7 @@ Tested twice as vision OCSR (antibiotics pages): `reasoning_effort='low'` is rej
 Free local first (MolScribe+DECIMER) -> adaptive single-VLM escalation (Gemini) only when the local pool is sparse -> max-effort (Claude) reserved for the hardest cases. Never fan out to all VLMs blindly: gains are marginal and additive, costs and false-positive noise are not.
 
 ## Infra note
-llm_clients now runs on the 3080 (`.venv-lite`, keys at `/home/ubuntu/.api_keys`, KEYS_FILE auto-detects). Frontier APIs reach through the same US proxy the voice-trainer uses (`77.47.241.198:50100`) - the 3080 IP is already allowlisted and the port is open, so no geo-block. The whole smiles pipeline (OCSR engines + VLM + OPSIN/PubChem) can therefore run on the 3080 in one place.
+llm_clients now runs on the 3080 (`.venv-lite`, keys at `/home/ubuntu/.api_keys`, KEYS_FILE auto-detects). Frontier APIs reach through the same US proxy the voice-trainer uses (`LLM_PROXY`) - the 3080 IP is already allowlisted and the port is open, so no geo-block. The whole smiles pipeline (OCSR engines + VLM + OPSIN/PubChem) can therefore run on the 3080 in one place.
 
 ## Where the heavy OCSR packages sit (the conveyor)
 We installed a full specialized stack; this is each package's stage + honest status.
